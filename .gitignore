@@ -102,3 +102,9 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+ieturk/
+localturk/
+disgenet/
+DailyMedExtracter/dm_spl_monthly_update_feb2019.zip
+DailyMedExtracter/temp_xml/DailyMedXML2CSV.csv
+*.csv
