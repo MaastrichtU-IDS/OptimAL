@@ -1,0 +1,18 @@
+PREFIX dv: <http://bio2rdf.org/drugbank_vocabulary:>
+PREFIX sider: <http://bio2rdf.org/sider_vocabulary:>
+
+SELECT distinct ?drugid ?se
+{
+?dia <http://bio2rdf.org/sider_vocabulary:drug> ?stitch_flat .
+?dia <http://bio2rdf.org/sider_vocabulary:effect> ?se .
+{
+?stitch_flat <http://bio2rdf.org/sider_vocabulary:x-pubchem.compound> ?pc .
+}
+UNION{
+?stitch_flat <http://bio2rdf.org/sider_vocabulary:stitch-stereo> ?stitch_stereo .
+?stitch_stereo <http://bio2rdf.org/sider_vocabulary:x-pubchem.compound> ?pc .
+}
+# BIND( URI(CONCAT("http://bio2rdf.org/pubchem.compound:", xsd:int(STRAFTER(str(?drug), "CID1")))) AS ?pc )
+?d dv:x-pubchemcompound ?pc  .
+BIND(STRAFTER( str(?d), "http://bio2rdf.org/drugbank:") AS ?drugid)
+}

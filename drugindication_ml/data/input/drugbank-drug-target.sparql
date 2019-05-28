@@ -1,0 +1,30 @@
+PREFIX iv: <http://bio2rdf.org/irefindex_vocabulary:>
+PREFIX dv: <http://bio2rdf.org/drugbank_vocabulary:>
+PREFIX hv: <http://bio2rdf.org/hgnc_vocabulary:>
+PREFIX kv: <http://bio2rdf.org/kegg_vocabulary:>
+SELECT distinct ?drugid ?geneid 
+WHERE
+{
+?drug <http://bio2rdf.org/openpredict_vocabulary:indication> ?i .
+{
+  ?d a kv:Drug .
+  ?d kv:target ?l .
+  ?l kv:link ?t .
+  BIND (URI( REPLACE(str(?t),"HSA","hsa")) AS ?target) .
+  ?target a kv:Gene .
+  ?target kv:x-ncbigene ?ncbi .
+  #?target kv:x-uniprot ?ncbi .
+  ?d kv:x-drugbank ?drug .
+}
+UNION
+{
+  ?drug a dv:Drug .
+  ?drug dv:target ?target .
+  ?target dv:x-hgnc ?hgnc .
+  ?hgnc hv:x-ncbigene ?ncbi .
+  #?hgnc hv:uniprot ?ncbi .
+}
+BIND ( STRAFTER(str(?ncbi),"http://bio2rdf.org/ncbigene:") AS ?geneid)
+#BIND ( STRAFTER(str(?ncbi),"http://bio2rdf.org/uniprot:") AS ?geneid)
+BIND( STRAFTER(str(?drug), "http://bio2rdf.org/drugbank:") AS ?drugid)
+}

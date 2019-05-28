@@ -1,0 +1,12 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dv: <http://bio2rdf.org/drugbank_vocabulary:>
+PREFIX sv: <http://bio2rdf.org/sider_vocabulary:>
+PREFIX dct: <http://purl.org/dc/terms/>
+
+SELECT distinct ?drugid #?title
+{
+ ?d <http://bio2rdf.org/openpredict_vocabulary:indication> ?i .
+ #?d dct:title ?title .
+ FILTER (regex(str(?i),"^http://bio2rdf.org/umls:") )
+ BIND (STRAFTER(str(?d),"http://bio2rdf.org/drugbank:") AS ?drugid)
+}

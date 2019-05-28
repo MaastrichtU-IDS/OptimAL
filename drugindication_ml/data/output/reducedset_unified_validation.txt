@@ -1,0 +1,252 @@
+n_fold	n_proportion	n_setsel	model type	features	disjoint	auc.mean	auc.sd	auprc.mean	auprc.sd	f-score.mean	f-score.sd
+10	2	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	0	82.188424	1.144817	69.121875	1.502667	62.412853	1.219788
+10	2	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	0	82.470990	1.400400	69.544750	1.963985	63.278777	1.307957
+10	2	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	0	82.034973	1.471738	68.234762	2.136814	62.093779	2.131473
+n_fold	n_proportion	n_setsel	model type	features	disjoint	auc.mean	auc.sd	auprc.mean	auprc.sd	f-score.mean	f-score.sd
+10	2	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	0	85.733351	1.080532	78.248043	1.532284	70.790529	1.326497
+10	2	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	0	86.365579	0.577611	78.831988	0.811762	72.276369	0.867301
+10	2	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	0	85.711869	0.652909	77.727279	1.228704	70.356141	1.133723
+n_fold	n_proportion	n_setsel	model type	features	disjoint	auc.mean	auc.sd	auprc.mean	auprc.sd	f-score.mean	f-score.sd
+10	2	1	gbc	targets|fingerprint|sider-se|ndfrt-meddra	0	85.905059	1.308628	79.036833	1.615510	64.815632	1.484242
+10	2	1	gbc	targets|fingerprint|sider-se|ndfrt-meddra	0	85.551801	0.993884	78.404622	1.404413	64.456000	1.331341
+10	2	1	gbc	targets|fingerprint|sider-se|ndfrt-meddra	0	85.386282	1.223308	78.113526	2.186090	63.297957	2.262521
+n_fold	n_proportion	n_setsel	model type	features	disjoint	auc.mean	auc.sd	auprc.mean	auprc.sd	f-score.mean	f-score.sd
+10	2	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	0	79.804321	1.258775	71.808449	1.792564	62.498347	1.645804
+10	2	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	0	79.333760	0.693098	71.283564	1.107555	62.022124	1.606597
+10	2	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	0	78.881995	1.287976	70.418148	2.212621	61.527172	2.155004
+n_fold	n_proportion	n_setsel	model type	features	disjoint	auc.mean	auc.sd	auprc.mean	auprc.sd	f-score.mean	f-score.sd
+10	2	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	1	80.467331	2.030608	72.944181	2.306116	57.726106	4.432399
+10	2	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	1	81.472156	2.020227	74.026775	2.192479	57.555130	4.046943
+10	2	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	1	80.541172	2.036060	73.318306	2.673631	57.178183	4.455724
+n_fold	n_proportion	n_setsel	model type	features	disjoint	auc.mean	auc.sd	auprc.mean	auprc.sd	f-score.mean	f-score.sd
+10	2	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	1	79.271880	2.040528	65.830941	3.449530	57.954945	5.454686
+10	2	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	1	79.217131	1.953297	65.240451	3.827765	56.747698	5.548281
+10	2	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	1	79.488437	1.830368	66.417581	3.069000	58.035585	5.004421
+n_fold	n_proportion	n_setsel	model type	features	disjoint	auc.mean	auc.sd	auprc.mean	auprc.sd	f-score.mean	f-score.sd
+10	2	1	gbc	targets|fingerprint|sider-se|ndfrt-meddra	1	80.842872	2.733301	72.993636	3.456314	56.857028	6.431914
+10	2	1	gbc	targets|fingerprint|sider-se|ndfrt-meddra	1	81.818839	1.577565	74.403865	1.772081	57.179120	5.541150
+10	2	1	gbc	targets|fingerprint|sider-se|ndfrt-meddra	1	81.330104	2.481532	74.049752	2.521364	56.364451	4.815465
+n_fold	n_proportion	n_setsel	model type	features	disjoint	auc.mean	auc.sd	auprc.mean	auprc.sd	f-score.mean	f-score.sd
+10	2	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	1	77.141530	1.733344	70.676256	2.398130	58.742784	4.889866
+10	2	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	1	76.745360	1.906710	69.906814	2.737132	58.529959	5.800701
+10	2	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	1	77.201736	1.857618	70.386771	3.047634	59.287568	5.910554
+n_fold	n_proportion	n_setsel	model type	features	disjoint	auc.mean	auc.sd	auprc.mean	auprc.sd	f-score.mean	f-score.sd
+10	2	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	2	78.164470	2.344697	64.769488	3.452636	54.624994	4.167440
+10	2	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	2	77.955037	2.382631	64.556580	3.961992	55.535894	4.224367
+10	2	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	2	78.008767	2.386353	64.218835	3.524360	54.823495	3.546846
+n_fold	n_proportion	n_setsel	model type	features	disjoint	auc.mean	auc.sd	auprc.mean	auprc.sd	f-score.mean	f-score.sd
+10	2	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	2	83.278135	1.805691	74.948609	2.317862	66.139822	2.804643
+10	2	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	2	83.513731	1.942304	75.607041	2.574159	66.730644	3.021488
+10	2	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	2	82.907997	1.891565	74.614011	3.074122	66.067735	3.073006
+n_fold	n_proportion	n_setsel	model type	features	disjoint	auc.mean	auc.sd	auprc.mean	auprc.sd	f-score.mean	f-score.sd
+10	2	1	gbc	targets|fingerprint|sider-se|ndfrt-meddra	2	81.886883	1.713714	72.984014	2.697155	54.153704	4.207620
+10	2	1	gbc	targets|fingerprint|sider-se|ndfrt-meddra	2	81.468435	2.654881	72.968002	3.774216	55.506752	2.983796
+10	2	1	gbc	targets|fingerprint|sider-se|ndfrt-meddra	2	81.285370	1.534322	72.521524	2.040721	54.746609	3.869364
+n_fold	n_proportion	n_setsel	model type	features	disjoint	auc.mean	auc.sd	auprc.mean	auprc.sd	f-score.mean	f-score.sd
+10	2	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	2	78.738493	2.466010	70.361093	3.077080	61.542210	3.536800
+10	2	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	2	78.664769	2.779167	70.348515	3.573135	60.817037	3.796405
+10	2	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	2	78.725877	2.522619	70.843996	3.148938	60.648084	2.935480
+n_fold	n_proportion	n_setsel	model type	features	disjoint	auc.mean	auc.sd	auprc.mean	auprc.sd	f-score.mean	f-score.sd
+10	1	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	0	81.810307	1.568784	79.860590	2.452920	74.974738	1.147090
+10	1	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	0	81.753710	1.435457	79.843740	2.241678	75.031600	1.515034
+10	1	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	0	81.824981	1.529267	79.580378	1.712200	74.737392	1.517138
+10	1	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	0	81.657282	1.157515	80.083665	1.848955	74.134013	1.270947
+10	1	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	0	83.335518	1.431351	82.451183	1.721887	76.213952	0.966255
+10	1	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	0	82.133394	1.127021	81.036677	1.459461	75.094360	1.392602
+10	1	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	0	81.781794	1.290764	80.013989	1.736792	75.102896	1.729272
+10	1	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	0	81.822647	1.891227	80.230275	2.205979	74.849920	1.648351
+10	1	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	0	81.488033	0.833920	80.049666	1.109964	74.384890	1.068404
+10	1	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	0	82.369565	1.245139	80.071829	1.394355	74.742935	1.157434
+n_fold	n_proportion	n_setsel	model type	features	disjoint	auc.mean	auc.sd	auprc.mean	auprc.sd	f-score.mean	f-score.sd
+10	1	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	2	78.184449	2.262259	76.536757	2.826534	69.583334	2.111753
+10	1	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	2	78.507241	2.287611	76.746420	1.945297	69.588534	2.945818
+10	1	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	2	77.479458	2.451962	75.830563	2.292198	69.351780	2.530929
+10	1	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	2	78.161413	2.136069	77.225669	2.169215	69.587345	2.012644
+10	1	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	2	77.343347	2.092209	75.965981	1.983720	68.926471	2.844866
+10	1	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	2	77.712018	2.354481	75.996131	2.116989	69.122873	2.369266
+10	1	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	2	78.331122	2.333570	77.588455	2.966588	69.261182	2.309032
+10	1	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	2	77.971174	2.239188	76.731623	2.703266	69.529322	2.527804
+10	1	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	2	77.832814	2.540295	76.247169	2.491812	69.536983	2.613761
+10	1	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	2	77.554356	1.950372	76.772656	2.551339	69.175843	2.431431
+n_fold	n_proportion	n_setsel	model type	features	disjoint	auc.mean	auc.sd	auprc.mean	auprc.sd	f-score.mean	f-score.sd
+10	1	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	1	79.294770	2.205844	77.597569	3.197459	71.051720	3.711469
+10	1	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	1	79.121527	3.135324	77.957385	3.144805	71.015417	4.006225
+10	1	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	1	79.243014	2.033330	78.120617	2.752430	70.840068	3.176386
+10	1	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	1	79.033018	2.422098	76.827344	3.347799	70.912420	3.210689
+10	1	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	1	78.935601	2.260987	77.820997	2.279697	69.986702	4.257691
+10	1	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	1	78.999249	1.762731	77.565625	2.599637	70.369177	2.950286
+10	1	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	1	79.306847	2.328098	77.477809	2.827827	69.995976	3.883537
+10	1	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	1	79.213680	2.117867	78.189546	2.113693	70.341945	3.105900
+10	1	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	1	79.176809	1.973006	78.031815	2.318865	70.703658	2.698120
+10	1	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	1	79.401206	1.916735	77.531479	2.666348	71.622768	3.184351
+n_fold	n_proportion	n_setsel	model type	features	disjoint	auc.mean	auc.sd	auprc.mean	auprc.sd	f-score.mean	f-score.sd
+10	4	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	0	82.120591	0.650321	55.230032	1.474111	47.776876	1.278485
+10	4	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	0	82.515809	1.077545	56.958597	1.533107	49.139050	2.304549
+10	4	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	0	82.198783	1.006834	54.952815	2.347407	47.504281	2.542401
+10	4	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	0	82.099570	1.171986	55.504286	1.828593	47.843233	2.644898
+10	4	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	0	82.262561	1.065877	56.648162	2.295886	47.833431	1.831990
+10	4	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	0	81.806815	0.946666	55.425495	1.395333	47.572854	1.368538
+10	4	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	0	82.088902	1.094854	55.913179	1.995004	47.688897	2.328614
+10	4	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	0	81.759153	1.006646	55.007864	1.575717	46.033940	2.821726
+10	4	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	0	82.152263	1.228764	55.946949	1.424018	48.414681	2.269561
+10	4	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	0	82.139847	1.046187	55.289628	2.434897	47.594200	2.360305
+n_fold	n_proportion	n_setsel	model type	features	disjoint	auc.mean	auc.sd	auprc.mean	auprc.sd	f-score.mean	f-score.sd
+10	4	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	1	79.101106	2.417740	51.526818	3.886059	41.445943	7.743426
+10	4	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	1	79.182104	2.398783	51.520299	5.815962	39.660538	9.415343
+10	4	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	1	79.329817	2.402286	51.860473	3.626481	42.053930	9.618108
+10	4	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	1	79.140046	2.083296	51.628553	4.051147	43.122431	7.335386
+10	4	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	1	78.973992	2.054077	51.828792	4.206657	42.497979	6.627875
+10	4	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	1	79.087533	2.452429	51.000311	4.541649	40.873928	7.052448
+10	4	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	1	79.348078	2.117675	51.889621	3.323921	43.879843	6.112430
+10	4	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	1	79.195849	2.054544	51.850653	3.173304	41.735902	7.079652
+10	4	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	1	79.030241	2.144938	51.794545	4.788258	40.897645	8.668697
+10	4	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	1	79.283589	2.012130	51.332815	4.449180	42.002910	7.006086
+n_fold	n_proportion	n_setsel	model type	features	disjoint	auc.mean	auc.sd	auprc.mean	auprc.sd	f-score.mean	f-score.sd
+10	4	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	2	77.489272	3.107114	49.705625	4.808209	40.671236	3.776575
+10	4	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	2	78.210967	2.572932	50.293862	4.258220	41.081044	4.086763
+10	4	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	2	77.551310	2.790667	49.960596	4.185633	41.409714	4.511132
+10	4	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	2	77.553840	2.629957	50.125713	3.551463	40.377340	3.997878
+10	4	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	2	77.814759	2.526704	49.973890	3.866853	41.135268	3.547539
+10	4	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	2	77.662475	2.420303	48.650062	4.144022	39.800687	3.852540
+10	4	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	2	77.416518	3.036901	49.555504	3.476875	40.889477	4.410625
+10	4	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	2	77.515299	2.415648	50.288269	3.778091	40.486772	4.939884
+10	4	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	2	77.377943	3.084945	50.231233	4.661191	41.054722	4.289390
+10	4	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	2	77.495577	3.108349	49.660573	3.678020	40.503639	4.583381
+n_fold	n_proportion	n_setsel	model type	features	disjoint	auc.mean	auc.sd	auprc.mean	auprc.sd	f-score.mean	f-score.sd
+10	1	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	0	84.569496	0.995184	85.134214	1.257807	77.531373	1.120118
+10	1	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	0	84.302071	1.317031	84.971119	1.548304	77.106326	1.847470
+10	1	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	0	84.549734	1.340649	85.363724	1.496719	77.707368	1.385948
+10	1	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	0	84.129201	1.079204	84.920249	0.973090	76.958743	1.109547
+10	1	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	0	84.830119	0.829243	85.212716	0.717220	77.887878	1.705427
+10	1	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	0	84.345489	0.792921	85.112831	0.869190	76.935365	1.269616
+10	1	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	0	84.272373	0.937383	84.768796	1.266610	77.143797	1.322034
+10	1	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	0	84.950928	1.239477	85.367626	1.178225	77.733138	1.432061
+10	1	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	0	84.459981	0.828989	84.965487	1.002022	77.784439	1.011246
+10	1	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	0	84.774644	1.240220	85.344996	1.304454	77.687239	1.785313
+n_fold	n_proportion	n_setsel	model type	features	disjoint	auc.mean	auc.sd	auprc.mean	auprc.sd	f-score.mean	f-score.sd
+10	1	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	1	79.119624	2.277917	80.794278	2.507144	64.272060	5.967781
+10	1	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	1	78.800783	3.127042	80.092833	3.482130	65.457624	4.877900
+10	1	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	1	80.115030	2.503319	81.414604	2.288648	67.447704	3.654247
+10	1	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	1	78.704773	2.106309	80.130076	2.684032	65.571672	4.187066
+10	1	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	1	79.613412	1.724503	81.072830	1.944548	66.811933	3.784543
+10	1	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	1	79.084758	2.260893	79.840917	2.384445	64.882800	3.995357
+10	1	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	1	79.787547	1.729363	81.493707	2.078871	65.668592	4.234751
+10	1	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	1	80.048795	2.306881	81.450765	2.716614	66.702067	5.915713
+10	1	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	1	78.948878	2.741847	80.428672	2.982954	65.739996	4.462259
+10	1	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	1	80.362336	3.389860	81.772588	3.327302	67.131034	3.484265
+n_fold	n_proportion	n_setsel	model type	features	disjoint	auc.mean	auc.sd	auprc.mean	auprc.sd	f-score.mean	f-score.sd
+10	1	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	2	81.262055	1.857440	82.451405	1.752033	73.699119	1.772314
+10	1	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	2	81.491515	1.832426	82.713699	1.917480	73.531333	1.825960
+10	1	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	2	81.248818	1.640238	82.313617	1.635860	73.312990	2.151312
+10	1	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	2	81.680390	2.316975	82.782133	2.130315	74.113372	2.784941
+10	1	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	2	81.646427	1.962535	82.901246	2.089521	73.693353	2.419052
+10	1	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	2	81.818238	1.917470	82.922424	1.587583	73.532015	2.458100
+10	1	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	2	81.945511	1.267994	82.943405	1.412424	74.103770	1.489188
+10	1	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	2	81.888460	2.492057	83.156563	2.195987	73.921215	2.586366
+10	1	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	2	81.232546	2.130889	82.599938	1.763593	73.666891	2.467145
+10	1	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	2	80.955545	2.031767	82.198189	1.911446	73.172694	2.425735
+n_fold	n_proportion	n_setsel	model type	features	disjoint	auc.mean	auc.sd	auprc.mean	auprc.sd	f-score.mean	f-score.sd
+10	4	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	0	86.624423	0.658139	70.639363	1.465658	64.752774	1.809164
+10	4	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	0	86.915959	0.921441	70.862007	1.595303	65.059932	1.297075
+10	4	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	0	86.933002	0.679829	70.760296	1.164736	64.981802	1.371970
+10	4	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	0	86.467086	0.704597	69.919752	1.265177	63.926958	1.162798
+10	4	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	0	86.773822	0.938738	70.275880	2.355868	65.135119	1.585741
+10	4	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	0	86.919851	1.084629	71.330190	1.319125	66.110909	1.367299
+10	4	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	0	86.893442	1.113142	71.361060	1.620629	64.352305	1.479804
+10	4	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	0	86.551785	0.910610	70.549615	1.656048	64.249338	1.624298
+10	4	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	0	86.665654	0.929998	70.884248	1.809960	65.060168	1.626331
+10	4	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	0	87.382501	1.667864	72.433294	2.460982	65.628703	2.223428
+n_fold	n_proportion	n_setsel	model type	features	disjoint	auc.mean	auc.sd	auprc.mean	auprc.sd	f-score.mean	f-score.sd
+10	4	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	1	81.495473	2.389164	63.078148	3.805922	47.010468	7.502720
+10	4	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	1	82.202198	1.509587	63.540013	4.777292	48.054865	9.881841
+10	4	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	1	82.031097	2.014830	64.978484	3.312318	51.216092	5.878902
+10	4	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	1	81.583363	1.924829	63.187082	2.406090	48.631086	6.027122
+10	4	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	1	81.645917	2.153878	63.607237	3.008117	49.641236	6.808872
+10	4	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	1	81.315111	1.946289	62.892112	2.941040	46.727303	7.297557
+10	4	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	1	81.610244	2.643377	63.350490	3.491960	48.523300	5.498529
+10	4	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	1	81.901785	1.771483	65.217175	2.381436	51.495644	5.393451
+10	4	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	1	81.835815	2.010949	64.139613	2.786054	49.060582	6.764342
+10	4	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	1	82.730787	1.987954	64.358139	3.599535	48.060213	7.118387
+n_fold	n_proportion	n_setsel	model type	features	disjoint	auc.mean	auc.sd	auprc.mean	auprc.sd	f-score.mean	f-score.sd
+10	4	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	2	83.327341	2.162458	65.060203	2.937329	58.410441	3.272803
+10	4	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	2	83.485051	1.735818	65.973720	2.712991	59.754316	3.286250
+10	4	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	2	83.209646	1.131795	64.877182	3.106655	59.152429	2.814466
+10	4	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	2	83.410670	1.977475	65.983448	2.412203	59.886453	2.974303
+10	4	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	2	83.448198	2.051006	65.212677	3.371511	58.688880	3.756436
+10	4	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	2	83.818056	1.784153	65.923706	2.846192	59.792666	3.546135
+10	4	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	2	83.525451	1.705192	65.516149	2.773089	58.890400	3.037011
+10	4	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	2	83.845626	2.208743	66.676810	3.357667	60.458252	3.300383
+10	4	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	2	83.484492	2.262391	66.256917	3.779787	59.166896	3.965597
+10	4	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	2	83.719800	1.953109	66.240592	3.100720	60.026298	3.449731
+n_fold	n_proportion	n_setsel	model type	features	disjoint	auc.mean	auc.sd	auprc.mean	auprc.sd	f-score.mean	f-score.sd
+10	1	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	0	77.034827	1.594711	79.692259	1.597867	70.332840	1.403903
+10	1	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	0	76.783549	1.473385	79.655253	1.515040	70.170655	1.679138
+10	1	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	0	77.144249	1.670929	79.504072	1.733635	70.721896	1.817884
+10	1	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	0	76.804408	0.943897	79.668381	0.816884	69.758218	1.437233
+10	1	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	0	78.039276	1.371335	80.420686	1.413658	71.494303	1.717382
+10	1	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	0	76.751648	0.862956	79.120111	0.863238	69.888223	1.123924
+10	1	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	0	76.897491	0.834565	79.215905	1.187184	70.357866	1.372431
+10	1	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	0	76.878192	1.529291	79.531642	1.523190	70.149229	1.546773
+10	1	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	0	76.907579	0.756416	79.143122	1.285131	70.352366	0.984103
+10	1	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	0	77.787193	1.528034	80.152895	1.517853	70.896676	1.203143
+n_fold	n_proportion	n_setsel	model type	features	disjoint	auc.mean	auc.sd	auprc.mean	auprc.sd	f-score.mean	f-score.sd
+10	1	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	2	76.162481	2.425898	78.927653	2.285121	69.363744	2.323782
+10	1	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	2	76.516893	2.700712	78.991006	3.099902	70.099862	2.368436
+10	1	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	2	76.422357	2.874739	78.955348	2.324337	69.883563	2.812591
+10	1	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	2	76.651152	2.838035	79.122462	2.686120	70.034186	2.295255
+10	1	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	2	76.545809	2.556695	79.416663	2.324860	69.696721	2.978926
+10	1	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	2	76.414893	3.066026	78.993595	2.517280	69.572776	2.440780
+10	1	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	2	76.963227	2.598666	79.661653	2.270245	70.370301	2.763986
+10	1	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	2	76.707980	3.122826	79.540525	2.469322	70.189919	3.381264
+10	1	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	2	76.495941	3.275284	79.099498	2.691632	70.243712	2.878356
+10	1	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	2	75.775877	3.078475	78.478872	2.514390	69.218231	2.626866
+n_fold	n_proportion	n_setsel	model type	features	disjoint	auc.mean	auc.sd	auprc.mean	auprc.sd	f-score.mean	f-score.sd
+10	1	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	1	76.895297	1.887806	79.693820	1.825675	68.205666	3.708642
+10	1	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	1	76.811040	2.741324	79.847129	2.855171	68.012978	3.414905
+10	1	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	1	76.971955	1.842574	79.872409	2.043869	68.675061	2.914827
+10	1	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	1	76.643117	2.531503	79.487024	2.795995	68.127068	3.892152
+10	1	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	1	76.186513	2.247310	79.388735	2.078912	67.378119	3.992998
+10	1	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	1	75.747905	1.287113	78.567632	1.820263	65.963331	3.754422
+10	1	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	1	76.478723	2.025620	79.778079	2.025943	67.443300	4.625323
+10	1	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	1	76.419842	2.251158	79.646572	2.310579	66.784852	3.966708
+10	1	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	1	75.916948	1.478953	78.806319	1.836462	67.602932	2.633891
+10	1	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	1	76.293688	2.444126	79.671939	2.536257	67.718300	2.856964
+n_fold	n_proportion	n_setsel	model type	features	disjoint	auc.mean	auc.sd	auprc.mean	auprc.sd	f-score.mean	f-score.sd
+10	4	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	2	79.312430	2.267850	59.962977	3.288983	51.746017	3.737987
+10	4	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	2	80.025042	2.097674	61.378005	3.722938	53.104734	4.430195
+10	4	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	2	79.147580	2.307225	59.621504	3.895571	51.556975	3.259874
+10	4	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	2	79.570339	2.531040	61.074268	3.482221	51.761129	3.764892
+10	4	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	2	79.283701	2.439800	60.392400	4.194812	52.245693	4.436570
+10	4	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	2	79.795238	2.304793	60.299322	3.930981	52.375278	4.218947
+10	4	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	2	79.778309	2.138419	60.773716	3.179558	52.582388	4.099896
+10	4	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	2	80.145617	2.268956	61.329730	4.390422	52.851824	4.053065
+10	4	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	2	79.638486	2.276383	60.455623	3.924711	52.443870	4.951045
+10	4	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	2	79.692750	2.427976	60.384749	3.789120	52.176159	4.369109
+n_fold	n_proportion	n_setsel	model type	features	disjoint	auc.mean	auc.sd	auprc.mean	auprc.sd	f-score.mean	f-score.sd
+10	4	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	0	80.495781	0.565246	61.787132	1.127209	54.004989	1.493791
+10	4	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	0	80.713182	1.048701	61.908663	2.299062	54.267152	2.901275
+10	4	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	0	80.387671	1.248715	61.458379	1.959159	53.424351	1.232157
+10	4	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	0	80.699315	1.225799	61.455321	1.786695	54.104738	1.436197
+10	4	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	0	80.379040	0.818206	61.669167	2.154247	54.596988	1.802847
+10	4	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	0	80.712730	1.163038	61.849151	1.881541	54.540294	2.252555
+10	4	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	0	80.150825	1.171599	61.628602	1.983937	53.473978	1.684485
+10	4	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	0	80.191890	1.124270	60.871735	1.413804	53.161427	1.469576
+10	4	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	0	80.423844	0.971534	61.345294	1.019618	53.268064	1.319504
+10	4	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	0	80.894939	1.365272	62.273832	2.382092	53.993198	2.224390
+n_fold	n_proportion	n_setsel	model type	features	disjoint	auc.mean	auc.sd	auprc.mean	auprc.sd	f-score.mean	f-score.sd
+10	4	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	1	76.362490	2.000308	58.602952	2.726607	51.234040	5.350502
+10	4	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	1	76.306462	2.685534	58.634405	3.549251	50.155395	6.228757
+10	4	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	1	76.805876	2.837269	60.079798	3.650928	50.777985	8.317105
+10	4	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	1	75.847957	2.523800	58.568837	3.576716	50.218442	6.877953
+10	4	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	1	76.200090	2.338399	58.486650	3.203254	49.724098	6.213580
+10	4	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	1	76.196850	2.323115	59.073714	2.855408	49.745476	6.992215
+10	4	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	1	76.661422	2.897010	59.759411	3.604358	52.041962	6.391362
+10	4	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	1	76.775186	2.157515	60.767960	2.547075	52.277435	6.129199
+10	4	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	1	76.752138	2.844232	59.876661	3.428425	52.314515	6.174750
+10	4	1	knn	targets|fingerprint|sider-se|ndfrt-meddra	1	76.197486	2.604107	58.334581	3.935713	50.236509	6.984959
+n_fold	n_proportion	n_setsel	model type	features	disjoint	auc.mean	auc.sd	auprc.mean	auprc.sd	f-score.mean	f-score.sd
+10	2	1	logistic	targets|fingerprint|sider-se|ndfrt-meddra	1	79.366261	1.936981	65.931758	3.301399	58.137552	4.732081
+n_fold	n_proportion	n_setsel	model type	features	disjoint	auc.mean	auc.sd	auprc.mean	auprc.sd	f-score.mean	f-score.sd
+10	2	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	1	81.277847	2.369612	74.777759	2.765776	58.184579	6.067987
+10	2	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	1	80.599999	1.898446	73.394110	2.749279	55.096596	6.291212
+10	2	1	rf	targets|fingerprint|sider-se|ndfrt-meddra	1	80.295137	2.238541	73.400502	2.744585	57.471040	5.691874
