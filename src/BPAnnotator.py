@@ -52,11 +52,11 @@ def print_annotations(annotations, get_class=True):
         print("\n\n")
                           
 #Input the data you want to work with in here
-df = pandas.read_csv('../data/unlabeled_withDBID.csv')
+df = pandas.read_csv('../data/output/unlabeled_withDBID.csv')
 print(len(df))
 
                           
-                          #Now to make this run for each context available!!!!
+#Now to make this run for each context available!!!!
 id = []
 From = []
 To = []

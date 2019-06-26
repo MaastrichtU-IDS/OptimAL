@@ -6,9 +6,9 @@ import xml.etree.ElementTree as ET
 from lxml import etree
 from datetime import date
 import pandas as pd
+import argparse
 
 #Methods for extracting data from SPL labels
-
 
 #http://www.accessdata.fda.gov/spl/stylesheet/spl-common.xsl
 namespaces={"v3":"urn:hl7-org:v3",}
@@ -125,18 +125,22 @@ class DrugLabel(object):
             return "n/a"
         return list(set(word_section_list))
 
-    def get_text(self):
+    def get_text(self, code):
         """returns the drug's label"""
-        text = self.xml.xpath('//v3:section/v3:code[@code="34067-9"]/..//v3:paragraph',namespaces=namespaces)
+        
+        path = '//v3:section/v3:code[@code="'+ code+ '"]/..//v3:paragraph'
+        text = self.xml.xpath(path, namespaces=namespaces)
         length = len(text)
         newText = []
         for row in range(length):
             newText.append(text[row].text)
         return newText
     
-    def get_fullText(self):
+    def get_fullText(self, code):
         """returns the drug's label"""
-        text = self.xml.xpath('//v3:section/v3:code[@code="34067-9"]/..//v3:text//*',namespaces=namespaces)
+        
+        path = '//v3:section/v3:code[@code="' + code +'"]/..//v3:text//*'
+        text = self.xml.xpath(path,namespaces=namespaces)
         length = len(text)
         newText = []
         for row in range(length):
@@ -163,7 +167,7 @@ class DrugLabel(object):
         uuid = self.label_data.split("/")[-1].split(".")[0]
         return "http://www.accessdata.fda.gov/spl/data/%s/%s.xml" %(uuid,uuid)
 
-    def indications(self, xml):
+    def indications(self, code, xml):
         indications = []
         drugN = self.name()
         activeCompound = self.actives()
@@ -178,45 +182,71 @@ class DrugLabel(object):
         except:
             uniiC = uniiCode        
         
-        label = self.get_text()
+        label = self.get_text(code)
         try:
             text = '|'.join(label)
         except:
             text = label
         
-        full_Label = self.get_fullText()
+        full_Label = self.get_fullText(code)
         try:
             context = '|'.join(full_Label)
         except:
             context = full_Label
         
         data = [xml, drugN, activeC, uniiC, text, context]
-        inidcations = indications.append(data)  
+        inidications = indications.append(data)  
         return indications
 
-#Code for going through all xml files and extracting all of the knowledge into one pandas dataframe and into a csv file within the folder
+def getLabels(code= '"34067-9"'):
 
-count = 0
+    #Code for going through all xml files and extracting all of the knowledge into one pandas dataframe and into a csv file within the folder
+    print(code)
+    count = 0
 
-for filename in os.listdir('.'):
-    if filename.endswith('.xml'):
-        
-        count = count +1
-        try:
-            DL = DrugLabel(filename)
-        except:
-            pass
-        try:
-            indications = DL.indications(filename)
+    path = '../DailyMedExtracter/prescription/temp_xml/'
 
-            if count == 1:
-                ind = pd.DataFrame(indications, columns=['Label_ID','Drug_Brand_Name', 'Active_ingredient', 'UNII_ID', 'Formatted_Text','Text'])
-            else:
-                newind = pd.DataFrame(indications, columns=['Label_ID','Drug_Brand_Name', 'Active_ingredient', 'UNII_ID', 'Formatted_Text','Text'])
-                ind = ind.append(newind)
-        except:
-            pass
+    #The code is used to define which label heading you wish to extract
+    '''
+    Indications and Usage: '"34067-9"'
+    Contraindications: '"34070-3"'
+    '''
+
+    for filename in os.listdir(path):
+        if filename.endswith('.xml'):
+
+            count = count +1
+            if count % 1000 == 0:
+                print(count)
+            try:
+                DL = DrugLabel(path + filename)
+
+            except:
+                pass
+            try:
+                indications = DL.indications(code, path + filename)
+
+                if count == 1:
+                    ind = pd.DataFrame(indications, columns=['Label_ID','Drug_Brand_Name', 'Active_ingredient', 'UNII_ID', 'Formatted_Text','Text'])
+                else:
+                    newind = pd.DataFrame(indications, columns=['Label_ID','Drug_Brand_Name', 'Active_ingredient', 'UNII_ID', 'Formatted_Text','Text'])
+                    ind = ind.append(newind)
+            except:
+                pass
+    return ind
+             
 
 
-            
-ind.to_csv("XMLProduct.csv")    
+if __name__ =="__main__":
+    
+    output = "../data/output/XMLProduct.csv"
+    parser =argparse.ArgumentParser()
+    parser.add_argument('-c', required=True, dest='code', help='enter the code from which type of label you want')
+    parser.add_argument('-o', required=True, dest='output', help='output path in order to define where the xmlproduct should be written')
+    
+    args= parser.parse_args()
+    code = args.code
+    output = args.output
+    
+    ind = getLabels(code)
+    ind.to_csv(output, index=False)
