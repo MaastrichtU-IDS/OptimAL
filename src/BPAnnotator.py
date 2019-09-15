@@ -2,6 +2,7 @@ import urllib.request, urllib.error, urllib.parse
 import json
 import os
 import pandas
+import argparse
 from pprint import pprint
 
 REST_URL = "http://data.bioontology.org"
@@ -51,74 +52,84 @@ def print_annotations(annotations, get_class=True):
 
         print("\n\n")
                           
-#Input the data you want to work with in here
-df = pandas.read_csv('../data/output/unlabeled_withDBID.csv')
-print(len(df))
 
-                          
-#Now to make this run for each context available!!!!
-id = []
-From = []
-To = []
-matchType = []
-annotation2 = []
-ontology = []
-context = []
-dbid = []
-drugname = []
-
-#Adds additional parameters here for the bioportal search engine
-additional_parameters = "&ontologies=DOID&require_exact_match=true"
-
-data = []
-for index, row in df.iterrows():
     
-    if index % 100  == 0:
-        perc = index/len(df) *100
-        print(str(index) + " : "+ str(perc))
+if __name__ =="__main__":
     
-    #Text input for the ontology search engine
-    text_to_annotate = row["Text"]
-    db_id = row["DB_ID"]
-    drug_name = row["Active_ingredient"]
-    label_id = row["Label_ID"]
+    parser =argparse.ArgumentParser()
+    parser.add_argument('-i', required=False, default= "../data/output/unlabeled_withDBID.csv", dest='input', help='enter the code from which type of label you want')
+    parser.add_argument('-o', required=False, default="'../data/output/unlabeled_withBPAnnotations.csv'", dest='output', help='output path in order to define where the xmlproduct should be written')
+    args = parser.parse_args()
 
-    try:
-        # Annotate using the provided text
-        annotations = get_json(REST_URL + "/annotator?text=" + urllib.parse.quote(text_to_annotate) + additional_parameters)
+    #Input the data you want to work with in here
+    df = pandas.read_csv(args.input)
+    print(len(df))
 
-        for result in annotations:
-            class_details = result["annotatedClass"]
+                              
+    #Now to make this run for each context available!!!!
+    id = []
+    From = []
+    To = []
+    matchType = []
+    annotation2 = []
+    ontology = []
+    context = []
+    dbid = []
+    drugname = []
 
-            for annotation in result["annotations"]:
-                From.append(annotation["from"])
-                To.append(annotation["to"])
-                matchType.append(annotation["matchType"])
-                annotation2.append(annotation["text"])   
-                context.append(text_to_annotate)
-                ontology.append("\tontology: " + class_details["links"]["ontology"])
-                id.append(class_details["@id"])
-                dbid.append(db_id)
-                drugname.append(drug_name)
-                data.append([label_id, annotation["from"], annotation["to"], annotation["matchType"], annotation["text"], 
-                             text_to_annotate, class_details["@id"], db_id, drug_name ])
-    except:
-        pass
+    #Adds additional parameters here for the bioportal search engine
+    additional_parameters = "&ontologies=DOID&require_exact_match=true"
+
+    data = []
+    for index, row in df.iterrows():
+        
+        if index % 100  == 0:
+            perc = index/len(df) *100
+            print(str(index) + " : "+ str(perc))
+        
+        #Text input for the ontology search engine
+        text_to_annotate = row["Text"]
+        db_id = row["DB_ID"]
+        drug_name = row['Active_ingredient']
+        drug_brand_name = row["Drug_Brand_Name"]
+        label_id = row["Label_ID"]
+
+        try:
+            # Annotate using the provided text
+            annotations = get_json(REST_URL + "/annotator?text=" + urllib.parse.quote(text_to_annotate) + additional_parameters)
+
+            for result in annotations:
+                class_details = result["annotatedClass"]
+
+                for annotation in result["annotations"]:
+                    From.append(annotation["from"])
+                    To.append(annotation["to"])
+                    matchType.append(annotation["matchType"])
+                    annotation2.append(annotation["text"])   
+                    context.append(text_to_annotate)
+                    ontology.append("\tontology: " + class_details["links"]["ontology"])
+                    id.append(class_details["@id"])
+                    dbid.append(db_id)
+                    drugname.append(drug_name)
+                    data.append([label_id, annotation["from"], annotation["to"], annotation["matchType"], annotation["text"], 
+                                 text_to_annotate, class_details["@id"], db_id, drug_name, drug_brand_name ])
+        except:
+            pass
 
 
-#Constructs the new dataframe (newdf) from the collected lists_
-columns =['Label_ID','From','To','Type', 'Annotation', 'Context','DO_ID','DB_ID','DrugName' ]
+    #Constructs the new dataframe (newdf) from the collected lists_
+    columns =['Label_ID','From','To','Type', 'Annotation', 'Context','DO_ID','DB_ID','DrugName', 'DrugBrandName' ]
 
-newdf = pandas.DataFrame(data, columns= columns)
+    newdf = pandas.DataFrame(data, columns= columns)
 
-#Length of each of the df and the average number of annotations made per label
-numOfAnno = len(newdf)
-numOfContext = len(df)
+    #Length of each of the df and the average number of annotations made per label
+    numOfAnno = len(newdf)
+    numOfContext = len(df)
 
-print(numOfAnno)
-print(numOfContext)
+    print(numOfAnno)
+    print(numOfContext)
 
-print(numOfAnno/numOfContext)   
-newdf.to_csv('../data/output/unlabeled_withBPAnnotations.csv', index=False)
-                          
-                     
+    print(numOfAnno/numOfContext)   
+    newdf.to_csv(args.output, index=False)
+                              
+                         
