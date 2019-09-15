@@ -6,7 +6,7 @@ import argparse
 from pprint import pprint
 
 REST_URL = "http://data.bioontology.org"
-API_KEY = "a28f1d5b-0cc4-454a-8baf-1b2285cfa549"
+API_KEY = "put your API key"
 
 def get_json(url):
     opener = urllib.request.build_opener()
@@ -118,7 +118,7 @@ if __name__ =="__main__":
 
 
     #Constructs the new dataframe (newdf) from the collected lists_
-    columns =['Label_ID','From','To','Type', 'Annotation', 'Context','DO_ID','DB_ID','DrugName', 'DrugBrandName' ]
+    columns =['Label_ID','From','To','Type', 'Annotation', 'Context','DO_ID','DB_ID','DrugName', 'Drug_Brand_Name' ]
 
     newdf = pandas.DataFrame(data, columns= columns)
 
