@@ -3,10 +3,11 @@ import json
 import os
 import pandas
 import argparse
+import sys
 from pprint import pprint
 
 REST_URL = "http://data.bioontology.org"
-API_KEY = "put your API key"
+API_KEY = "ddabafd6-fb59-4be3-9d57-f374954ee83b"
 
 def get_json(url):
     opener = urllib.request.build_opener()
@@ -108,12 +109,11 @@ if __name__ =="__main__":
                     annotation2.append(annotation["text"])   
                     context.append(text_to_annotate)
                     ontology.append("\tontology: " + class_details["links"]["ontology"])
-                    id.append(class_details["@id"])
-                    dbid.append(db_id)
-                    drugname.append(drug_name)
                     data.append([label_id, annotation["from"], annotation["to"], annotation["matchType"], annotation["text"], 
                                  text_to_annotate, class_details["@id"], db_id, drug_name, drug_brand_name ])
+                    #print (data[-1])
         except:
+            print ("Oops!",sys.exc_info()[0],"occured.")
             pass
 
 

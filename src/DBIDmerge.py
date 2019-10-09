@@ -24,15 +24,10 @@ def DBIDMerge(input_file, output_file, mapping_file):
     print("The total number of labels gathered from the DailyMed website is:       ",len(DM))
     print("The total number of UNIQUE labels gathered from the DailyMed website is:", len(DM.drop_duplicates(['UNII_ID'])))
     
-    counter = []
-    for index, row in DM.iterrows():
-        test = row['Text']
-        #Counts the number of entries at row x and adds it to the counter list
-        counter.append(len(test.split()))
 
-    #The word count list is now appended to the context file
-    DM['WordCount'] = counter
+    DM = DM[DM["WordCount"] < 200]
     DM = DM.sort_values(by = "WordCount", ascending = False)
+
     
     #Drop the instances from DailyMed if they share the same UNII ID
     DM.drop_duplicates(['UNII_ID'], inplace=True, keep='first')
