@@ -7,7 +7,7 @@ import sys
 from pprint import pprint
 
 REST_URL = "http://data.bioontology.org"
-API_KEY = "ddabafd6-fb59-4be3-9d57-f374954ee83b"
+API_KEY ="Your API key"
 
 def get_json(url):
     opener = urllib.request.build_opener()
