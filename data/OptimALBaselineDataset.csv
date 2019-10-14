@@ -1,0 +1,995 @@
+_unit_id,Worker Answer,context,drug_name,disease_name
+2270472226,effect,"(See INDICATIONS AND USAGE and WARNINGS.)  Experience in over 1,400 patients with nifedipine immediate-release capsules in a noncomparative clinical trial has shown that concomitant administration of nifedipine and beta-blocking agents is usually well tolerated, but there have been occasional literature reports suggesting that the combination may increase the likelihood of congestive heart failure, severe hypotension, or exacerbation of angina.",Nifedipine,CONGESTIVE HEART FAILURE
+2270469148,effect,"*Early clinical studies and incidence rates from early clinical experience with allopurinol suggested that these adverse reactions were found to occur at a rate of greater than 1%. The most frequent event observed was acute attacks of gout following the initiation of therapy. Analyses of current usage suggest that the incidence of these adverse reactions is now less than 1%. The explanation for this decrease has not been determined, but it may be due to following recommended usage (see ADVERSE REACTIONS introduction, INDICATIONS AND USAGE, PRECAUTIONS, and DOSAGE AND ADMINISTRATION).",Allopurinol,GOUT
+2270472289,effect,"*Early clinical studies and incidence rates from early clinical experience with allopurinol suggested that these adverse reactions were found to occur at a rate of greater than 1%. The most frequent event observed was acute attacks of gout following the initiation of therapy. Analyses of current usage suggest that the incidence of these adverse reactions is now less than 1%. The explanation for this decrease has not been determined, but it may be due to following recommended usage (see ADVERSE REACTIONS introduction, INDICATIONS AND USAGE, PRECAUTIONS, and DOSAGE AND ADMINISTRATION).",Allopurinol,GOUT
+2259533372,indication_treatment,"1 INDICATIONS AND USAGE
+
+ 1.1 Hypertension 
+ACEON is indicated for the treatment of patients with essential hypertension. ACEON may be used alone or given with other classes of antihypertensives, especially thiazide diuretics.
+ 1.2 Stable Coronary Artery Disease 
+ACEON is indicated for treatment of patients with stable coronary artery disease to reduce the risk of cardiovascular mortality or nonfatal myocardial infarction. ACEON can be used with conventional treatment for management of coronary artery disease, such as antiplatelet, antihypertensive or lipid-lowering therapy.
+Close",Perindopril,hypertension
+2259533358,indication_treatment,"1 INDICATIONS AND USAGE
+
+ 1.1 Hypertension 
+Diovaní‰Œ¬ (valsartan) is indicated for the treatment of hypertension. It may be used alone or in combination with other antihypertensive agents.
+ 1.2 Heart Failure 
+Diovan is indicated for the treatment of heart failure (NYHA class II-IV). In a controlled clinical trial, Diovan significantly reduced hospitalizations for heart failure. There is no evidence that Diovan provides added benefits when it is used with an adequate dose of an ACE inhibitor. [Seeí‰ŒæClinical Studies (14.2)]í‰Œæ 
+ 1.3 Post-Myocardial Infarction 
+In clinically stable patients with left ventricular failure or left ventricular dysfunction following myocardial infarction, Diovan is indicated to reduce cardiovascular mortality. [Seeí‰ŒæClinical Studies (14.3)] 
+Close",Valsartan,hypertension
+2259533362,indication_treatment,"1 INDICATIONS AND USAGE
+
+ 1.1 Hypertension 
+Diovaní‰Œ¬ (valsartan) is indicated for the treatment of hypertension. It may be used alone or in combination with other antihypertensive agents.
+ 1.2 Heart Failure 
+Diovan is indicated for the treatment of heart failure (NYHA class II-IV). In a controlled clinical trial, Diovan significantly reduced hospitalizations for heart failure. There is no evidence that Diovan provides added benefits when it is used with an adequate dose of an ACE inhibitor. [Seeí‰ŒæClinical Studies (14.2)]í‰Œæ 
+ 1.3 Post-Myocardial Infarction 
+In clinically stable patients with left ventricular failure or left ventricular dysfunction following myocardial infarction, Diovan is indicated to reduce cardiovascular mortality. [Seeí‰ŒæClinical Studies (14.3)] 
+Close",Valsartan,hypertension
+2259533373,indication_treatment,"1 INDICATIONS AND USAGE
+
+1.1 Hypertension
+ATACAND is indicated for the treatment of hypertension in adults and children 1 to < 17 years of age. It may be used alone or in combination with other antihypertensive agents.
+1.2 Heart Failure
+ATACAND is indicated for the treatment of heart failure (NYHA class II-IV) in adults with left ventricular systolic dysfunction (ejection fraction í¢äóÁŒ_ 40%) to reduce cardiovascular death and to reduce heart failure hospitalizations [see CLINICAL STUDIES (14.2)]. ATACAND also has an added effect on these outcomes when used with an ACE inhibitor.
+Close",Candesartan cilexetil,hypertension
+2259533409,indication_treatment,"1 INDICATIONS AND USAGE
+
+1.1 Hypothyroidism
+ CYTOMEL is indicated as a replacement therapy in primary (thyroidal), secondary (pituitary), and tertiary (hypothalamic) congenital or acquired hypothyroidism. 
+1.2 Pituitary Thyroid-Stimulating Hormone(TSH) Suppression
+ CYTOMEL is indicated as an adjunct to surgery and radioiodine therapy in the management of well-differentiated thyroid cancer. 
+1.3 Thyroid Suppression Test
+ CYTOMEL is indicated as a diagnostic agent in suppression tests to differentiate suspected mild hyperthyroidism or thyroid gland autonomy. 
+ Limitations of Use 
+ CYTOMEL is not indicated for suppression of benign thyroid nodules and nontoxic diffuse goiter in iodine-sufficient patients as there are no clinical benefits and overtreatment with CYTOMEL may induce hyperthyroidism [see Warnings and Precautions (5.4)]. 
+ CYTOMEL is not indicated for treatment of hypothyroidism during the recovery phase of subacute thyroiditis. 
+Close",Liothyronine,thyroid cancer
+2259533342,indication_treatment,"1 INDICATIONS AND USAGE
+
+1.1 Major Depressive Disorder
+Venlafaxine hydrochloride extended-release capsules are indicated for the treatment of major depressive disorder (MDD). Efficacy was established in three short-term (4, 8, and 12 weeks) and two long-term, maintenance trials.
+1.4 Panic Disorder
+Venlafaxine hydrochloride extended-release capsules are indicated for the treatment of Panic Disorder (PD), with or without agoraphobia. Efficacy was established in two 12-week placebo-controlled trials.
+Close",Venlafaxine,panic disorder
+2259533330,indication_treatment,"1 INDICATIONS AND USAGE
+
+1.1 Ovarian Cancer
+DOXIL is indicated for the treatment of patients with ovarian cancer whose disease has progressed or recurred after platinum-based chemotherapy.
+1.2 AIDS-Related Kaposi's Sarcoma
+DOXIL is indicated for the treatment of AIDS-related Kaposi's sarcoma in patients after failure of prior systemic chemotherapy or intolerance to such therapy.
+1.3 Multiple Myeloma
+DOXIL, in combination with bortezomib, is indicated for the treatment of patients with multiple myeloma who have not previously received bortezomib and have received at least one prior therapy.
+Close",Epirubicin,ovarian cancer
+2259533331,indication_treatment,"1 INDICATIONS AND USAGE
+
+1.1 Ovarian Cancer
+DOXIL is indicated for the treatment of patients with ovarian cancer whose disease has progressed or recurred after platinum-based chemotherapy.
+1.2 AIDS-Related Kaposi's Sarcoma
+DOXIL is indicated for the treatment of AIDS-related Kaposi's sarcoma in patients after failure of prior systemic chemotherapy or intolerance to such therapy.
+1.3 Multiple Myeloma
+DOXIL, in combination with bortezomib, is indicated for the treatment of patients with multiple myeloma who have not previously received bortezomib and have received at least one prior therapy.
+Close",Doxorubicin,ovarian cancer
+2259533404,indication_treatment,"1 INDICATIONS AND USAGE
+
+1.1 Patient Selection Considerations
+Serum potassium levels should be measured before initiating INSPRA therapy, and INSPRA should not be prescribed if serum potassium is >5.5 mEq/L. [See CONTRAINDICATIONS (4)].
+1.2 Congestive Heart Failure Post-Myocardial Infarction
+INSPRA is indicated to improve survival of stable patients with left ventricular (LV) systolic dysfunction (ejection fraction í¢äóÁŒ_40%) and clinical evidence of congestive heart failure (CHF) after an acute myocardial infarction (MI).
+1.3 Hypertension
+INSPRA is indicated for the treatment of hypertension. INSPRA may be used alone or in combination with other antihypertensive agents.
+Close",Eplerenone,hypertension
+2259533332,indication_treatment,"1 INDICATIONS AND USAGE
+ Isoptoí‰Œ¬ Carpine is indicated for the: 
+ 1.1 Reduction of Elevated Intraocular Pressuare (IOP) in Patients with Open-Angle Glaucoma or Ocular Hypertension
+1.2 Management of Acute Angle-Closure Glaucoma
+ 1.3 Prevention of Postoperative Elevated IOP Associated with Laser Surgery
+ 1.4 Induction of Miosis
+Close",Pilocarpine,hypertension
+2259533384,indication_treatment,"1 INDICATIONS AND USAGE
+AZOPTí‰Œ¬ (brinzolamide ophthalmic suspension) 1% is a carbonic anhydrase inhibitor indicated in the treatment of elevated intraocular pressure in patients with ocular hypertension or open-angle glaucoma.
+Close",Brinzolamide,hypertension
+2259533318,indication_symptomatic_relief,"1 INDICATIONS AND USAGE
+Flurbiprofen tablets are indicated: 
+For relief of the signs and symptoms of rheumatoid arthritis. 
+For relief of the signs and symptoms of osteoarthritis. 
+Close",Flurbiprofen,rheumatoid arthritis
+2259533336,indication_treatment,"1 INDICATIONS AND USAGE
+Latanoprost is indicated for the reduction of elevated intraocular pressure in patients with open-angle glaucoma or ocular hypertension.
+Close",Latanoprost,hypertension
+2259536667,indication_treatment,"1 INDICATIONS AND USAGE
+LOVAZA’äÎÂ (omega-3-acid ethyl esters) is indicated as an adjunct to diet to reduce triglyceride (TG) levels in adult patients with severe (greater than or equal to 500 mg per dL) hypertriglyceridemia (HTG).
+ Usage Considerations: Patients should be placed on an appropriate lipid-lowering diet before receiving LOVAZA and should continue this diet during treatment with LOVAZA.
+Laboratory studies should be done to ascertain that the lipid levels are consistently abnormal before instituting therapy with LOVAZA. Every attempt should be made to control serum lipids with appropriate diet, exercise, weight loss in obese patients, and control of any medical problems such as diabetes mellitus and hypothyroidism that are contributing to the lipid abnormalities. Medications known to exacerbate hypertriglyceridemia (such as beta’äÎ¾blockers, thiazides, estrogens) should be discontinued or changed if possible prior to consideration of triglyceride-lowering drug therapy.
+ Limitations of Use: 
+The effect of LOVAZA on the risk for pancreatitis has not been determined.
+The effect of LOVAZA on cardiovascular mortality and morbidity has not been determined.
+Close",Alpha-Linolenic Acid,Diabetes Mellitus
+2259536841,indication_treatment,"1 INDICATIONS AND USAGE
+LOVAZA’äÎÂ (omega-3-acid ethyl esters) is indicated as an adjunct to diet to reduce triglyceride (TG) levels in adult patients with severe (greater than or equal to 500 mg per dL) hypertriglyceridemia (HTG).
+ Usage Considerations: Patients should be placed on an appropriate lipid-lowering diet before receiving LOVAZA and should continue this diet during treatment with LOVAZA.
+Laboratory studies should be done to ascertain that the lipid levels are consistently abnormal before instituting therapy with LOVAZA. Every attempt should be made to control serum lipids with appropriate diet, exercise, weight loss in obese patients, and control of any medical problems such as diabetes mellitus and hypothyroidism that are contributing to the lipid abnormalities. Medications known to exacerbate hypertriglyceridemia (such as beta’äÎ¾blockers, thiazides, estrogens) should be discontinued or changed if possible prior to consideration of triglyceride-lowering drug therapy.
+ Limitations of Use: 
+The effect of LOVAZA on the risk for pancreatitis has not been determined.
+The effect of LOVAZA on cardiovascular mortality and morbidity has not been determined.
+Close",Icosapent,Diabetes Mellitus
+2259536907,indication_treatment,"1 INDICATIONS AND USAGE
+LOVAZA’äÎÂ (omega-3-acid ethyl esters) is indicated as an adjunct to diet to reduce triglyceride (TG) levels in adult patients with severe (greater than or equal to 500 mg per dL) hypertriglyceridemia (HTG).
+ Usage Considerations: Patients should be placed on an appropriate lipid-lowering diet before receiving LOVAZA and should continue this diet during treatment with LOVAZA.
+Laboratory studies should be done to ascertain that the lipid levels are consistently abnormal before instituting therapy with LOVAZA. Every attempt should be made to control serum lipids with appropriate diet, exercise, weight loss in obese patients, and control of any medical problems such as diabetes mellitus and hypothyroidism that are contributing to the lipid abnormalities. Medications known to exacerbate hypertriglyceridemia (such as beta’äÎ¾blockers, thiazides, estrogens) should be discontinued or changed if possible prior to consideration of triglyceride-lowering drug therapy.
+ Limitations of Use: 
+The effect of LOVAZA on the risk for pancreatitis has not been determined.
+The effect of LOVAZA on cardiovascular mortality and morbidity has not been determined.
+Close",Icosapent,Diabetes Mellitus
+2259536974,indication_treatment,"1 INDICATIONS AND USAGE
+LOVAZA’äÎÂ (omega-3-acid ethyl esters) is indicated as an adjunct to diet to reduce triglyceride (TG) levels in adult patients with severe (greater than or equal to 500 mg per dL) hypertriglyceridemia (HTG).
+ Usage Considerations: Patients should be placed on an appropriate lipid-lowering diet before receiving LOVAZA and should continue this diet during treatment with LOVAZA.
+Laboratory studies should be done to ascertain that the lipid levels are consistently abnormal before instituting therapy with LOVAZA. Every attempt should be made to control serum lipids with appropriate diet, exercise, weight loss in obese patients, and control of any medical problems such as diabetes mellitus and hypothyroidism that are contributing to the lipid abnormalities. Medications known to exacerbate hypertriglyceridemia (such as beta’äÎ¾blockers, thiazides, estrogens) should be discontinued or changed if possible prior to consideration of triglyceride-lowering drug therapy.
+ Limitations of Use: 
+The effect of LOVAZA on the risk for pancreatitis has not been determined.
+The effect of LOVAZA on cardiovascular mortality and morbidity has not been determined.
+Close",Doconexent,Diabetes Mellitus
+2265783227,indication_treatment,"1 INDICATIONS AND USAGE
+LOVAZA’äÎÂ (omega-3-acid ethyl esters) is indicated as an adjunct to diet to reduce triglyceride (TG) levels in adult patients with severe (greater than or equal to 500 mg per dL) hypertriglyceridemia (HTG).
+ Usage Considerations: Patients should be placed on an appropriate lipid-lowering diet before receiving LOVAZA and should continue this diet during treatment with LOVAZA.
+Laboratory studies should be done to ascertain that the lipid levels are consistently abnormal before instituting therapy with LOVAZA. Every attempt should be made to control serum lipids with appropriate diet, exercise, weight loss in obese patients, and control of any medical problems such as diabetes mellitus and hypothyroidism that are contributing to the lipid abnormalities. Medications known to exacerbate hypertriglyceridemia (such as beta’äÎ¾blockers, thiazides, estrogens) should be discontinued or changed if possible prior to consideration of triglyceride-lowering drug therapy.
+ Limitations of Use: 
+The effect of LOVAZA on the risk for pancreatitis has not been determined.
+The effect of LOVAZA on cardiovascular mortality and morbidity has not been determined.
+Close",Alpha-Linolenic Acid,Diabetes Mellitus
+2265783663,indication_treatment,"1 INDICATIONS AND USAGE
+LOVAZA’äÎÂ (omega-3-acid ethyl esters) is indicated as an adjunct to diet to reduce triglyceride (TG) levels in adult patients with severe (greater than or equal to 500 mg per dL) hypertriglyceridemia (HTG).
+ Usage Considerations: Patients should be placed on an appropriate lipid-lowering diet before receiving LOVAZA and should continue this diet during treatment with LOVAZA.
+Laboratory studies should be done to ascertain that the lipid levels are consistently abnormal before instituting therapy with LOVAZA. Every attempt should be made to control serum lipids with appropriate diet, exercise, weight loss in obese patients, and control of any medical problems such as diabetes mellitus and hypothyroidism that are contributing to the lipid abnormalities. Medications known to exacerbate hypertriglyceridemia (such as beta’äÎ¾blockers, thiazides, estrogens) should be discontinued or changed if possible prior to consideration of triglyceride-lowering drug therapy.
+ Limitations of Use: 
+The effect of LOVAZA on the risk for pancreatitis has not been determined.
+The effect of LOVAZA on cardiovascular mortality and morbidity has not been determined.
+Close",Icosapent,Diabetes Mellitus
+2265783776,indication_treatment,"1 INDICATIONS AND USAGE
+LOVAZA’äÎÂ (omega-3-acid ethyl esters) is indicated as an adjunct to diet to reduce triglyceride (TG) levels in adult patients with severe (greater than or equal to 500 mg per dL) hypertriglyceridemia (HTG).
+ Usage Considerations: Patients should be placed on an appropriate lipid-lowering diet before receiving LOVAZA and should continue this diet during treatment with LOVAZA.
+Laboratory studies should be done to ascertain that the lipid levels are consistently abnormal before instituting therapy with LOVAZA. Every attempt should be made to control serum lipids with appropriate diet, exercise, weight loss in obese patients, and control of any medical problems such as diabetes mellitus and hypothyroidism that are contributing to the lipid abnormalities. Medications known to exacerbate hypertriglyceridemia (such as beta’äÎ¾blockers, thiazides, estrogens) should be discontinued or changed if possible prior to consideration of triglyceride-lowering drug therapy.
+ Limitations of Use: 
+The effect of LOVAZA on the risk for pancreatitis has not been determined.
+The effect of LOVAZA on cardiovascular mortality and morbidity has not been determined.
+Close",Icosapent,Diabetes Mellitus
+2265783948,indication_treatment,"1 INDICATIONS AND USAGE
+LOVAZA’äÎÂ (omega-3-acid ethyl esters) is indicated as an adjunct to diet to reduce triglyceride (TG) levels in adult patients with severe (greater than or equal to 500 mg per dL) hypertriglyceridemia (HTG).
+ Usage Considerations: Patients should be placed on an appropriate lipid-lowering diet before receiving LOVAZA and should continue this diet during treatment with LOVAZA.
+Laboratory studies should be done to ascertain that the lipid levels are consistently abnormal before instituting therapy with LOVAZA. Every attempt should be made to control serum lipids with appropriate diet, exercise, weight loss in obese patients, and control of any medical problems such as diabetes mellitus and hypothyroidism that are contributing to the lipid abnormalities. Medications known to exacerbate hypertriglyceridemia (such as beta’äÎ¾blockers, thiazides, estrogens) should be discontinued or changed if possible prior to consideration of triglyceride-lowering drug therapy.
+ Limitations of Use: 
+The effect of LOVAZA on the risk for pancreatitis has not been determined.
+The effect of LOVAZA on cardiovascular mortality and morbidity has not been determined.
+Close",Doconexent,Diabetes Mellitus
+2259533311,indication_treatment,"1 INDICATIONS AND USAGE
+Methylphenidate hydrochloride tablets are indicated for the treatment of:
+    í¢ä‰åŒ¢
+   
+    Attention Deficit Hyperactivity Disorders (ADHD) in pediatric patients 6 years and older and adults
+   
+    í¢ä‰åŒ¢
+   
+    Narcolepsy
+   
+Close",Dexmethylphenidate,narcolepsy
+2259533314,indication_treatment,"1 INDICATIONS AND USAGE
+Methylphenidate hydrochloride tablets are indicated for the treatment of:
+    í¢ä‰åŒ¢
+   
+    Attention Deficit Hyperactivity Disorders (ADHD) in pediatric patients 6 years and older and adults
+   
+    í¢ä‰åŒ¢
+   
+    Narcolepsy
+   
+Close",Methylphenidate,narcolepsy
+2259533378,indication_treatment,"1í¢ä‰å¨Íí¢ä‰å¨ÍINDICATIONS AND USAGE
+
+1.1í¢ä‰å¨Íí¢ä‰å¨ÍHypertension
+MICARDIS is indicated for the treatment of hypertension.í‰Œæ It may be used alone or in combination with other antihypertensive agents [see Clinical Studies (14.1)].
+1.2í¢ä‰å¨Íí¢ä‰å¨ÍCardiovascular Risk Reduction
+MICARDIS is indicated for reduction of the risk of myocardial infarction, stroke, or death from cardiovascular causes in patients 55 years of age or older at high risk of developing major cardiovascular events who are unable to take ACE inhibitors.
+High risk for cardiovascular events can be evidenced by a history of coronary artery disease, peripheral arterial disease, stroke, transient ischemic attack, or high-risk diabetes (insulin-dependent or non-insulin dependent) with evidence of end-organ damage [see Clinical Studies (14.2)]. í‰ŒæMICARDIS can be used in addition to other needed treatment (such as antihypertensive, antiplatelet or lipid-lowering therapy) [see Clinical Studies (14.2)].
+Studies of telmisartan in this setting do not exclude that it may not preserve a meaningful fraction of the effect of the ACE inhibitor to which it was compared. Consider using the ACE inhibitor first, and, if it is stopped for cough only, consider re-trying the ACE inhibitor after the cough resolves.
+Use of telmisartan with an ACE inhibitor is not recommended [see Warnings and Precautions (5.6)]. 
+Close",Telmisartan,hypertension
+2259533357,indication_treatment,"INDICATIONS AND USAGE
+
+ Hypertension 
+Isradipine is indicated in the management of hypertension. It may be used alone or concurrently with thiazide-type diuretics.
+Close",Isradipine,hypertension
+2259533369,indication_treatment,"INDICATIONS AND USAGE
+
+ Hypertension 
+Isradipine is indicated in the management of hypertension. It may be used alone or concurrently with thiazide-type diuretics.
+Close",Isradipine,hypertension
+2259533368,indication_treatment,"INDICATIONS AND USAGE
+
+ Hypertension 
+Metoprolol tartrate tablets, USP are indicated for the treatment of hypertension. They may be used alone or in combination with other antihypertensive agents.
+ Angina Pectoris 
+Metoprolol tartrate tablets, USP are indicated in the long-term treatment of angina pectoris.
+ Myocardial Infarction 
+Metoprolol tartrate tablets, USP are indicated in the treatment of hemodynamically stable patients with definite or suspected acute myocardial infarction to reduce cardiovascular mortality. Treatment with intravenous metoprolol tartrate can be initiated as soon as the patientí¢ä‰åä‹¢s clinical condition allowsí‰Œæ(see DOSAGE AND ADMINISTRATION, CONTRAINDICATIONS, and WARNINGS). 
+Close",Metoprolol,hypertension
+2259533316,indication_treatment,"INDICATIONS AND USAGE
+
+ The intra-articular or soft tissue administration  of Kenalog-10 Injection (triamcinolone acetonide injectable suspension, USP) is indicated as adjunctive therapy for short-term administration (to tide the patient over an acute episode or exacerbation) in acute gouty arthritis, acute and subacute bursitis, acute nonspecific tenosynovitis, epicondylitis, rheumatoid arthritis, synovitis, or osteoarthritis.
+ The intralesional administration of Kenalog-10 Injection is indicated for alopecia areata; discoid lupus erythematosus; keloids; localized hypertrophic, infiltrated, inflammatory lesions of granuloma annulare, lichen planus, lichen simplex chronicus (neurodermatitis), and psoriatic plaques; necrobiosis lipoidica diabeticorum. Kenalog-10 Injection may also be useful in cystic tumors of an aponeurosis or tendon (ganglia).
+Close",Triamcinolone,alopecia areata
+2259533385,indication_treatment,"INDICATIONS AND USAGE
+
+Angina Pectoris
+Nadolol tablets are indicated for the long-term management of patients with angina pectoris.
+Hypertension
+Nadolol tablets are indicated in the management of hypertension; they may be used alone or in combination with other antihypertensive agents, especially thiazide-type diuretics.
+Close",Nadolol,hypertension
+2259533387,indication_treatment,"INDICATIONS AND USAGE
+
+Edema
+Furosemide is indicated in adults and pediatric patients for the treatment of edema associated with congestive heart failure, cirrhosis of the liver, and renal disease, including the nephrotic syndrome. Furosemide is particularly useful when an agent with greater diuretic potential is desired.
+Hypertension
+Oral furosemide may be used in adults for the treatment of hypertension alone or in combination with other antihypertensive agents. Hypertensive patients who cannot be adequately controlled with thiazides will probably also not be adequately controlled with furosemide alone.
+Close",Furosemide,hypertension
+2259533381,indication_treatment,"INDICATIONS AND USAGE
+
+Hypertension
+AVAPRO (irbesartan) is indicated for the treatment of hypertension. It may be used alone or in combination with other antihypertensive agents.
+Nephropathy in Type 2 Diabetic Patients
+AVAPRO is indicated for the treatment of diabetic nephropathy with an elevated serum creatinine and proteinuria (>300 mg/day) in patients with type 2 diabetes and hypertension. In this population, AVAPRO reduces the rate of progression of nephropathy as measured by the occurrence of doubling of serum creatinine or end-stage renal disease (need for dialysis or renal transplantation) (see CLINICAL PHARMACOLOGY: Clinical Studies).
+Close",Irbesartan,hypertension
+2270650760,indication_treatment,"INDICATIONS AND USAGE
+
+Hypertension
+AVAPRO (irbesartan) is indicated for the treatment of hypertension. It may be used alone or in combination with other antihypertensive agents.
+Nephropathy in Type 2 Diabetic Patients
+AVAPRO is indicated for the treatment of diabetic nephropathy with an elevated serum creatinine and proteinuria (>300 mg/day) in patients with type 2 diabetes and hypertension. In this population, AVAPRO reduces the rate of progression of nephropathy as measured by the occurrence of doubling of serum creatinine or end-stage renal disease (need for dialysis or renal transplantation) (see CLINICAL PHARMACOLOGY: Clinical Studies).
+Close",Irbesartan,hypertension
+2259533376,indication_treatment,"INDICATIONS AND USAGE
+
+Hypertension
+Quinapril hydrochloride is indicated for the treatment of hypertension. It may be used alone or incombination with thiazide diuretics.
+In using quinapril hydrochloride, consideration should be given to the fact that another angiotensinconvertingenzyme inhibitor, captopril, has caused agranulocytosis, particularly in patients with renalimpairment or collagen vascular disease. Available data are insufficient to show that quinaprilhydrochloride does not have a similar risk (see WARNINGS).
+Angioedema in black patients
+Black patients receiving ACE inhibitor monotherapy have beenreported to have a higher incidence of angioedema compared to non-blacks. It should also be notedthat in controlled clinical trials ACE inhibitors have an effect on blood pressure that is less in blackpatients than in non-blacks.
+Close",Quinapril,hypertension
+2259533397,indication_treatment,"INDICATIONS AND USAGE
+
+Hypertension
+Trandolapril Tablets are indicated for the treatment of hypertension. They may be used alone or in combination with other antihypertensive medication such as hydrochlorothiazide. 
+Close",Trandolapril,hypertension
+2259533333,indication_treatment,"INDICATIONS AND USAGE
+
+Hypertension:
+Losartan potassium tablets are indicated for the treatment of hypertension. It may be used alone or in combination with other antihypertensive agents, including diuretics. 
+Hypertensive Patients with Left Ventricular Hypertrophy:
+Losartan potassium tablets are indicated to reduce the risk of stroke in patients with hypertension and left ventricular hypertrophy, but there is evidence that this benefit does not apply to Black patients (see PRECAUTIONS, Raceand CLINICAL PHARMACOLOGY, Pharmacodynamics and Clinical Effects, Reduction in the Risk of Stroke, Race).  
+Close",Losartan,hypertension
+2259533323,unrelated,"INDICATIONS AND USAGE
+ (To understand fully the indication for this product, please read the entire INDICATIONS AND USAGE section of the labeling.) 
+Ciclopirox Topical Solution, 8% (Nail Lacquer), as a component of a comprehensive management program, is indicated as topical treatment in immunocompetent patients with mild to moderate onychomycosis of fingernails and toenails without lunula involvement, due to Trichophyton rubrum. The comprehensive management program includes removal of the unattached, infected nails as frequently as monthly, by a health care professional who has special competence in the diagnosis and treatment of nail disorders, including minor nail procedures. 
+No studies have been conducted to determine whether ciclopirox might reduce the effectiveness of systemic antifungal agents for onychomycosis. Therefore, the concomitant use of 8% ciclopirox topical solution and systemic antifungal agents for onychomycosis is not recommended.
+Ciclopirox Topical Solution, 8% (Nail Lacquer) should be used only under medical supervision as described above.
+The effectiveness and safety of Ciclopirox Topical Solution, 8% (Nail Lacquer) in the following populations has not been studied. The clinical trials with use of Ciclopirox Topical Solution, 8% (Nail Lacquer) excluded patients who: were pregnant or nursing, planned to become pregnant, had a history of immunosuppression (e.g., extensive, persistent, or unusual distribution of dermatomycoses, extensive seborrheic dermatitis, recent or recurring herpes zoster, or persistent herpes simplex), were HIV seropositive, received organ transplant, required medication to control epilepsy, were insulin dependent diabetics or had diabetic neuropathy. Patients with severe plantar (moccasin) tinea pedis were also excluded.
+The safety and efficacy of using Ciclopirox Topical Solution, 8% (Nail Lacquer) daily for greater than 48 weeks have not been established.
+Close",Ciclopirox,epilepsy syndrome
+2259533335,indication_treatment,"INDICATIONS AND USAGE
+ BETAGANí‰Œ¬ ophthalmic solution has been shown to be effective in lowering intraocular pressure and may be used in patients with chronic open-angle glaucoma or ocular hypertension.
+Close",Levobunolol,hypertension
+2270640805,indication_treatment,"INDICATIONS AND USAGE
+ BETAGANí‰Œ¬ ophthalmic solution has been shown to be effective in lowering intraocular pressure and may be used in patients with chronic open-angle glaucoma or ocular hypertension.
+Close",Levobunolol,hypertension
+2270471797,effect,"INDICATIONS AND USAGE
+ ClindacinÃ¢â‚¬Â¢PÃ‚Â® is indicated in the treatment of acne vulgaris. In view of the potential for diarrhea, bloody diarrhea and pseudomembranous colitis, the physician should consider whether other agents are more appropriate (see CONTRAINDICATIONS, WARNINGS and ADVERSE REACTIONS).
+Close",Clindamycin,DIARRHEA
+2259533370,indication_treatment,"INDICATIONS AND USAGE
+ Hypertension Lisinopril tablets are indicated for the treatment of hypertension. They may be used alone as initial therapy or concomitantly with other classes of antihypertensive agents. Heart Failure Lisinopril tablets are indicated as adjunctive therapy in the management of heart failure in patients who are not responding adequately to diuretics and digitalis. Acute Myocardial Infarction Lisinopril tablets are indicated for the treatment of hemodynamically stable patients within 24 hours of acute myocardial infarction, to improve survival. Patients should receive, as appropriate, the standard recommended treatments such as thrombolytics, aspirin and beta-blockers.In using lisinopril tablets, consideration should be given to the fact that another angiotensin-converting enzyme inhibitor, captopril, has caused agranulocytosis, particularly in patients with renal impairment or collagen vascular disease, and that available data are insufficient to show that lisinopril tablets does not have a similar risk. (See WARNINGS.)In considering the use of lisinopril tablets, it should be noted that in controlled clinical trials ACE inhibitors have an effect on blood pressure that is less in Black patients than in non-Blacks. In addition, ACE inhibitors have been associated with a higher rate of angioedema in Black than in non-Black patients (see WARNINGS, Anaphylactoid and Possibly Related Reactions).
+Close",Lisinopril,hypertension
+2259533319,indication_treatment,"INDICATIONS AND USAGE
+ Kidney, Liver, and Heart Transplantation 
+Neoral is indicated for the prophylaxis of organ rejection in kidney, liver, and heart allogeneic transplants. Neoral has been used in combination with azathioprine and corticosteroids.
+ Rheumatoid Arthritis 
+Neoral is indicated for the treatment of patients with severe active, rheumatoid arthritis where the disease has not adequately responded to methotrexate. Neoral can be used in combination with methotrexate in rheumatoid arthritis patients who do not respond adequately to methotrexate alone.
+ Psoriasis 
+Neoral is indicated for the treatment of adult, nonimmunocompromised patients with severe (i.e., extensive and/or disabling), recalcitrant, plaque psoriasis who have failed to respond to at least one systemic therapy (e.g., PUVA, retinoids, or methotrexate) or in patients for whom other systemic therapies are contraindicated, or cannot be tolerated.
+While rebound rarely occurs, most patients will experience relapse with Neoral as with other therapies upon cessation of treatment.
+Close",Ciclosporin,rheumatoid arthritis
+2259533340,indication_symptomatic_relief,"INDICATIONS AND USAGE
+ Osteoarthritis, Rheumatoid Arthritis and Acute Painful Shoulder: Salicylates are considered the base therapy of choice in the arthritides; and choline magnesium trisalicylate preparation is indicated for the relief of the signs and symptoms of rheumatoid arthritis, osteoarthritis and other arthritides. Choline Magnesium Trisalicylate Liquid is indicated in the long-term management of these diseases and especially in the acute flare of rheumatoid arthritis. Choline Magnesium Trisalicylate Liquid is also indicated for the treatment of acute painful shoulder.
+Choline Magnesium Trisalicylate Liquid is effective and generally well tolerated, and is logical choice whenever salicylate treatment is indicated. It is particularly suitable when a once-a-day or b.i.d. dosage regimen is important to patient compliance; when gastrointestinal intolerance to aspirin is encountered; when gastrointestinal microbleeding or hematologic effects of aspirin are considered a patient hazard; and when interference (or the risk of interference) with normal platelet function by aspirin or by propionic acid derivatives is considered to be clinically undesirable. Use of Choline Magnesium Trisalicylate Liquid is appropriate when a liquid dosage form is preferred, as in the elderly patient.
+The efficacy of Choline Magnesium Trisalicylate Liquid has not been studied in those patients who are designated by the American Rheumatism Association as belonging inFunctional Class IV (incapacitated, largely or wholly bedridden or confined to a wheelchair, with little or no self-care).
+ Analgesic and Antipyretic Action: Choline Magnesium Trisalicylate Liquid is also indicated for the relief of mild to moderate pain and for antipyresis. 
+Pediatric Use
+ In children, Choline Magnesium Trisalicylate Liquid is indicated for conditions requiring anti-inflammatory or analgesic action-such as juvenile rheumatoid arthritis and other appropriate conditions.
+Close",Magnesium salicylate,rheumatoid arthritis
+2270469149,effect,"INDICATIONS AND USAGE
+AMICAR is useful in enhancing hemostasis when fibrinolysis contributes to bleeding. In life-threatening situations, transfusion of appropriate blood products and other emergency measures may be required.
+Fibrinolytic bleeding may frequently be associated with surgical complications following heart surgery (with or without cardiac bypass procedures) and portacaval shunt; hematological disorders such as amegakaryocytic thrombocytopenia (accompanying aplastic anemia); acute and life-threatening abruptio placentae; hepatic cirrhosis; and neoplastic disease such as carcinoma of the prostate, lung, stomach, and cervix.
+Urinary fibrinolysis, usually a normal physiological phenomenon, may contribute to excessive urinary tract fibrinolytic bleeding associated with surgical hematuria (following prostatectomy and nephrectomy) or nonsurgical hematuria (accompanying polycystic or neoplastic diseases of the genitourinary system). (See WARNINGS.)
+Close",Aminocaproic Acid,ABRUPTIO PLACENTAE
+2259533403,indication_treatment,"INDICATIONS AND USAGE
+Amiloride HCl is indicated as adjunctive treatment with thiazide diuretics or other kaliureticdiuretic agents in congestive heart failure or hypertension to:
+help restore normal serum potassium levels in patients who develop hypokalemia on the kaliuretic diuretic. 
+prevent development of hypokalemia in patients who would be exposed to particular risk if hypokalemia were to develop, e.g., digitalized patients or patients with significant cardiac arrhythmias. 
+The use of potassium-conserving agents is often unnecessary in patients receiving diuretics for uncomplicated essential hypertension when such patients have a normal diet. Amiloride HCl has little additive diuretic or antihypertensive effect when added to a thiazide diuretic.
+Amiloride HCl should rarely be used alone. It has weak (compared with thiazides) diuretic and antihypertensive effects. Used as single agents, potassium sparing diuretics, including amiloride HCl, result in an increased risk of hyperkalemia (approximately 10% with amiloride). Amiloride HCl should be used alone only when persistent hypokalemia has been documented and only with careful titration of the dose and close monitoring of serum electrolytes.
+Close",Amiloride,hypertension
+2259531489,indication_symptomatic_relief,"INDICATIONS AND USAGE
+Augmented Betamethasone Dipropionate Ointment is indicated for relief of the inflammatory and pruritic manifestations of corticosteroid-responsive dermatoses.
+Close",Betamethasone,corticosteroid-responsive dermatoses
+2259531566,indication_symptomatic_relief,"INDICATIONS AND USAGE
+Augmented Betamethasone Dipropionate Ointment is indicated for relief of the inflammatory and pruritic manifestations of corticosteroid-responsive dermatoses.
+Close",Betamethasone,corticosteroid-responsive dermatoses
+2259531595,indication_symptomatic_relief,"INDICATIONS AND USAGE
+Augmented Betamethasone Dipropionate Ointment is indicated for relief of the inflammatory and pruritic manifestations of corticosteroid-responsive dermatoses.
+Close",Betamethasone,corticosteroid-responsive dermatoses
+2259531738,indication_symptomatic_relief,"INDICATIONS AND USAGE
+Augmented Betamethasone Dipropionate Ointment is indicated for relief of the inflammatory and pruritic manifestations of corticosteroid-responsive dermatoses.
+Close",Betamethasone,corticosteroid-responsive dermatoses
+2259533351,indication_treatment,"INDICATIONS AND USAGE
+Benazepril hydrochloride tablets are indicated for the treatment of hypertension. It may be used alone or in combination with thiazide diuretics. 
+Close",Benazepril,hypertension
+2259533400,indication_treatment,"INDICATIONS AND USAGE
+Benazepril hydrochloride tablets are indicated for the treatment of hypertension. It may be used alone or in combination with thiazide diuretics. 
+Close",Benazepril,hypertension
+2259533354,indication_treatment,"INDICATIONS AND USAGE
+BENICARí‰Œ¬ is indicated for the treatment of hypertension. It may be used alone or in combination with other antihypertensive agents.
+Close",Olmesartan,hypertension
+2259533391,indication_treatment,"INDICATIONS AND USAGE
+BENICARí‰Œ¬ is indicated for the treatment of hypertension. It may be used alone or in combination with other antihypertensive agents.
+Close",Olmesartan,hypertension
+2259533364,indication_treatment,"INDICATIONS AND USAGE
+Betaxolol is indicated in the management of hypertension. It may be used alone or concomitantly with other antihypertensive agents, particularly thiazide-type diuretics.
+Close",Betaxolol,hypertension
+2259533338,indication_treatment,"INDICATIONS AND USAGE
+Betimolí‰Œ¬ is indicated in the treatment of elevated intraocular pressure in patients with ocular hypertension or open-angle glaucoma.
+Close",Timolol,hypertension
+2259533389,indication_treatment,"INDICATIONS AND USAGE
+Bisoprolol is indicated in the management of hypertension. It may be used alone or in combination with other antihypertensive agents.
+Close",Bisoprolol,hypertension
+2259533388,indication_treatment,"INDICATIONS AND USAGE
+CARDENE SR is indicated for the treatment of hypertension. CARDENE SR may be used alone or in combination with other anti-hypertensive drugs.
+Close",Nicardipine,hypertension
+2259531490,indication_symptomatic_relief,"INDICATIONS AND USAGE
+Carefully consider the potential benefits and risks of sulindac and other treatment options before deciding to use sulindac. Use the lowest effective dose for the shortest duration consistent with individual patient treatment goals (see WARNINGS).
+Sulindac is indicated for acute or long-term use in the relief of signs and symptoms of the following:
+1. Osteoarthritis
+2. Rheumatoid arthritis**
+3. Ankylosing spondylitis
+4. Acute painful shoulder (Acute subacromial bursitis/supraspinatus tendinitis)
+5. Acute gouty arthritis
+Close",Sulindac,Osteoarthritis
+2259533406,indication_treatment,"INDICATIONS AND USAGE
+Cladribine Injection, USP is indicated for the treatment of active Hairy Cell Leukemia as defined by clinically significant anemia, neutropenia, thrombocytopenia or disease-related symptoms.
+Close",Lenalidomide,anemia
+2259536378,indication_symptomatic_relief,"INDICATIONS AND USAGE
+Clemastine Fumarate Syrup is indicated for the relief of symptoms associated with allergic rhinitis such as sneezing, rhinorrhea, pruritus and lacrimation. Clemastine Fumarate Syrup is indicated for use in pediatric populations (age 6 years through 12) and adults (see DOSAGE AND ADMINISTRATION).
+It should be noted that clemastine fumarate is indicated for the relief of mild uncomplicated allergic skin manifestations of urticaria and angioedema at the 2 mg dosage level only. 
+Close",Clemastine,Pruritus
+2259536379,indication_symptomatic_relief,"INDICATIONS AND USAGE
+Clemastine Fumarate Syrup is indicated for the relief of symptoms associated with allergic rhinitis such as sneezing, rhinorrhea, pruritus and lacrimation. Clemastine Fumarate Syrup is indicated for use in pediatric populations (age 6 years through 12) and adults (see DOSAGE AND ADMINISTRATION).
+It should be noted that clemastine fumarate is indicated for the relief of mild uncomplicated allergic skin manifestations of urticaria and angioedema at the 2 mg dosage level only. 
+Close",Clemastine,Pruritus
+2259536476,indication_symptomatic_relief,"INDICATIONS AND USAGE
+Clemastine Fumarate Syrup is indicated for the relief of symptoms associated with allergic rhinitis such as sneezing, rhinorrhea, pruritus and lacrimation. Clemastine Fumarate Syrup is indicated for use in pediatric populations (age 6 years through 12) and adults (see DOSAGE AND ADMINISTRATION).
+It should be noted that clemastine fumarate is indicated for the relief of mild uncomplicated allergic skin manifestations of urticaria and angioedema at the 2 mg dosage level only. 
+Close",Clemastine,Pruritus
+2259536477,indication_symptomatic_relief,"INDICATIONS AND USAGE
+Clemastine Fumarate Syrup is indicated for the relief of symptoms associated with allergic rhinitis such as sneezing, rhinorrhea, pruritus and lacrimation. Clemastine Fumarate Syrup is indicated for use in pediatric populations (age 6 years through 12) and adults (see DOSAGE AND ADMINISTRATION).
+It should be noted that clemastine fumarate is indicated for the relief of mild uncomplicated allergic skin manifestations of urticaria and angioedema at the 2 mg dosage level only. 
+Close",Clemastine,Pruritus
+2259536380,indication_symptomatic_relief,"INDICATIONS AND USAGE
+Clemastine Fumarate Tablets, USP, 2.68 mg are indicated for the relief of symptoms associated with allergic rhinitis such as sneezing, rhinorrhea, pruritus, and lacrimation. Clemastine Fumarate Tablets, USP, 2.68 mg are also indicated for the relief of mild, uncomplicated allergic skin manifestations of urticaria and angioedema.
+It should be noted that clemastine fumarate is indicated for the dermatologic indications at the 2.68 mg dosage level only.
+Close",Clemastine,Pruritus
+2259536381,indication_symptomatic_relief,"INDICATIONS AND USAGE
+Clemastine Fumarate Tablets, USP, 2.68 mg are indicated for the relief of symptoms associated with allergic rhinitis such as sneezing, rhinorrhea, pruritus, and lacrimation. Clemastine Fumarate Tablets, USP, 2.68 mg are also indicated for the relief of mild, uncomplicated allergic skin manifestations of urticaria and angioedema.
+It should be noted that clemastine fumarate is indicated for the dermatologic indications at the 2.68 mg dosage level only.
+Close",Clemastine,Pruritus
+2259536478,indication_symptomatic_relief,"INDICATIONS AND USAGE
+Clemastine Fumarate Tablets, USP, 2.68 mg are indicated for the relief of symptoms associated with allergic rhinitis such as sneezing, rhinorrhea, pruritus, and lacrimation. Clemastine Fumarate Tablets, USP, 2.68 mg are also indicated for the relief of mild, uncomplicated allergic skin manifestations of urticaria and angioedema.
+It should be noted that clemastine fumarate is indicated for the dermatologic indications at the 2.68 mg dosage level only.
+Close",Clemastine,Pruritus
+2259536479,indication_symptomatic_relief,"INDICATIONS AND USAGE
+Clemastine Fumarate Tablets, USP, 2.68 mg are indicated for the relief of symptoms associated with allergic rhinitis such as sneezing, rhinorrhea, pruritus, and lacrimation. Clemastine Fumarate Tablets, USP, 2.68 mg are also indicated for the relief of mild, uncomplicated allergic skin manifestations of urticaria and angioedema.
+It should be noted that clemastine fumarate is indicated for the dermatologic indications at the 2.68 mg dosage level only.
+Close",Clemastine,Pruritus
+2259533349,indication_treatment,"INDICATIONS AND USAGE
+Clonidine hydrochloride is indicated in the treatment of hypertension. Clonidine hydrochloride may be employed alone or concomitantly with other antihypertensive agents.
+Close",Clonidine,hypertension
+2259533401,indication_treatment,"INDICATIONS AND USAGE
+Clonidine hydrochloride is indicated in the treatment of hypertension. Clonidine hydrochloride may be employed alone or concomitantly with other antihypertensive agents.
+Close",Clonidine,hypertension
+2259536373,indication_treatment,"INDICATIONS AND USAGE
+DEMADEX is indicated for the treatment of edema associated with congestive heart failure, renal disease, or hepatic disease. Use of torsemide has been found to be effective for the treatment of edema associated with chronic renal failure. Chronic use of any diuretic in hepatic disease has not been studied in adequate and well-controlled trials.
+DEMADEX intravenous injection is indicated when a rapid onset of diuresis is desired or when oral administration is impractical.
+DEMADEX is indicated for the treatment of hypertension alone or in combination with other antihypertensive agents.
+Close",Torasemide,Edema
+2259536471,indication_treatment,"INDICATIONS AND USAGE
+DEMADEX is indicated for the treatment of edema associated with congestive heart failure, renal disease, or hepatic disease. Use of torsemide has been found to be effective for the treatment of edema associated with chronic renal failure. Chronic use of any diuretic in hepatic disease has not been studied in adequate and well-controlled trials.
+DEMADEX intravenous injection is indicated when a rapid onset of diuresis is desired or when oral administration is impractical.
+DEMADEX is indicated for the treatment of hypertension alone or in combination with other antihypertensive agents.
+Close",Torasemide,Edema
+2259536472,indication_treatment,"INDICATIONS AND USAGE
+DEMADEX is indicated for the treatment of edema associated with congestive heart failure, renal disease, or hepatic disease. Use of torsemide has been found to be effective for the treatment of edema associated with chronic renal failure. Chronic use of any diuretic in hepatic disease has not been studied in adequate and well-controlled trials.
+DEMADEX intravenous injection is indicated when a rapid onset of diuresis is desired or when oral administration is impractical.
+DEMADEX is indicated for the treatment of hypertension alone or in combination with other antihypertensive agents.
+Close",Torasemide,Edema
+2259533356,indication_treatment,"INDICATIONS AND USAGE
+DEMADEX is indicated for the treatment of edema associated with congestive heart failure, renal disease, or hepatic disease. Use of torsemide has been found to be effective for the treatment of edema associated with chronic renal failure. Chronic use of any diuretic in hepatic disease has not been studied in adequate and well-controlled trials.
+DEMADEX is indicated for the treatment of hypertension alone or in combination with other antihypertensive agents.
+Close",Torasemide,hypertension
+2259533363,indication_treatment,"INDICATIONS AND USAGE
+DEMADEX is indicated for the treatment of edema associated with congestive heart failure, renal disease, or hepatic disease. Use of torsemide has been found to be effective for the treatment of edema associated with chronic renal failure. Chronic use of any diuretic in hepatic disease has not been studied in adequate and well-controlled trials.
+DEMADEX is indicated for the treatment of hypertension alone or in combination with other antihypertensive agents.
+Close",Torasemide,hypertension
+2259536375,indication_treatment,"INDICATIONS AND USAGE
+DEMADEX is indicated for the treatment of edema associated with congestive heart failure, renal disease, or hepatic disease. Use of torsemide has been found to be effective for the treatment of edema associated with chronic renal failure. Chronic use of any diuretic in hepatic disease has not been studied in adequate and well-controlled trials.
+DEMADEX is indicated for the treatment of hypertension alone or in combination with other antihypertensive agents.
+Close",Torasemide,Edema
+2259536376,indication_treatment,"INDICATIONS AND USAGE
+DEMADEX is indicated for the treatment of edema associated with congestive heart failure, renal disease, or hepatic disease. Use of torsemide has been found to be effective for the treatment of edema associated with chronic renal failure. Chronic use of any diuretic in hepatic disease has not been studied in adequate and well-controlled trials.
+DEMADEX is indicated for the treatment of hypertension alone or in combination with other antihypertensive agents.
+Close",Torasemide,Edema
+2259536473,indication_treatment,"INDICATIONS AND USAGE
+DEMADEX is indicated for the treatment of edema associated with congestive heart failure, renal disease, or hepatic disease. Use of torsemide has been found to be effective for the treatment of edema associated with chronic renal failure. Chronic use of any diuretic in hepatic disease has not been studied in adequate and well-controlled trials.
+DEMADEX is indicated for the treatment of hypertension alone or in combination with other antihypertensive agents.
+Close",Torasemide,Edema
+2259536474,indication_treatment,"INDICATIONS AND USAGE
+DEMADEX is indicated for the treatment of edema associated with congestive heart failure, renal disease, or hepatic disease. Use of torsemide has been found to be effective for the treatment of edema associated with chronic renal failure. Chronic use of any diuretic in hepatic disease has not been studied in adequate and well-controlled trials.
+DEMADEX is indicated for the treatment of hypertension alone or in combination with other antihypertensive agents.
+Close",Torasemide,Edema
+2259533313,indication_treatment,"INDICATIONS AND USAGE
+Dextroamphetamine Sulfate Tablets USP are indicated for:
+ Narcolepsy.
+ Attention Deficit Disorder with Hyperactivity, as an integral part of a total treatment program which typically includes other remedial measures (psychological, educational, social) for a stabilizing effect in pediatric patients (ages 3 to 16 years) with a behavioral syndrome characterized by the following group of developmentally inappropriate symptoms: moderate to severe distractibility, short attention span, hyperactivity, emotional lability, and impulsivity. The diagnosis of this syndrome should not be made with finality when these symptoms are only of comparatively recent origin. Nonlocalizing (soft) neurological signs, learning disability, and abnormal EEG may or may not be present, and a diagnosis of central nervous system dysfunction may or may not be warranted.
+Close",Amphetamine,narcolepsy
+2259533312,indication_treatment,"INDICATIONS AND USAGE
+Dextroamphetamine sulfate tablets, USPí‰Œæare indicated for:
+ Narcolepsy. 
+ Attention Deficit Disorder with Hyperactivity, as an integral part of a total treatment program which typically includes other remedial measures (psychological, educational, social) for a stabilizing effect in pediatric patients (ages 3 to 16 years) with a behavioral syndrome characterized by the following group of developmentally inappropriate symptoms: moderate to severe distractibility, short attention span, hyperactivity, emotional lability, and impulsivity. The diagnosis of this syndrome should not be made with finality when these symptoms are only of comparatively recent origin. Nonlocalizing (soft) neurological signs, learning disability, and abnormal EEG may or may not be present, and a diagnosis of central nervous system dysfunction may or may not be warranted.
+Close",Dextroamphetamine,narcolepsy
+2270629496,indication_treatment,"INDICATIONS AND USAGE
+Dextroamphetamine sulfate tablets, USPí‰Œæare indicated for:
+ Narcolepsy. 
+ Attention Deficit Disorder with Hyperactivity, as an integral part of a total treatment program which typically includes other remedial measures (psychological, educational, social) for a stabilizing effect in pediatric patients (ages 3 to 16 years) with a behavioral syndrome characterized by the following group of developmentally inappropriate symptoms: moderate to severe distractibility, short attention span, hyperactivity, emotional lability, and impulsivity. The diagnosis of this syndrome should not be made with finality when these symptoms are only of comparatively recent origin. Nonlocalizing (soft) neurological signs, learning disability, and abnormal EEG may or may not be present, and a diagnosis of central nervous system dysfunction may or may not be warranted.
+Close",Dextroamphetamine,narcolepsy
+2259533321,indication_treatment,"INDICATIONS AND USAGE
+Diazepam rectal gel is a gel formulation of diazepam intended for rectal administration in the management of selected, refractory, patients with epilepsy, on stable regimens of AEDs, who require intermittent use of diazepam to control bouts of increased seizure activity.
+Evidence to support the use of diazepam rectal gel was adduced in two controlled trials (see CLINICAL PHARMACOLOGY, CLINICAL STUDIES subsection) that enrolled patients with partial onset or generalized convulsive seizures who were identified jointly by their caregivers and physicians as suffering intermittent and periodic episodes of markedly increased seizure activity, sometimes heralded by nonconvulsive symptoms, that for the individual patient were characteristic and were deemed by the prescriber to be of a kind for which a benzodiazepine would ordinarily be administered acutely. Although these clusters or bouts of seizures differed among patients, for any individual patient the clusters of seizure activity were not only stereotypic but were judged by those conducting and participating in these studies to be distinguishable from other seizures suffered by that patient. The conclusion that a patient experienced such unique episodes of seizure activity was based on historical information.
+Close",Diazepam,epilepsy syndrome
+2259533328,indication_treatment,"INDICATIONS AND USAGE
+Diazepam rectal gel is a gel formulation of diazepam intended for rectal administration in the management of selected, refractory, patients with epilepsy, on stable regimens of AEDs, who require intermittent use of diazepam to control bouts of increased seizure activity.
+Evidence to support the use of diazepam rectal gel was adduced in two controlled trials (see CLINICAL PHARMACOLOGY, CLINICAL STUDIES subsection) that enrolled patients with partial onset or generalized convulsive seizures who were identified jointly by their caregivers and physicians as suffering intermittent and periodic episodes of markedly increased seizure activity, sometimes heralded by nonconvulsive symptoms, that for the individual patient were characteristic and were deemed by the prescriber to be of a kind for which a benzodiazepine would ordinarily be administered acutely. Although these clusters or bouts of seizures differed among patients, for any individual patient the clusters of seizure activity were not only stereotypic but were judged by those conducting and participating in these studies to be distinguishable from other seizures suffered by that patient. The conclusion that a patient experienced such unique episodes of seizure activity was based on historical information.
+Close",Diazepam,epilepsy syndrome
+2259533361,indication_treatment,"INDICATIONS AND USAGE
+Diazepam rectal gel is a gel formulation of diazepam intended for rectal administration in the management of selected, refractory, patients with epilepsy, on stable regimens of AEDs, who require intermittent use of diazepam to control bouts of increased seizure activity.
+Evidence to support the use of diazepam rectal gel was adduced in two controlled trials (see CLINICAL PHARMACOLOGY, CLINICAL STUDIES subsection) that enrolled patients with partial onset or generalized convulsive seizures who were identified jointly by their caregivers and physicians as suffering intermittent and periodic episodes of markedly increased seizure activity, sometimes heralded by nonconvulsive symptoms, that for the individual patient were characteristic and were deemed by the prescriber to be of a kind for which a benzodiazepine would ordinarily be administered acutely. Although these clusters or bouts of seizures differed among patients, for any individual patient the clusters of seizure activity were not only stereotypic but were judged by those conducting and participating in these studies to be distinguishable from other seizures suffered by that patient. The conclusion that a patient experienced such unique episodes of seizure activity was based on historical information.
+Close",Diazepam,epilepsy syndrome
+2259533350,indication_treatment,"INDICATIONS AND USAGE
+Diltiazem Hydrochloride Extended-release Capsules, USP (Twice-a-Day Dosage) are indicated for the treatment of hypertension. They may be used alone or in combination with other antihypertensive medications, such as diuretics.
+Close",Diltiazem,hypertension
+2259533393,indication_treatment,"INDICATIONS AND USAGE
+Diltiazem Hydrochloride Extended-release Capsules, USP (Twice-a-Day Dosage) are indicated for the treatment of hypertension. They may be used alone or in combination with other antihypertensive medications, such as diuretics.
+Close",Diltiazem,hypertension
+2259533334,indication_treatment,"INDICATIONS AND USAGE
+Dorzolamide HCl Ophthalmic Solution is indicated in the treatment of elevated intraocular pressure in patients with ocular hypertension or open-angle glaucoma.
+Close",Dorzolamide,hypertension
+2259533343,indication_treatment,"INDICATIONS AND USAGE
+Endocrine Disorders: Primary or secondary adrenocortical insufficiency (hydrocortisone or cortisone is the first choice; synthetic analogs may be used in conjunction with mineralocorticoids where applicable; in infancy mineralocorticoid supplementation is of particular importance).Congenital adrenal hyperplasiaNonsuppurative thyroiditisHypercalcemia associated with cancer
+Rheumatic Disorders: As adjunctive therapy for short-term administration (to tide the patient over an acute episode or exacerbation) in:Psoriatic arthritisRheumatoid arthritis, including juvenile rheumatoid arthritis (selected cases may require low-dose maintenance therapy)Ankylosing spondylitisAcute and subacute bursitisAcute nonspecific tenosynovitisAcute gouty arthritisPost-traumatic osteoarthritisSynovitis of osteoarthritisEpicondylitis
+Collagen Diseases: During an exacerbation or as maintenance therapy in selected cases of:Systemic lupus erythematosusAcute rheumatic carditis
+Dermatologic Diseases:PemphigusBullous dermatitis herpetiformisSevere erythema multiforme (Stevens-Johnson syndrome)Exfoliative dermatitisMycosis fungoidesSevere psoriasisSevere seborrheic dermatitis
+Allergic States: Control of severe or incapacitating allergic conditions intractable to adequate trials of conventional treatment:Seasonal or perennial allergic rhinitisBronchial asthmaContact dermatitisAtopic dermatitisSerum sicknessDrug hypersensitivity reactions
+Ophthalmic Diseases: Severe acute and chronic allergic and inflammatory processes involving the eye and its adnexa, such as:Allergic conjunctivitisKeratitisAllergic corneal marginal ulcersHerpes zoster ophthalmicusIritis and iridocyclitisChorioretinitisAnterior segment inflammationDiffuse posterior uveitis and choroiditisOptic neuritisSympathetic ophthalmia
+Respiratory Diseases:Symptomatic sarcoidosisLoeffler's syndrome not manageable by other meansBerylliosisFulminating or disseminated pulmonary tuberculosis when used concurrently with appropriate antituberculous chemotherapyAspiration pneumonitis
+Hematologic Disorders:Idiopathic thrombocytopenic purpura in adultsSecondary thrombocytopenia in adultsAcquired (autoimmune) hemolytic anemiaErythroblastopenia (RBC anemia)Congenital (erythroid) hypoplastic anemia
+Neoplastic Diseases: For palliative management of:Leukemia and lymphomas in adultsAcute leukemia of childhood
+Edematous States: To induce a diuresis or remission of proteinuria in the nephrotic syndrome, without uremia, of the idiopathic type or that due to lupus erythematosus
+Gastrointestinal Diseases: To tide the patient over a critical period of the disease in:Ulcerative colitisRegional enteritis
+Miscellaneous:Tuberculous meningitis with subarachnoid block or impending block when used concurrently with appropriate antituberculous chemotherapyTrichinosis with neurologic or myocardial involvement
+Diagnostic testing of adrenocortical hyperfunction.
+Close",Dexamethasone,anemia
+2259533346,indication_treatment,"INDICATIONS AND USAGE
+Endocrine Disorders: Primary or secondary adrenocortical insufficiency (hydrocortisone or cortisone is the first choice; synthetic analogs may be used in conjunction with mineralocorticoids where applicable; in infancy mineralocorticoid supplementation is of particular importance).Congenital adrenal hyperplasiaNonsuppurative thyroiditisHypercalcemia associated with cancer
+Rheumatic Disorders: As adjunctive therapy for short-term administration (to tide the patient over an acute episode or exacerbation) in:Psoriatic arthritisRheumatoid arthritis, including juvenile rheumatoid arthritis (selected cases may require low-dose maintenance therapy)Ankylosing spondylitisAcute and subacute bursitisAcute nonspecific tenosynovitisAcute gouty arthritisPost-traumatic osteoarthritisSynovitis of osteoarthritisEpicondylitis
+Collagen Diseases: During an exacerbation or as maintenance therapy in selected cases of:Systemic lupus erythematosusAcute rheumatic carditis
+Dermatologic Diseases:PemphigusBullous dermatitis herpetiformisSevere erythema multiforme (Stevens-Johnson syndrome)Exfoliative dermatitisMycosis fungoidesSevere psoriasisSevere seborrheic dermatitis
+Allergic States: Control of severe or incapacitating allergic conditions intractable to adequate trials of conventional treatment:Seasonal or perennial allergic rhinitisBronchial asthmaContact dermatitisAtopic dermatitisSerum sicknessDrug hypersensitivity reactions
+Ophthalmic Diseases: Severe acute and chronic allergic and inflammatory processes involving the eye and its adnexa, such as:Allergic conjunctivitisKeratitisAllergic corneal marginal ulcersHerpes zoster ophthalmicusIritis and iridocyclitisChorioretinitisAnterior segment inflammationDiffuse posterior uveitis and choroiditisOptic neuritisSympathetic ophthalmia
+Respiratory Diseases:Symptomatic sarcoidosisLoeffler's syndrome not manageable by other meansBerylliosisFulminating or disseminated pulmonary tuberculosis when used concurrently with appropriate antituberculous chemotherapyAspiration pneumonitis
+Hematologic Disorders:Idiopathic thrombocytopenic purpura in adultsSecondary thrombocytopenia in adultsAcquired (autoimmune) hemolytic anemiaErythroblastopenia (RBC anemia)Congenital (erythroid) hypoplastic anemia
+Neoplastic Diseases: For palliative management of:Leukemia and lymphomas in adultsAcute leukemia of childhood
+Edematous States: To induce a diuresis or remission of proteinuria in the nephrotic syndrome, without uremia, of the idiopathic type or that due to lupus erythematosus
+Gastrointestinal Diseases: To tide the patient over a critical period of the disease in:Ulcerative colitisRegional enteritis
+Miscellaneous:Tuberculous meningitis with subarachnoid block or impending block when used concurrently with appropriate antituberculous chemotherapyTrichinosis with neurologic or myocardial involvement
+Diagnostic testing of adrenocortical hyperfunction.
+Close",Betamethasone,rheumatoid arthritis
+2259533347,indication_treatment,"INDICATIONS AND USAGE
+Endocrine Disorders: Primary or secondary adrenocortical insufficiency (hydrocortisone or cortisone is the first choice; synthetic analogs may be used in conjunction with mineralocorticoids where applicable; in infancy mineralocorticoid supplementation is of particular importance).Congenital adrenal hyperplasiaNonsuppurative thyroiditisHypercalcemia associated with cancer
+Rheumatic Disorders: As adjunctive therapy for short-term administration (to tide the patient over an acute episode or exacerbation) in:Psoriatic arthritisRheumatoid arthritis, including juvenile rheumatoid arthritis (selected cases may require low-dose maintenance therapy)Ankylosing spondylitisAcute and subacute bursitisAcute nonspecific tenosynovitisAcute gouty arthritisPost-traumatic osteoarthritisSynovitis of osteoarthritisEpicondylitis
+Collagen Diseases: During an exacerbation or as maintenance therapy in selected cases of:Systemic lupus erythematosusAcute rheumatic carditis
+Dermatologic Diseases:PemphigusBullous dermatitis herpetiformisSevere erythema multiforme (Stevens-Johnson syndrome)Exfoliative dermatitisMycosis fungoidesSevere psoriasisSevere seborrheic dermatitis
+Allergic States: Control of severe or incapacitating allergic conditions intractable to adequate trials of conventional treatment:Seasonal or perennial allergic rhinitisBronchial asthmaContact dermatitisAtopic dermatitisSerum sicknessDrug hypersensitivity reactions
+Ophthalmic Diseases: Severe acute and chronic allergic and inflammatory processes involving the eye and its adnexa, such as:Allergic conjunctivitisKeratitisAllergic corneal marginal ulcersHerpes zoster ophthalmicusIritis and iridocyclitisChorioretinitisAnterior segment inflammationDiffuse posterior uveitis and choroiditisOptic neuritisSympathetic ophthalmia
+Respiratory Diseases:Symptomatic sarcoidosisLoeffler's syndrome not manageable by other meansBerylliosisFulminating or disseminated pulmonary tuberculosis when used concurrently with appropriate antituberculous chemotherapyAspiration pneumonitis
+Hematologic Disorders:Idiopathic thrombocytopenic purpura in adultsSecondary thrombocytopenia in adultsAcquired (autoimmune) hemolytic anemiaErythroblastopenia (RBC anemia)Congenital (erythroid) hypoplastic anemia
+Neoplastic Diseases: For palliative management of:Leukemia and lymphomas in adultsAcute leukemia of childhood
+Edematous States: To induce a diuresis or remission of proteinuria in the nephrotic syndrome, without uremia, of the idiopathic type or that due to lupus erythematosus
+Gastrointestinal Diseases: To tide the patient over a critical period of the disease in:Ulcerative colitisRegional enteritis
+Miscellaneous:Tuberculous meningitis with subarachnoid block or impending block when used concurrently with appropriate antituberculous chemotherapyTrichinosis with neurologic or myocardial involvement
+Diagnostic testing of adrenocortical hyperfunction.
+Close",Dexamethasone,rheumatoid arthritis
+2259531491,indication_symptomatic_relief,"INDICATIONS AND USAGE
+Epinephrine is used to relieve respiratory distress due to bronchospasm, to provide rapid relief of hypersensitivity reactions to drugs and other allergens, and to prolong the action of anesthetics. Its cardiac effects may be of use in restoring cardiac rhythm in cardiac arrest due to various causes, but it is not used in cardiac failure or in hemorrhagic, traumatic, or cardiogenic shock. Epinephrine is used as a hemostatic agent. It is also used in treating mucosal congestion of hay fever, rhinitis, and acute sinusitis; to relieve bronchial asthmatic paroxysms; in syncope due to complete heart block or carotid sinus hypersensitivity; for symptomatic relief of serum sickness, urticaria, angioneurotic edema; for resuscitation in cardiac arrest following anesthetic accidents; in simple (open angle) glaucoma; for relaxation of uterine musculature and to inhibit uterine contractions. Epinephrine Injection can be utilized to prolong the action of anesthetics used in local and regional anesthesia.
+Close",Epinephrine,Serum Sickness
+2259533375,indication_treatment,"INDICATIONS AND USAGE
+Eprosartan mesylate tablets are indicated for the treatment of hypertension. They may be used alone or in combination with other antihypertensives such as diuretics and calcium channel blockers.
+Close",Eprosartan,hypertension
+2259533320,indication_treatment,"INDICATIONS AND USAGE
+Felbamate is not indicated as a first line antiepileptic treatment (see Warnings). Felbamate is recommended for use only in those patients who respond inadequately to alternative treatments and whose epilepsy is so severe that a substantial risk of aplastic anemia and/or liver failure is deemed acceptable in light of the benefits conferred by its use.
+If these criteria are met and the patient has been fully advised of the risk, and has provided written acknowledgement, Felbamate can be considered for either monotherapy or adjunctive therapy in the treatment of partial seizures, with and without generalization, in adults with epilepsy and as adjunctive therapy in the treatment of partial and generalized seizures associated with Lennox-Gastaut syndrome in children.
+Close",Felbamate,epilepsy syndrome
+2259533324,indication_treatment,"INDICATIONS AND USAGE
+Felbamate is not indicated as a first line antiepileptic treatment (see Warnings). Felbamate is recommended for use only in those patients who respond inadequately to alternative treatments and whose epilepsy is so severe that a substantial risk of aplastic anemia and/or liver failure is deemed acceptable in light of the benefits conferred by its use.
+If these criteria are met and the patient has been fully advised of the risk, and has provided written acknowledgement, Felbamate can be considered for either monotherapy or adjunctive therapy in the treatment of partial seizures, with and without generalization, in adults with epilepsy and as adjunctive therapy in the treatment of partial and generalized seizures associated with Lennox-Gastaut syndrome in children.
+Close",Felbamate,epilepsy syndrome
+2259533360,indication_treatment,"INDICATIONS AND USAGE
+Felbamate is not indicated as a first line antiepileptic treatment (see Warnings). Felbamate is recommended for use only in those patients who respond inadequately to alternative treatments and whose epilepsy is so severe that a substantial risk of aplastic anemia and/or liver failure is deemed acceptable in light of the benefits conferred by its use.
+If these criteria are met and the patient has been fully advised of the risk, and has provided written acknowledgement, Felbamate can be considered for either monotherapy or adjunctive therapy in the treatment of partial seizures, with and without generalization, in adults with epilepsy and as adjunctive therapy in the treatment of partial and generalized seizures associated with Lennox-Gastaut syndrome in children.
+Close",Felbamate,epilepsy syndrome
+2259533380,indication_treatment,"INDICATIONS AND USAGE
+Felodipine is indicated for the treatment of hypertension.
+Felodipine may be used alone or concomitantly with other antihypertensive agents.
+Close",Felodipine,hypertension
+2259531666,indication_symptomatic_relief,"INDICATIONS AND USAGE
+Fluticasone Propionate Nasal Spray, USP, is indicated for the management of the nasal symptoms of seasonal and perennial allergic and nonallergic rhinitis in adults and pediatric patients 4 years of age and older.
+Safety and effectiveness of Fluticasone Propionate Nasal Spray, USP, in children below 4 years of age have not been adequately established.
+Close",Fluticasone propionate,Nonallergic rhinitis
+2259533371,indication_treatment,"INDICATIONS AND USAGE
+For the treatment of patients with hypokalemia, with or without metabolic alkalosis; in digitalis intoxication; and in patients with hypokalemic familial periodic paralysis. If hypokalemia is the result of diuretic therapy, consideration should be given to the use of the lower dose of a diuretic, which may be sufficient without leading to hypokalemia.
+For the prevention of hypokalemia in patients who would be at particular risk if hyperkalemia were to develop e.g., digitalized patients or patients with significant cardiac arrhythmias.
+The use of potassium salts in patients receiving diuretics for uncomplicated essential hypertension is often unnecessary when such patients have a normal dietary pattern and when low doses of the diuretic are used. Serum potassium should be checked periodically, however, and if hypokalemia occurs, dietary supplementation with potassium-containing foods may be adequate to control milder cases. In more severe cases, and if dose adjustment of the diuretic is ineffective or unwarranted supplementation with potassium salts may be indicated.
+Close",Potassium chloride,hypertension
+2259533345,indication_treatment,"INDICATIONS AND USAGE
+For use in inflamed hemorrhoids, postirradiation (factitial) proctitis; as an adjunct in the treatment of chronic ulcerative colitis; cryptitis; and other inflammatory conditions of anorectum and pruritus ani.
+Close",Hydrocortisone,ulcerative colitis
+2259533352,indication_treatment,"INDICATIONS AND USAGE
+Fosinopril sodium tablets are indicated for the treatment of hypertension. They may be used alone or in combination with thiazide diuretics.
+Fosinopril sodium tablets are indicated in the management of heart failure as adjunctive therapy when added to conventional therapy including diuretics with or without digitalis (see DOSAGE AND ADMINISTRATION).
+In using fosinopril sodium, consideration should be given to the fact that another angiotensin-converting enzyme inhibitor, captopril, has caused agranulocytosis, particularly in patients with renal impairment or collagen-vascular disease. Available data are insufficient to show that fosinopril sodium does not have a similar risk (see WARNINGS).
+In considering use of fosinopril sodium, it should be noted that in controlled trials ACE inhibitors have an effect on blood pressure that is less in black patients than in non-blacks. In addition, ACE inhibitors (for which adequate data are available) cause a higher rate of angioedema in black than in non-black patients (see WARNINGS, Head and Neck Angioedema and Intestinal Angioedema).
+Close",Fosinopril,hypertension
+2259533396,indication_treatment,"INDICATIONS AND USAGE
+Fosinopril sodium tablets are indicated for the treatment of hypertension. They may be used alone or in combination with thiazide diuretics.
+Fosinopril sodium tablets are indicated in the management of heart failure as adjunctive therapy when added to conventional therapy including diuretics with or without digitalis (see DOSAGE AND ADMINISTRATION).
+In using fosinopril sodium, consideration should be given to the fact that another angiotensin-converting enzyme inhibitor, captopril, has caused agranulocytosis, particularly in patients with renal impairment or collagen-vascular disease. Available data are insufficient to show that fosinopril sodium does not have a similar risk (see WARNINGS).
+In considering use of fosinopril sodium, it should be noted that in controlled trials ACE inhibitors have an effect on blood pressure that is less in black patients than in non-blacks. In addition, ACE inhibitors (for which adequate data are available) cause a higher rate of angioedema in black than in non-black patients (see WARNINGS, Head and Neck Angioedema and Intestinal Angioedema).
+Close",Fosinopril,hypertension
+2259533339,indication_treatment,"INDICATIONS AND USAGE
+Hydrochlorothiazide is indicated in the management of hypertension either as the sole therapeutic agent, or in combination with other antihypertensives. Unlike potassium sparing combination diuretic products, hydrochlorothiazide may be used in those patients in whom the development of hyperkalemia cannot be risked, including patients taking ACE inhibitors.
+
+ Usage in Pregnancy: 
+The routine use of diuretics in an otherwise healthy woman is inappropriate and exposes mother and fetus to unnecessary hazard. Diuretics do not prevent development of toxemia of pregnancy, and there is no satisfactory evidence that they are useful in the treatment of developed toxemia.
+Edema during pregnancy may arise from pathological causes or from the physiologic and mechanical consequences of pregnancy. Diuretics are indicated in pregnancy when edema is due to pathologic causes, just as they are in the absence of pregnancy. Dependent edema in pregnancy resulting from restriction of venous return by the expanded uterus is properly treated through elevation of the lower extremities and use of support hose; use of diuretics to lower intravascular volume in this case is illogical and unnecessary. There is hypervolemia during normal pregnancy which is harmful to neither the fetus nor the mother (in the absence of cardiovascular disease), but which is associated with edema, including generalized edema in the majority of pregnant women. If this edema produces discomfort, increased recumbency will often provide relief. In rare instances this edema may cause extreme discomfort which is not relieved by rest. In these cases a short course of diuretics may provide relief and may be appropriate.
+Close",Hydrochlorothiazide,hypertension
+2259533383,indication_treatment,"INDICATIONS AND USAGE
+Hypertension
+ Sectral is indicated for the management of hypertension in adults. It may be used alone or in combination with other antihypertensive agents, especially thiazide-type diuretics. 
+Ventricular Arrhythmias
+ Sectral is indicated in the management of ventricular premature beats; it reduces the total number of premature beats, as well as the number of paired and multiform ventricular ectopic beats, and R-on-T beats. 
+Close",Acebutolol,hypertension
+2259533367,indication_treatment,"INDICATIONS AND USAGE
+Hypertension
+Amlodipine besylate is indicated for the treatment of hypertension. It may be used alone or in combination with other antihypertensive agents.
+Chronic Stable Angina
+Amlodipine besylate is indicated for the treatment of chronic stable angina. Amlodipine besylate may be used alone or in combination with other antianginal agents.
+Vasospastic Angina (Prinzmetal's or Variant Angina)
+Amlodipine besylate is indicated for the treatment of confirmed or suspected vasospastic angina. Amlodipine besylate may be used as monotherapy or in combination with other antianginal drugs.
+Close",Amlodipine,hypertension
+2259533379,unrelated,"INDICATIONS AND USAGE
+Hypertension.
+Close",Methyldopa,hypertension
+2259533359,indication_treatment,"INDICATIONS AND USAGE
+HypertensionEnalapril maleate is indicated for the treatment of hypertension. 
+  
+Enalapril maleate is effective alone or in combination with other antihypertensive agents, especially thiazide-type diuretics. The blood pressure lowering effects of enalapril maleate and thiazides are approximately additive.
+  
+Heart FailureEnalapril maleate is indicated for the treatment of symptomatic congestive heart failure, usually in combination with diuretics and digitalis. In these patients enalapril maleate improves symptoms, increases survival, and decreases the frequency of hospitalization (see CLINICAL PHARMACOLOGY, 
+  Heart Failure, Mortality Trials for details and limitations of survival trials).
+  
+Asymptomatic Left Ventricular DysfunctionIn clinically stable asymptomatic patients with left ventricular dysfunction (ejection fraction í¢äóÁŒ_35 percent), enalapril maleate decreases the rate of development of overt heart failure and decreases the incidence of hospitalization for heart failure. (See CLINICAL PHARMACOLOGY, 
+  Heart Failure, Mortality Trials for details and limitations of survival trials.)
+  
+In using enalapril maleate, consideration should be given to the fact that another angiotensin converting enzyme inhibitor, captopril, has caused agranulocytosis, particularly in patients with renal impairment or collagen vascular disease, and that available data are insufficient to show that enalapril maleate does not have a similar risk. (See WARNINGS.)
+  
+In considering use of enalapril maleate, it should be noted that in controlled clinical trials ACE inhibitors have an effect on blood pressure that is less in black patients than in non-blacks. In addition, it should be noted that black patients receiving ACE inhibitors have been reported to have a higher incidence of angioedema compared to non-blacks. (See WARNINGS, 
+  Head and Neck Angioedema.)
+  
+Close",Enalapril,hypertension
+2259533402,indication_treatment,"INDICATIONS AND USAGE
+HypertensionEnalapril maleate is indicated for the treatment of hypertension. 
+  
+Enalapril maleate is effective alone or in combination with other antihypertensive agents, especially thiazide-type diuretics. The blood pressure lowering effects of enalapril maleate and thiazides are approximately additive.
+  
+Heart FailureEnalapril maleate is indicated for the treatment of symptomatic congestive heart failure, usually in combination with diuretics and digitalis. In these patients enalapril maleate improves symptoms, increases survival, and decreases the frequency of hospitalization (see CLINICAL PHARMACOLOGY, 
+  Heart Failure, Mortality Trials for details and limitations of survival trials).
+  
+Asymptomatic Left Ventricular DysfunctionIn clinically stable asymptomatic patients with left ventricular dysfunction (ejection fraction í¢äóÁŒ_35 percent), enalapril maleate decreases the rate of development of overt heart failure and decreases the incidence of hospitalization for heart failure. (See CLINICAL PHARMACOLOGY, 
+  Heart Failure, Mortality Trials for details and limitations of survival trials.)
+  
+In using enalapril maleate, consideration should be given to the fact that another angiotensin converting enzyme inhibitor, captopril, has caused agranulocytosis, particularly in patients with renal impairment or collagen vascular disease, and that available data are insufficient to show that enalapril maleate does not have a similar risk. (See WARNINGS.)
+  
+In considering use of enalapril maleate, it should be noted that in controlled clinical trials ACE inhibitors have an effect on blood pressure that is less in black patients than in non-blacks. In addition, it should be noted that black patients receiving ACE inhibitors have been reported to have a higher incidence of angioedema compared to non-blacks. (See WARNINGS, 
+  Head and Neck Angioedema.)
+  
+Close",Enalapril,hypertension
+2259533374,indication_treatment,"INDICATIONS AND USAGE
+Indapamide tablets are indicated for the treatment of hypertension, alone or in combination with other antihypertensive drugs.
+Indapamide tablets are also indicated for the treatment of salt and fluid retention associated with congestive heart failure.
+ Usage in Pregnancy: The routine use of diuretics in an otherwise healthy woman is inappropriate and exposes mother and fetus to unnecessary hazard (see PRECAUTIONS). Diuretics do not prevent development of toxemia of pregnancy, and there is no satisfactory evidence that they are useful in the treatment of developed toxemia.
+Edema during pregnancy may arise from pathological causes or from the physiologic and mechanical consequences of pregnancy. Indapamide is indicated in pregnancy when edema is due to pathologic causes, just as it is in the absence of pregnancy (however, see PRECAUTIONS). Dependent edema in pregnancy, resulting from restriction of venous return by the expanded uterus, is properly treated through elevation of the lower extremities and use of support hose; use of diuretics to lower intravascular volume in this case is illogical and unnecessary. There is hypervolemia during normal pregnancy which is not harmful to either the fetus or the mother (in the absence of cardiovascular disease), but which is associated with edema, including generalized edema in the majority of pregnant women. If this edema produces discomfort, increased recumbency will often provide relief. In rare instances, this edema may cause extreme discomfort which is not relieved by rest. In these cases, a short course of diuretics may provide relief and may be appropriate.
+Close",Indapamide,hypertension
+2259533390,indication_treatment,"INDICATIONS AND USAGE
+Labetalol HCl injection is indicated for control of blood pressure in severe hypertension.
+Close",Labetalol,hypertension
+2259533366,indication_treatment,"INDICATIONS AND USAGE
+Methyclothiazide tablets are indicated in the management of hypertension either as the sole therapeutic agent or to enhance the effect of other antihypertensive drugs in the more severe forms of hypertension.
+Methyclothiazide tablets are indicated as adjunctive therapy in edema associated with congestive heart failure, hepatic cirrhosis, and corticosteroid and estrogen therapy.
+Methyclothiazide tablets have also been found useful in edema due to various forms of renal dysfunction such as the nephrotic syndrome, acute glomerulonephritis, and chronic renal failure.
+Usage in Pregnancy
+The routine use of diuretics in an otherwise healthy pregnant woman is inappropriate and exposes mother and fetus to unnecessary hazard. Diuretics do not prevent development of toxemia of pregnancy, and there is no satisfactory evidence that they are useful in the treatment of developed toxemia.
+Edema during pregnancy may arise from pathological causes or from the physiological and mechanical consequences of pregnancy. Thiazides are indicated in pregnancy when edema is due to pathological causes, just as they are in the absence of pregnancy (see PRECAUTIONS: Pregnancy). Dependent edema in pregnancy, resulting from restriction of venous return by the expanded uterus, is properly treated through elevation of the lower extremities and use of support hose; use of diuretics to lower intravascular volume in this case is illogical and unnecessary. There is hypervolemia during normal pregnancy that is harmful to neither the fetus nor the mother (in the absence of cardiovascular disease), but that is associated with edema, including generalized edema, in the majority of pregnant women. If this edema produces discomfort, increased recumbency will often provide relief. In rare instances, this edema may cause extreme discomfort that is not relieved by rest. In these cases, a short course of diuretics may provide relief and may be appropriate.
+Close",Methyclothiazide,hypertension
+2259533399,indication_treatment,"INDICATIONS AND USAGE
+MYKROX Tablets are indicated for the treatment of hypertension, alone or in combination with other antihypertensive drugs of a different class. 
+ MYKROX TABLETS HAVE NOT BEEN EVALUATED FOR THE TREATMENT OF CONGESTIVE HEART FAILURE OR FLUID RETENTION DUE TO RENAL OR HEPATIC DISEASE AND THE CORRECT DOSAGE FOR THESE CONDITIONS AND OTHER EDEMA STATES HAS NOT BEEN ESTABLISHED.  
+ SINCE A SAFE AND EFFECTIVE DIURETIC DOSE HAS NOT BEEN ESTABLISHED, MYKROX TABLETS SHOULD NOT BE USED WHEN DIURESIS IS DESIRED.  
+Usage in Pregnancy
+The routine use of diuretics in an otherwise healthy woman is inappropriate and exposes mother and fetus to unnecessary hazard. Diuretics do not prevent development of toxemia of pregnancy, and there is no evidence that they are useful in the treatment of developed toxemia (see PRECAUTIONS).
+Edema during pregnancy may arise from pathologic causes or from the physiologic and mechanical consequences of pregnancy. MYKROX is not indicated for the treatment of edema in pregnancy. Dependent edema in pregnancy resulting from restriction of venous return by the expanded uterus is properly treated through elevation of the lower extremities and use of support hose; use of diuretics to lower intravascular volume in this case is illogical and unnecessary. There is hypervolemia during normal pregnancy which is harmful to neither the fetus nor the mother (in the absence of cardiovascular disease), but which is associated with edema, including generalized edema, in the majority of pregnant women. If this edema produces discomfort, increased recumbency will often provide relief. In rare instances, this edema may cause extreme discomfort which is not relieved by rest. In these cases, a short course of diuretics may be appropriate.
+Close",Metolazone,hypertension
+2259533382,indication_treatment,"INDICATIONS AND USAGE
+Nifedipine extended-release tablets is indicated for the treatment of hypertension. It may be used alone or in combination with other antihypertensive agents.
+Close",Nifedipine,hypertension
+2259533394,indication_treatment,"INDICATIONS AND USAGE
+Nisoldipine is indicated for the treatment of hypertension. It maybe used alone or in combination with other antihypertensive agents.
+Close",Nisoldipine,hypertension
+2259533398,indication_treatment,"INDICATIONS AND USAGE
+Ocupress Ophthalmic Solution, 1%, has been shown to be effective in lowering intraocular pressure and may be used in patients with chronic open-angle glaucoma and intraocular hypertension. It may be used alone or in combination with other intraocular pressure lowering medications.
+Close",Carteolol,hypertension
+2259536382,indication_symptomatic_relief,"INDICATIONS AND USAGE
+Perennial Allergic Rhinitis
+Cetirizine hydrochloride syrup is indicated for the relief of symptoms associated with perennial allergic rhinitis due to allergens such as dust mites, animal dander and molds in children 6 to 23 months of age. Symptoms treated effectively include sneezing, rhinorrhea, postnasal discharge, nasal pruritus, ocular pruritus, and tearing. 
+Chronic Urticaria
+Cetirizine hydrochloride syrup is indicated for the treatment of the uncomplicated skin manifestations of chronic idiopathic urticaria in adults and children 6 months to 5 years of age. It significantly reduces the occurrence, severity, and duration of hives and significantly reduces pruritus.
+Close",Cetirizine,Pruritus
+2259536480,indication_symptomatic_relief,"INDICATIONS AND USAGE
+Perennial Allergic Rhinitis
+Cetirizine hydrochloride syrup is indicated for the relief of symptoms associated with perennial allergic rhinitis due to allergens such as dust mites, animal dander and molds in children 6 to 23 months of age. Symptoms treated effectively include sneezing, rhinorrhea, postnasal discharge, nasal pruritus, ocular pruritus, and tearing. 
+Chronic Urticaria
+Cetirizine hydrochloride syrup is indicated for the treatment of the uncomplicated skin manifestations of chronic idiopathic urticaria in adults and children 6 months to 5 years of age. It significantly reduces the occurrence, severity, and duration of hives and significantly reduces pruritus.
+Close",Cetirizine,Pruritus
+2259533377,indication_treatment,"INDICATIONS AND USAGE
+Pindolol tablets are indicated in the management of hypertension. It may be used alone or concomitantly with other antihypertensive agents, particularly with a thiazide-type diuretic.
+Close",Pindolol,hypertension
+2259533395,indication_treatment,"INDICATIONS AND USAGE
+Prazosin hydrochloride capsules are indicated in the treatment of hypertension. They can be used alone or in combination with other antihypertensive drugs such as diuretics or beta-adrenergic blocking agents.
+Close",Prazosin,hypertension
+2259533353,indication_treatment,"INDICATIONS AND USAGE
+Thalitoneí‰Œ¬ (chlorthalidone USP) is indicated in the management of hypertension either alone or in combination with other antihypertensive drugs.
+Chlorthalidone is indicated as adjunctive therapy in edema associated with congestive heart failure, hepatic cirrhosis, and corticosteroid and estrogen therapy. 
+Chlorthalidone has also been found useful in edema due to various forms of renal dysfunction such as nephrotic syndrome, acute glomerulonephritis, and chronic renal failure.
+ Usage in Pregnancyí‰Œæ The routine use of diuretics in an otherwise healthy woman is inappropriate and exposes mother and fetus to unnecessary hazard. Diuretics do not prevent development of toxemia of pregnancy and there is no satisfactory evidence that they are useful in the treatment of developed toxemia.
+Edema during pregnancy may arise from pathological causes or from the physiologic and mechanical consequences of pregnancy. Chlorthalidone is indicated in pregnancy when edema is due to pathologic causes just as it is in the absence of pregnancy (however, see WARNINGS below). Dependent edema in pregnancy resulting from restriction of venous return by the expanded uterus is properly treated through elevation of the lower extremities and use of support hose; use of diuretics to lower intravascular volume in this case is illogical and unnecessary. There is hypervolemia during normal pregnancy that is harmful to neither the fetus nor the mother (in the absence of cardiovascular disease) but that is associated with edema, including generalized edema, in the majority of pregnant women. If this edema produces discomfort, increased recumbency will often provide relief. In rare instances, this edema may cause extreme discomfort that is not relieved by rest. In these cases, a short course of diuretics may provide relief and may be appropriate.
+Close",Chlorthalidone,hypertension
+2259533392,indication_treatment,"INDICATIONS AND USAGE
+Thalitoneí‰Œ¬ (chlorthalidone USP) is indicated in the management of hypertension either alone or in combination with other antihypertensive drugs.
+Chlorthalidone is indicated as adjunctive therapy in edema associated with congestive heart failure, hepatic cirrhosis, and corticosteroid and estrogen therapy. 
+Chlorthalidone has also been found useful in edema due to various forms of renal dysfunction such as nephrotic syndrome, acute glomerulonephritis, and chronic renal failure.
+ Usage in Pregnancyí‰Œæ The routine use of diuretics in an otherwise healthy woman is inappropriate and exposes mother and fetus to unnecessary hazard. Diuretics do not prevent development of toxemia of pregnancy and there is no satisfactory evidence that they are useful in the treatment of developed toxemia.
+Edema during pregnancy may arise from pathological causes or from the physiologic and mechanical consequences of pregnancy. Chlorthalidone is indicated in pregnancy when edema is due to pathologic causes just as it is in the absence of pregnancy (however, see WARNINGS below). Dependent edema in pregnancy resulting from restriction of venous return by the expanded uterus is properly treated through elevation of the lower extremities and use of support hose; use of diuretics to lower intravascular volume in this case is illogical and unnecessary. There is hypervolemia during normal pregnancy that is harmful to neither the fetus nor the mother (in the absence of cardiovascular disease) but that is associated with edema, including generalized edema, in the majority of pregnant women. If this edema produces discomfort, increased recumbency will often provide relief. In rare instances, this edema may cause extreme discomfort that is not relieved by rest. In these cases, a short course of diuretics may provide relief and may be appropriate.
+Close",Chlorthalidone,hypertension
+2259536377,indication_treatment,"INDICATIONS AND USAGE
+Torsemide tablets are indicated for the treatment of edema associated with congestive heart failure, renal disease, or hepatic disease. Use of torsemide has been found to be effective for the treatment of edema associated with chronic renal failure. Chronic use of any diuretic in hepatic disease has not been studied in adequate and well-controlled trials.
+Torsemide tablets are indicated for the treatment of hypertension alone or in combination with other antihypertensive agents.
+Close",Torasemide,Edema
+2259536475,indication_treatment,"INDICATIONS AND USAGE
+Torsemide tablets are indicated for the treatment of edema associated with congestive heart failure, renal disease, or hepatic disease. Use of torsemide has been found to be effective for the treatment of edema associated with chronic renal failure. Chronic use of any diuretic in hepatic disease has not been studied in adequate and well-controlled trials.
+Torsemide tablets are indicated for the treatment of hypertension alone or in combination with other antihypertensive agents.
+Close",Torasemide,Edema
+2259536368,indication_treatment,"INDICATIONS AND USAGE
+Tranexamic acid injection is indicated in patients with hemophilia for short-term use (two to eight days) to reduce or prevent hemorrhage and reduce the need for replacement therapy during and following tooth extraction.
+Close",Tranexamic acid,Hemorrhage
+2259536369,indication_treatment,"INDICATIONS AND USAGE
+Tranexamic acid injection is indicated in patients with hemophilia for short-term use (two to eight days) to reduce or prevent hemorrhage and reduce the need for replacement therapy during and following tooth extraction.
+Close",Tranexamic acid,Hemorrhage
+2259536370,indication_treatment,"INDICATIONS AND USAGE
+Tranexamic acid injection is indicated in patients with hemophilia for short-term use (two to eight days) to reduce or prevent hemorrhage and reduce the need for replacement therapy during and following tooth extraction.
+Close",Tranexamic acid,Hemorrhage
+2259536371,indication_treatment,"INDICATIONS AND USAGE
+Tranexamic acid injection is indicated in patients with hemophilia for short-term use (two to eight days) to reduce or prevent hemorrhage and reduce the need for replacement therapy during and following tooth extraction.
+Close",Tranexamic acid,Hemorrhage
+2259536466,indication_treatment,"INDICATIONS AND USAGE
+Tranexamic acid injection is indicated in patients with hemophilia for short-term use (two to eight days) to reduce or prevent hemorrhage and reduce the need for replacement therapy during and following tooth extraction.
+Close",Tranexamic acid,Hemorrhage
+2259536467,indication_treatment,"INDICATIONS AND USAGE
+Tranexamic acid injection is indicated in patients with hemophilia for short-term use (two to eight days) to reduce or prevent hemorrhage and reduce the need for replacement therapy during and following tooth extraction.
+Close",Tranexamic acid,Hemorrhage
+2259536468,indication_treatment,"INDICATIONS AND USAGE
+Tranexamic acid injection is indicated in patients with hemophilia for short-term use (two to eight days) to reduce or prevent hemorrhage and reduce the need for replacement therapy during and following tooth extraction.
+Close",Tranexamic acid,Hemorrhage
+2259536469,indication_treatment,"INDICATIONS AND USAGE
+Tranexamic acid injection is indicated in patients with hemophilia for short-term use (two to eight days) to reduce or prevent hemorrhage and reduce the need for replacement therapy during and following tooth extraction.
+Close",Tranexamic acid,Hemorrhage
+2259537003,indication_treatment,"INDICATIONS AND USAGE
+Tranexamic acid injection is indicated in patients with hemophilia for short-term use (two to eight days) to reduce or prevent hemorrhage and reduce the need for replacement therapy during and following tooth extraction.
+Close",Tranexamic acid,Hemorrhage
+2259533322,indication_treatment,"INDICATIONS AND USAGE
+Zarontin is indicated for the control of absence (petit mal) epilepsy.
+Close",Ethosuximide,epilepsy syndrome
+2259533325,indication_treatment,"INDICATIONS AND USAGE
+Zarontin is indicated for the control of absence (petit mal) epilepsy.
+Close",Ethosuximide,epilepsy syndrome
+2259536372,indication_treatment,"INDICATIONS AND USAGE:
+Tranexamic acid injection is indicated in patients with hemophilia for short-term use (two to eight days) to reduce or prevent hemorrhage and reduce the need for replacement therapy during and following tooth extraction.
+Close",Tranexamic acid,Hemorrhage
+2259536470,indication_treatment,"INDICATIONS AND USAGE:
+Tranexamic acid injection is indicated in patients with hemophilia for short-term use (two to eight days) to reduce or prevent hemorrhage and reduce the need for replacement therapy during and following tooth extraction.
+Close",Tranexamic acid,Hemorrhage
+4852976010,effect,"INDICATIONS AND USAGE
+CLEOCIN T Topical Solution, CLEOCIN T Topical Gel and CLEOCIN T Topical Lotion are indicated in the treatment of acne vulgaris. In view of the potential for diarrhea, bloody diarrhea and pseudomembranous colitis, the physician should consider whether other agents are more appropriate (see CONTRAINDICATIONS, WARNINGS and ADVERSE REACTIONS).
+Close",Clindamycin,COLITIS
+4852988929,contraindication,"INDICATIONS AND USAGE
+Baclofen is useful for the alleviation of signs and symptoms of spasticity resulting from multiple sclerosis, particularly for the relief of flexor spasms and concomitant pain, clonus, and muscular rigidity.
+Patients should have reversible spasticity so that baclofen treatment will aid in restoring residual function. Baclofen may also be of some value in patients with spinal cord injuries and other spinal cord diseases. 
+Baclofen is not indicated in the treatment of skeletal muscle spasm resulting from rheumatic disorders. The efficacy of baclofen in stroke, cerebral palsy, and ParkinsonÃ¢â‚¬â„¢s disease has not been established and, therefore, it is not recommended for these conditions.
+Close",Baclofen,skeletal muscle spasm
+4852989370,indication_treatment,"INDICATIONS AND USAGE
+
+Hypertension
+AVAPRO (irbesartan) is indicated for the treatment of hypertension. It may be used alone or in combination with other antihypertensive agents.
+Nephropathy in Type 2 Diabetic Patients
+AVAPRO is indicated for the treatment of diabetic nephropathy with an elevated serum creatinine and proteinuria (>300 mg/day) in patients with type 2 diabetes and hypertension. In this population, AVAPRO reduces the rate of progression of nephropathy as measured by the occurrence of doubling of serum creatinine or end-stage renal disease (need for dialysis or renal transplantation) (see CLINICAL PHARMACOLOGY: Clinical Studies).
+Close",Irbesartan,hypertension
+4852995415,contraindication,"1 INDICATIONS AND USAGE
+
+1.1 Monotherapy and Combination Therapy
+ACTOS is indicated as an adjunct to diet and exercise to improve glycemic control in adults with type 2 diabetes mellitus in multiple clinical settings [see Clinical Studies (14)].
+1.2 Important Limitation of Use
+ ACTOS exerts its antihyperglycemic effect only in the presence of endogenous insulin. ACTOS should not be used to treat type 1 diabetes or diabetic ketoacidosis, as it would not be effective in these settings. 
+ Use caution in patients with liver disease [see Warnings and Precautions (5.3)]. 
+Close",Pioglitazone,DIABETIC KETOACIDOSIS
+4853004612,indication_symptomatic_relief,"INDICATIONS AND USAGE
+Augmented Betamethasone Dipropionate Ointment is indicated for relief of the inflammatory and pruritic manifestations of corticosteroid-responsive dermatoses.
+Close",Betamethasone,corticosteroid-responsive dermatoses
+4853006850,effect,"INDICATIONS AND USAGE
+ ClindacinÃ¢â‚¬Â¢PÃ‚Â® is indicated in the treatment of acne vulgaris. In view of the potential for diarrhea, bloody diarrhea and pseudomembranous colitis, the physician should consider whether other agents are more appropriate (see CONTRAINDICATIONS, WARNINGS and ADVERSE REACTIONS).
+Close",Clindamycin,DIARRHEA
+4853014069,effect,"*Early clinical studies and incidence rates from early clinical experience with allopurinol suggested that these adverse reactions were found to occur at a rate of greater than 1%. The most frequent event observed was acute attacks of gout following the initiation of therapy. Analyses of current usage suggest that the incidence of these adverse reactions is now less than 1%. The explanation for this decrease has not been determined, but it may be due to following recommended usage (see ADVERSE REACTIONS introduction, INDICATIONS AND USAGE, PRECAUTIONS, and DOSAGE AND ADMINISTRATION).",Allopurinol,GOUT
+4856190901,contraindication,"INDICATIONS AND USAGE
+Ketoconazole tablets are not indicated for treatment of onychomycosis, cutaneous dermatophyte infections, or Candida infections.
+Ketoconazole tablets should be used only when other effective antifungal therapy is not available or tolerated and the potential benefits are considered to outweigh the potential risks.
+Ketoconazole tablets are indicated for the treatment of the following systemic fungal infections in patients who have failed or who are intolerant to other therapies: blastomycosis, coccidioidomycosis, histoplasmosis, chromomycosis, and paracoccidioidomycosis. Ketoconazole tablets should not be used for fungal meningitis because it penetrates poorly into the cerebrospinal fluid.
+Close",Ketoconazole,MENINGITIS
+4856231507,effect,"INDICATIONS AND USAGE
+Felbamate is not indicated as a first line antiepileptic treatment (see Warnings). Felbamate is recommended for use only in those patients who respond inadequately to alternative treatments and whose epilepsy is so severe that a substantial risk of aplastic anemia and/or liver failure is deemed acceptable in light of the benefits conferred by its use.
+If these criteria are met and the patient has been fully advised of the risk, and has provided written acknowledgement, Felbamate can be considered for either monotherapy or adjunctive therapy in the treatment of partial seizures, with and without generalization, in adults with epilepsy and as adjunctive therapy in the treatment of partial and generalized seizures associated with Lennox-Gastaut syndrome in children.
+Close",Felbamate,anemia
+4856234731,indication_treatment,"INDICATIONS AND USAGE
+Tranexamic acid injection is indicated in patients with hemophilia for short-term use (two to eight days) to reduce or prevent hemorrhage and reduce the need for replacement therapy during and following tooth extraction.
+Close",Tranexamic acid,Hemorrhage
+4856260800,indication_symptomatic_relief,"INDICATIONS AND USAGE
+Fluticasone Propionate Nasal Spray, USP, is indicated for the management of the nasal symptoms of seasonal and perennial allergic and nonallergic rhinitis in adults and pediatric patients 4 years of age and older.
+Safety and effectiveness of Fluticasone Propionate Nasal Spray, USP, in children below 4 years of age have not been adequately established.
+Close",Fluticasone propionate,Nonallergic rhinitis
+4856265836,contraindication,"INDICATIONS AND USAGE
+Desferal is indicated for the treatment of acute iron intoxication and of chronic iron overload due to transfusion-dependent anemias.
+ Acute Iron Intoxication 
+Desferal is an adjunct to, and not a substitute for, standard measures used in treating acute iron intoxication, which may include the following: induction of emesis with syrup of ipecac; gastric lavage; suction and maintenance of a clear airway; control of shock with intravenous fluids, blood, oxygen, and vasopressors; and correction of acidosis.
+ Chronic Iron Overload 
+Desferal can promote iron excretion in patients with secondary iron overload from multiple transfusions (as may occur in the treatment of some chronic anemias, including thalassemia). Long-term therapy with Desferal slows accumulation of hepatic iron and retards or eliminates progression of hepatic fibrosis.
+Iron mobilization with Desferal is relatively poor in patients under the age of 3 years with relatively little iron overload. The drug should ordinarily not be given to such patients unless significant iron mobilization (e.g., 1 mg or more of iron per day) can be demonstrated.
+Desferal is not indicated for the treatment of primary hemochromatosis, since phlebotomy is the method of choice for removing excess iron in this disorder.
+Close",Deferoxamine,HEMOCHROMATOSIS
+4856329726,indication_treatment,"INDICATIONS AND USAGE
+Diazepam rectal gel is a gel formulation of diazepam intended for rectal administration in the management of selected, refractory, patients with epilepsy, on stable regimens of AEDs, who require intermittent use of diazepam to control bouts of increased seizure activity.
+Evidence to support the use of diazepam rectal gel was adduced in two controlled trials (see CLINICAL PHARMACOLOGY, CLINICAL STUDIES subsection) that enrolled patients with partial onset or generalized convulsive seizures who were identified jointly by their caregivers and physicians as suffering intermittent and periodic episodes of markedly increased seizure activity, sometimes heralded by nonconvulsive symptoms, that for the individual patient were characteristic and were deemed by the prescriber to be of a kind for which a benzodiazepine would ordinarily be administered acutely. Although these clusters or bouts of seizures differed among patients, for any individual patient the clusters of seizure activity were not only stereotypic but were judged by those conducting and participating in these studies to be distinguishable from other seizures suffered by that patient. The conclusion that a patient experienced such unique episodes of seizure activity was based on historical information.
+Close",Diazepam,epilepsy syndrome
+4856332405,indication_symptomatic_relief,"INDICATIONS AND USAGE
+Clemastine Fumarate Syrup is indicated for the relief of symptoms associated with allergic rhinitis such as sneezing, rhinorrhea, pruritus and lacrimation. Clemastine Fumarate Syrup is indicated for use in pediatric populations (age 6 years through 12) and adults (see DOSAGE AND ADMINISTRATION).
+It should be noted that clemastine fumarate is indicated for the relief of mild uncomplicated allergic skin manifestations of urticaria and angioedema at the 2 mg dosage level only. 
+Close",Clemastine,Pruritus
+4856341786,indication_treatment,"INDICATIONS AND USAGE
+Dextroamphetamine sulfate tablets, USPí‰Œæare indicated for:
+ Narcolepsy. 
+ Attention Deficit Disorder with Hyperactivity, as an integral part of a total treatment program which typically includes other remedial measures (psychological, educational, social) for a stabilizing effect in pediatric patients (ages 3 to 16 years) with a behavioral syndrome characterized by the following group of developmentally inappropriate symptoms: moderate to severe distractibility, short attention span, hyperactivity, emotional lability, and impulsivity. The diagnosis of this syndrome should not be made with finality when these symptoms are only of comparatively recent origin. Nonlocalizing (soft) neurological signs, learning disability, and abnormal EEG may or may not be present, and a diagnosis of central nervous system dysfunction may or may not be warranted.
+Close",Dextroamphetamine,narcolepsy
+4856383619,indication_symptomatic_relief,"INDICATIONS AND USAGE
+Carefully consider the potential benefits and risks of sulindac and other treatment options before deciding to use sulindac. Use the lowest effective dose for the shortest duration consistent with individual patient treatment goals (see WARNINGS).
+Sulindac is indicated for acute or long-term use in the relief of signs and symptoms of the following:
+1. Osteoarthritis
+2. Rheumatoid arthritis**
+3. Ankylosing spondylitis
+4. Acute painful shoulder (Acute subacromial bursitis/supraspinatus tendinitis)
+5. Acute gouty arthritis
+Close",Sulindac,Osteoarthritis
+4856390611,indication_treatment,"1 INDICATIONS AND USAGE
+
+1.1 Major Depressive Disorder
+Venlafaxine hydrochloride extended-release capsules are indicated for the treatment of major depressive disorder (MDD). Efficacy was established in three short-term (4, 8, and 12 weeks) and two long-term, maintenance trials.
+1.4 Panic Disorder
+Venlafaxine hydrochloride extended-release capsules are indicated for the treatment of Panic Disorder (PD), with or without agoraphobia. Efficacy was established in two 12-week placebo-controlled trials.
+Close",Venlafaxine,panic disorder
+4856404250,contraindication,"MAXALT is indicated for the acute treatment of migraine attacks with or without aura in adults.
+
+MAXALT is not intended for the prophylactic therapy of migraine or for use in the management of hemiplegic or basilar migraine (see CONTRAINDICATIONS). Safety and effectiveness of MAXALT have not been established for cluster headache, which is present in an older, predominantly male population.",MAXALT,basilar migraine
+4856416544,indication_symptomatic_relief,"INDICATIONS AND USAGE
+Epinephrine is used to relieve respiratory distress due to bronchospasm, to provide rapid relief of hypersensitivity reactions to drugs and other allergens, and to prolong the action of anesthetics. Its cardiac effects may be of use in restoring cardiac rhythm in cardiac arrest due to various causes, but it is not used in cardiac failure or in hemorrhagic, traumatic, or cardiogenic shock. Epinephrine is used as a hemostatic agent. It is also used in treating mucosal congestion of hay fever, rhinitis, and acute sinusitis; to relieve bronchial asthmatic paroxysms; in syncope due to complete heart block or carotid sinus hypersensitivity; for symptomatic relief of serum sickness, urticaria, angioneurotic edema; for resuscitation in cardiac arrest following anesthetic accidents; in simple (open angle) glaucoma; for relaxation of uterine musculature and to inhibit uterine contractions. Epinephrine Injection can be utilized to prolong the action of anesthetics used in local and regional anesthesia.
+Close",Epinephrine,Serum Sickness
+4856416787,effect,"INDICATIONS AND USAGE
+AMICAR is useful in enhancing hemostasis when fibrinolysis contributes to bleeding. In life-threatening situations, transfusion of appropriate blood products and other emergency measures may be required.
+Fibrinolytic bleeding may frequently be associated with surgical complications following heart surgery (with or without cardiac bypass procedures) and portacaval shunt; hematological disorders such as amegakaryocytic thrombocytopenia (accompanying aplastic anemia); acute and life-threatening abruptio placentae; hepatic cirrhosis; and neoplastic disease such as carcinoma of the prostate, lung, stomach, and cervix.
+Urinary fibrinolysis, usually a normal physiological phenomenon, may contribute to excessive urinary tract fibrinolytic bleeding associated with surgical hematuria (following prostatectomy and nephrectomy) or nonsurgical hematuria (accompanying polycystic or neoplastic diseases of the genitourinary system). (See WARNINGS.)
+Close",Aminocaproic Acid,ABRUPTIO PLACENTAE
+4856421062,indication_treatment,"
+                     
+
+                        
+
+                           
+Acromegaly
+Octreotide Acetate Injection is indicated to reduce blood levels of growth hormone and IGF-I (somatomedin C) in acromegaly patients who have had inadequate response to or cannot be treated with surgical resection, pituitary irradiation, and bromocriptine mesylate at maximally tolerated doses. åÊThe goal is to achieve normalization of growth hormone and IGF-I (somatomedin C) levels (see 
+
+                        
+
+                           
+DOSAGE AND ADMINISTRATION
+Improvement in clinical signs and symptoms or reduction in tumor size or rate of growth were not shown in clinical trials performed with Octreotide Acetate Injection; these trials were not optimally designed to detect such effects.
+
+                     
+
+                        
+
+                           
+Carcinoid Tumors
+Octreotide Acetate Injection is indicated for the symptomatic treatment of patients with metastatic carcinoid tumors where it suppresses or inhibits the severe diarrhea and flushing episodes associated with the disease.
+Octreotide Acetate Injection studies were not designed to show an effect on the size, rate of growth or development of metastases.
+
+                     
+
+                        
+
+                           
+Vasoactive Intestinal Peptide Tumors
+
+                     
+
+                        
+
+                           
+(VIPomas)
+Octreotide Acetate Injection is indicated for the treatment of the profuse watery diarrhea associated with VIP-secreting tumors. åÊOctreotide Acetate Injection studies were not designed to show an effect on the size, rate of growth or development of metastases.",OCTREOTIDE,ACROMEGALY
+4856422638,indication_treatment,"['Doxorubicin hydrochloride (HCl) for injection is an anthracycline topoisomerase II inhibitor indicated: ', '\n                           ', 'as a component of multiagent adjuvant chemotherapy for treatment of women with axillary lymph node involvement following resection of primary breast cancer (', '1.1', 'for the treatment of: acute lymphoblastic leukemia, acute myeloblastic leukemia, Hodgkin lymphoma, Non-Hodgkin lymphoma, metastatic breast cancer, metastatic Wilms‰Ûª tumor, metastatic neuroblastoma, metastatic soft tissue sarcoma, metastatic bone sarcomas, metastatic ovarian carcinoma, metastatic transitional cell bladder carcinoma, metastatic thyroid carcinoma, metastatic gastric carcinoma, metastatic bronchogenic carcinoma (', '1.2', None, None, 'Doxorubicin HCl for injection is indicated as a component of multi-agent adjuvant chemotherapy for treatment of women with axillary lymph node involvement following resection of primary breast cancer ', '[see ', 'Clinical Studies (14)', '\n                           ', None, None, None, 'Doxorubicin HCl for injection is indicated for the treatment of ', '\n                           ', 'acute lymphoblastic leukemia ', 'acute myeloblastic leukemia ', 'Hodgkin lymphoma ', 'non-Hodgkin lymphoma (NHL) ', 'metastatic breast cancer ', 'metastatic Wilms‰Ûª tumor ', 'metastatic neuroblastoma ', 'metastatic soft tissue sarcoma ', 'metastatic bone sarcoma ', 'metastatic ovarian carcinoma ', 'metastatic transitional cell bladder carcinoma ', 'metastatic thyroid carcinoma ', 'metastatic gastric carcinoma ', 'metastatic bronchogenic carcinoma ', None, None]",DOXORUBICIN,HODGKIN LYMPHOMA
+4856439013,effect,"
+                     
+Stable Coronary Artery Disease
+Perindopril erbumine tablets are indicated in patients with stable coronary artery disease to reduce the risk of cardiovascular mortality or non-fatal myocardial infarction. Perindopril erbumine tablets can be used with conventional treatment for management of coronary artery disease, such as antiplatelet, antihypertensive or lipid-lowering therapy. 
+
+                     
+Hypertension 
+Perindopril erbumine tablets are indicated for the treatment of patients with essential hypertension. Perindopril erbumine tablets may be used alone or given with other classes of antihypertensives, especially thiazide diuretics. 
+When using perindopril erbumine tablets, consideration should be given to the fact that another angiotensin converting enzyme inhibitor (captopril) has caused agranulocytosis, particularly in patients with renal impairment or collagen vascular disease. Available data are insufficient to determine whether perindopril erbumine tablets has a similar potential. (See 
+
+                        
+WARNINGS
+In considering use of perindopril erbumine tablets, it should be noted that in controlled trials ACE inhibitors have an effect on blood pressure that is less in black patients than in nonblacks. In addition, it should be noted that black patients receiving ACE inhibitor monotherapy have been reported to have a higher incidence of angioedema compared to nonblacks. (See 
+
+                        
+WARNINGS
+
+                           
+Head and Neck Angioedema",PERINDOPRIL,ANGIOEDEMA
+4856468767,indication_treatment,"Ramipril capsules are indicated in patients 55 years or older at high risk of developing a major cardiovascular event because of a history of coronary artery disease, stroke, peripheral vascular disease, or diabetes that is accompanied by at least one other cardiovascular risk factor (hypertension, elevated total cholesterol levels, low HDL levels, cigarette smoking, or documented microalbuminuria), to reduce the risk of myocardial infarction, stroke, or death from cardiovascular causes. Ramipril capsules can be used in addition to other needed treatment (such as antihypertensive, antiplatelet or lipid-lowering therapy). 
+Ramipril capsules are indicated for the treatment of hypertension. It may be used alone or in combination with thiazide diuretics. 
+In using ramipril capsules, consideration should be given to the fact that another angiotensin converting enzyme inhibitor, captopril, has caused agranulocytosis, particularly in patients with renal impairment or collagen-vascular disease. Available data are insufficient to show that ramipril capsules do not have a similar risk. (See 
+WARNINGS.
+In considering use of ramipril capsules, it should be noted that in controlled trials ACE inhibitors have an effect on blood pressure that is less in black patients than in non-blacks. In addition, ACE inhibitors (for which adequate data are available) cause a higher rate of angioedema in black than in non-black patients. (See 
+WARNINGS, Angioedema.",ramipril,HYPERTENSION
+4856483031,effect,"INNOPRAN XL
+
+Control of high blood pressure should be part of comprehensive cardiovascular risk management, including, as appropriate, lipid control, diabetes management, antithrombotic therapy, smoking cessation, exercise, and limited sodium intake. Many patients will require more than one drug to achieve blood pressure goals. For specific advice on goals and management, see published guidelines, such as those of the National High Blood Pressure Education Program‰Ûªs Joint National Committee on Prevention, Detection, Evaluation, and Treatment of High Blood Pressure (JNC).
+Numerous antihypertensive drugs, from a variety of pharmacologic classes and with different mechanisms of action, have been shown in randomized controlled trials to reduce cardiovascular morbidity and mortality, and it can be concluded that it is blood pressure reduction, and not some other pharmacologic property of the drugs, that is largely responsible for those benefits. The largest and most consistent cardiovascular outcome benefit has been a reduction in the risk of stroke, but reductions in myocardial infarction and cardiovascular mortality also have been seen regularly.
+Elevated systolic or diastolic pressure causes increased cardiovascular risk, and the absolute risk increase per mmåÊHg is greater at higher blood pressures, so that even modest reductions of severe hypertension can provide substantial benefit. Relative risk reduction from blood pressure reduction is similar across populations with varying absolute risk, so the absolute benefit is greater in patients who are at higher risk independent of their hypertension (for example, patients with diabetes or hyperlipidemia), and such patients would be expected to benefit from more aggressive treatment to a lower blood pressure goal.
+Some antihypertensive drugs have smaller blood pressure effects (as monotherapy) in black patients, and many antihypertensive drugs have additional approved indications and effects (e.g., on angina, heart failure, or diabetic kidney disease). These considerations may guide selection of therapy.
+INNOPRAN XL is a beta adrenergic blocker indicated for the treatment of hypertension, to lower blood pressure. Lowering blood pressure reduces the risk of fatal and nonfatal cardiovascular events, primarily strokes and myocardial infarctions. (
+1
+Limitation of Use: INNOPRAN XL is not indicated for the treatment of hypertensive emergencies. (
+1",PROPRANOLOL,KIDNEY DISEASE
+4856490527,indication_treatment,"INVIRASE in combination with ritonavir and other antiretroviral agents is indicated for the treatment of HIV infection. The twice daily administration of INVIRASE in combination with ritonavir is supported by safety data from the MaxCmin 1 study (see 
+
+                        
+Table 6
+
+                        
+Table 1
+In a randomized, double-blind clinical study (NV14256) in zidovudine-experienced, HIV-infected patients, INVIRASE in combination with zalcitabine was shown to be superior to either INVIRASE or zalcitabine monotherapy in decreasing the cumulative incidence of clinical disease progression to AIDS-defining events or death. Furthermore, in a randomized study (ACTG229/NV14255), patients with advanced HIV infection with history of prolonged zidovudine treatment and who were given INVIRASE 600 mg (three times daily) + zidovudine + zalcitabine experienced greater increases in CD4 cell counts as compared to those who received INVIRASE + zidovudine or zalcitabine + zidovudine. It should be noted that HIV treatment regimens that were used in these initial clinical studies of INVIRASE are no longer considered standard of care.
+Saquinavir gel capsule 1000 mg twice daily coadministered with ritonavir 100 mg twice daily was studied in a heterogeneous population of 148 HIV-infected patients (MaxCmin 1 study). At baseline 42 were treatment naÌøve and 106 were treatment experienced (of which 52 had an HIV RNA level <400 copies/mL at baseline). Results showed that 91/148 (61%) subjects achieved and/or sustained an HIV RNA level <400 copies/mL at the completion of 48 weeks.",saquinavir,HIV INFECTION
+4856495290,effect,"Methazolamide Tablets USPåÊ is indicated in the treatment of ocular conditions where lowering intraocular pressure is likely to be of therapeutic benefit, such as chronic open-angle glaucoma, secondary glaucoma, and preoperatively in acute angle-closure glaucoma where lowering the intraocular pressure is desired before surgery.",METHAZOLAMIDE,ANGLE-CLOSURE GLAUCOMA
+4856684800,indication_symptomatic_relief,"Cetirizine hydrochloride syrup is indicated for the relief of symptoms associated with perennial allergic rhinitis due to allergens such as dust mites, animal dander and molds in children 6 to 23 months of age. Symptoms treated effectively include sneezing, rhinorrhea, postnasal discharge, nasal pruritus, ocular pruritus, and tearing. 
+Cetirizine hydrochloride syrup is indicated for the treatment of the uncomplicated skin manifestations of chronic idiopathic urticaria in adults and children 6 months to 5 years of age. It significantly reduces the occurrence, severity, and duration of hives and significantly reduces pruritus.",CETIRIZINE,RHINITIS
+4852940393,indication_symptomatic_relief,"Azelastine hydrochloride nasal spray is indicated for the treatment of the symptoms of seasonal allergic rhinitis in adults and pediatric patients 5 years and older, and for the treatment of the symptoms of vasomotor rhinitis in adults and adolescent patients 12 years and older.
+Azelastine hydrochloride nasal spray is an H1-receptor antagonist indicated for the treatment of the symptoms of seasonal allergic rhinitis in adults and pediatric patients 5 years and older and for the treatment of the symptoms of vasomotor rhinitis in adults and adolescent patients 12 years and older. (
+1",AZELASTINE,RHINITIS
+4852956077,contraindication,"Bumetanide tablets USP are indicated for the treatment of edema associated with congestive heart failure, hepatic and renal disease, including the nephrotic syndrome.
+Almost equal diuretic response occurs after oral and parenteral administration of bumetanide. Therefore, if impaired gastrointestinal absorption is suspected or oral administration is not practical, bumetanide should be given by the intramuscular or intravenous route. 
+Successful treatment with bumetanide tablets USP following instances of allergic reactions to furosemide suggests a lack of cross-sensitivity.
+Bumetanide is contraindicated in anuria. Although bumetanide tablets can be used to induce diuresis in renal insufficiency, any marked increase in blood urea nitrogen or creatinine, or the development of oliguria during therapy of patients with progressive renal disease, is an indication for discontinuation of treatment with bumetanide tablets. Bumetanide is also contraindicated in patients in hepatic coma or in states of severe electrolyte depletion until the condition is improved or corrected. Bumetanide is contraindicated in patients hypersensitive to this drug.",BUMETANIDE,HEPATIC COMA
+4852970303,indication_treatment,"Indapamide tablets are indicated for the treatment of hypertension, alone or in combination with other antihypertensive drugs.
+Indapamide tablets are also indicated for the treatment of salt and fluid retention associated with congestive heart failure.
+The routine use of diuretics in an otherwise healthy woman is inappropriate and exposes mother and fetus to unnecessary hazard (see below).
+                                    
+PRECAUTIONS
+Diuretics do not prevent development of toxemia of pregnancy, and there is no satisfactory evidence that they are useful in the treatment of developed toxemia.
+Edema during pregnancy may arise from pathological causes or from the physiologic and mechanical consequences of pregnancy. Indapamide is indicated in pregnancy when edema is due to pathologic causes, just as it is in the absence of pregnancy (however, see below). Dependent edema in pregnancy, resulting from restriction of venous return by the expanded uterus, is properly treated through elevation of the lower extremities and use of support hose; use of diuretics to lower intravascular volume in this case is illogical and unnecessary. There is hypervolemia during normal pregnancy which is not harmful to either the fetus or the mother (in the absence of cardiovascular disease), but which is associated with edema, including generalized edema in the majority of pregnant women. If this edema produces discomfort, increased recumbency will often provide relief. In rare instances, this edema may cause extreme discomfort which is not relieved by rest. In these cases, a short course of diuretics may provide relief and may be appropriate.
+                                    
+PRECAUTIONS",INDAPAMIDE,HYPERTENSION
+4852997524,indication_symptomatic_relief,"Guanidine is indicated for the reduction of the symptoms of muscle weakness and easy fatigability associated with the myasthenic syndrome of Eaton-Lambert. It is not indicated for treating myasthenia gravis. The Eaton-Lambert syndrome is ordinarily differentiated from myasthenia gravis by the usual association of the syndrome with small cell carcinoma of the lung, but myography may be necessary to make the diagnosis.",Guanidine,EATON-LAMBERT SYNDROME
+4853003747,indication_treatment,"Predialysis Patients
+Calcitriol Oral Solution is indicated in the management of secondary hyperparathyroidism and resultant metabolic bone disease in patients with moderate to severe chronic renal failure (Ccr 15 to 55åÊmL/min) not yet on dialysis. In children, the creatinine clearance value must be corrected for a surface area of 1.73åÊsquare meters. A serum iPTH level of ‰ä´åÊ100åÊpg/mL is strongly suggestive of secondary hyperparathyroidism.
+Dialysis Patients
+Calcitriol Oral Solution is indicated in the management of hypocalcemia and the resultant metabolic bone disease in patients undergoing chronic renal dialysis. In these patients, Calcitriol Oral Solution administration enhances calcium absorption, reduces serum alkaline phosphatase levels, and may reduce elevated parathyroid hormone levels and the histological manifestations of osteitis fibrosa cystica and defective mineralization.
+Hypoparathyroidism Patients
+Calcitriol Oral Solution is also indicated in the management of hypocalcemia and its clinical manifestations in patients with postsurgical hypoparathyroidism, idiopathic hypoparathyroidism, and pseudohypoparathyroidism.",CALCITRIOL,HYPERPARATHYROIDISM
+4853045187,indication_symptomatic_relief,"['Intravenous theophylline is indicated as an adjunct to inhaled beta-2 selective agonists and systemically administered corticosteroids for the treatment of acute exacerbations of the symptoms and reversible airflow obstruction associated with asthma and other chronic lung diseases, e.g., emphysema and chronic bronchitis.', None, None]",THEOPHYLLINE ANHYDROUS,ASTHMA
+4856189485,indication_treatment,"Bendamustine Hydrochloride Injection is an alkylating drug indicated for treatment of patients with:
+
+                           
+Chronic lymphocytic leukemia (CLL). Efficacy relative to first line therapies other than chlorambucil has not been established. (
+1.1
+Indolent B-cell non-Hodgkin lymphoma (NHL) that has progressed during or within six months of treatment with rituximab or a rituximab-containing regimen. (
+1.2
+Bendamustine Hydrochloride Injection is indicated for the treatment of patients with chronic lymphocytic leukemia. Efficacy relative to first line therapies other than chlorambucil has not been established.
+Bendamustine Hydrochloride Injection is indicated for the treatment of patients with indolent B-cell non-Hodgkin lymphoma that has progressed during or within six months of treatment with rituximab or a rituximab-containing regimen.",BENDAMUSTINE,CHRONIC LYMPHOCYTIC LEUKEMIA
+4856263524,contraindication,"Mercaptopurine tablets are indicated for maintenance therapy of acute lymphatic (lymphocytic, lymophoblastic) leukemia as part of a combination regimen. The response to this agent depends upon the particular subclassification of acute lymphatic leukemia and the age of the patient (pediatric or adult). 
+Mercaptopurine tablets are not effective prophylaxis or treatment of central nervous system leukemia. 
+Mercaptopurine tablets are not effective in acute myelogenous leukemia, chronic lymphatic leukemia, the lymphomas (including Hodgkins Disease), or solid tumors. ",MERCAPTOPURINE ANHYDROUS,CHRONIC LYMPHATIC LEUKEMIA
+4856283220,indication_symptomatic_relief,"['Oxaprozin tablets are indicated: ', '\n                     ', 'For relief of the signs and symptoms of osteoarthritis ', 'For relief of the signs and symptoms of rheumatoid arthritis ', 'For relief of the signs and symptoms of juvenile rheumatoid arthritis ', None, 'Oxaprozin is a non-steroidal anti-inflammatory drug indicated for: ', '\n                           ', 'Relief of signs and symptoms of Osteoarthritis (OA) ', '(1) ', 'Relief of signs and symptoms of Rheumatoid Arthritis (RA) ', '(1)', 'Relief of signs and symptoms of Juvenile Rheumatoid Arthritis (JRA) ', '(1)', None]",OXAPROZIN,RHEUMATOID ARTHRITIS
+4856317394,indication_treatment,"[' INDICATIONS AND USAGE', 'Buspirone hydrochloride tablets are indicated for the management of anxiety disorders or the short-term relief of the symptoms of anxiety. Anxiety or tension associated with the stress of everyday life usually does not require treatment with an anxiolytic.', 'The efficacy of buspirone has been demonstrated in controlled clinical trials of outpatients whose diagnosis roughly corresponds to Generalized Anxiety Disorder (GAD). Many of the patients enrolled in these studies also had coexisting depressive symptoms and buspirone relieved anxiety in the presence of these coexisting depressive symptoms. The patients evaluated in these studies had experienced symptoms for periods of 1 month to over 1 year prior to the study, with an average symptom duration of 6 months. Generalized Anxiety Disorder (300.02) is described in the American Psychiatric Association‰Ûªs Diagnostic and Statistical Manual, lll1 as follows:\xa0', 'Generalized, persistent anxiety (of at least 1 month continual duration), manifested by symptoms from three of the four following categories:', '\n                     ', '\n                        ', 'Motor tension: shakiness, jitteriness, jumpiness, trembling, tension, muscle aches, fatigability, inability to relax, eyelid twitch, furrowed brow, strained face, fidgeting, restlessness, easy startle.', '\n                        ', 'Autonomic hyperactivity: sweating, heart pounding or racing, cold, clammy hands, dry mouth, dizziness, lightheadedness, paresthesias (tingling in hands or feet), upset stomach, hot or cold spells, frequent urination, diarrhea, discomfort in the pit of the stomach, lump in the throat, flushing, pallor, high resting pulse, and respiration rate.', '\n                        ', 'Apprehensive expectation: anxiety, worry, fear, rumination, and anticipation of misfortune to self or others.', '\n                        ', 'Vigilance and scanning: hyperattentiveness resulting in distractibility, difficulty in concentrating, insomnia, feeling ‰ÛÏon edge‰Û, irritability, impatience.', None, 'The above symptoms would not be due to another mental disorder, such as a depressive disorder or schizophrenia. However, mild depressive symptoms are common in GAD.', 'The effectiveness of buspirone in long-term use, that is, for more than 3 to 4 weeks, has not been demonstrated in controlled trials. There is no body of evidence available that systematically addresses the appropriate duration of treatment for GAD. However, in a study of long-term use, 264 patients were treated with buspirone for 1 year without ill effect. Therefore, the physician who elects to use buspirone for extended periods should periodically reassess the usefulness of the drug for the individual patient.', None, None, None]",BUSPIRONE,ANXIETY
+4856329284,effect,"['Prazosin Hydrochloride Capsules, USP is indicated for the treatment of hypertension, to lower blood pressure. Lowering blood pressure reduces the risk of fatal and nonfatal cardiovascular events, primarily strokes and myocardial infarctions. These benefits have been seen in controlled trials of antihypertensive drugs from a wide variety of pharmacologic classes, including this drug.', None, ""Control of high blood pressure should be part of comprehensive cardiovascular risk management, including, as appropriate, lipid control, diabetes management, antithrombotic therapy, smoking cessation, exercise, and limited sodium intake. Many patients will require more than one drug to achieve blood pressure goals. For specific advice on goals and management, see published guidelines, such as those of the National High Blood Pressure Education Program's Joint National Committee on Prevention, Detection, Evaluation, and Treatment of High Blood Pressure (JNC)."", None, 'Numerous antihypertensive drugs, from a variety of pharmacologic classes and with different mechanisms of action, have been shown in randomized controlled trials to reduce cardiovascular morbidity and mortality, and it can be concluded that it is blood pressure reduction, and not some other pharmacologic property of the drugs, that is largely responsible for those benefits. The largest and most consistent cardiovascular outcome benefit has been a reduction in the risk of stroke, but reductions in myocardial infarction and cardiovascular mortality also have been seen regularly.', None, 'Elevated systolic or diastolic pressure causes increased cardiovascular risk, and the absolute risk increase per mmHg is greater at higher blood pressures, so that even modest reductions of severe hypertension can provide substantial benefit. Relative risk reduction from blood pressure reduction is similar across populations with varying absolute risk, so the absolute benefit is greater in patients who are at higher risk independent of their hypertension (for example, patients with diabetes or hyperlipidemia), and such patients would be expected to benefit from more aggressive treatment to a lower blood pressure goal.', None, 'Some antihypertensive drugs have smaller blood pressure effects (as monotherapy) in black patients, and many antihypertensive drugs have additional approved indications and effects (e.g., on angina, heart failure, or diabetic kidney disease). These considerations may guide selection of therapy. ', None, 'Prazosin Hydrochloride Capsules, USP can be used alone or in combination with other antihypertensive drugs such as diuretics or beta-adrenergic blocking agents.']",PRAZOSIN,STROKE
+4856377060,contraindication,"Perphenazine tablets are indicated for use in the treatment of schizophrenia and for the control of severe nausea and vomiting in adults. 
+Perphenazine tablets have not been shown effective for the management of behavioral complications in patients with mental retardation.",PERPHENAZINE,MENTAL RETARDATION
+4856382717,"indication_symptomatic_relief
+effect","The use of metoclopramide tablets, USP is recommended for adults only. Therapy should not exceed 12 weeks in duration.
+Symptomatic Gastroesophageal Reflux:  Metoclopramide tablets, USP are indicated as short-term (4 to 12 weeks) therapy for adults with symptomatic, documented gastroesophageal reflux who fail to respond to conventional therapy.
+The principal effect of metoclopramide is on symptoms of postprandial and daytime heartburn with less observed effect on nocturnal symptoms. If symptoms are confined to particular situations, such as following the evening meal, use of metoclopramide as single doses prior to the provocative situation should be considered, rather than using the drug throughout the day. Healing of esophageal ulcers and erosions has been endoscopically demonstrated at the end of a 12-week trial using doses of 15 mg q.i.d. As there is no documented correlation between symptoms and healing of esophageal lesions, patients with documented lesions should be monitored endoscopically.
+Diabetic Gastroparesis (Diabetic Gastric Stasis):  Metoclopramide tablets, USP are indicated for the relief of symptoms associated with acute and recurrent diabetic gastric stasis. The usual manifestations of delayed gastric emptying (e.g., nausea, vomiting, heartburn, persistent fullness after meals, and anorexia) appear to respond to metoclopramide within different time intervals. Significant relief of nausea occurs early and continues to improve over a three-week period. Relief of vomiting and anorexia may precede the relief of abdominal fullness by one week or more.",METOCLOPRAMIDE,GASTROESOPHAGEAL REFLUX
+4856429195,indication_symptomatic_relief,Loperamide hydrochloride capsules are indicated for the control and symptomatic relief of acute nonspecific diarrhea in patients 2 years of age and older and of chronic diarrhea in adults associated with inflammatory bowel disease. Loperamide hydrochloride capsules are also indicated for reducing the volume of discharge from ileostomies.,LOPERAMIDE,DIARRHEA
+4856449481,indication_symptomatic_relief,"[None, 'Carefully consider the potential benefits and risks of \nflurbiprofen tablets and other treatment options before deciding to use \nflurbiprofen tablets. Use the lowest effective dose for the shortest duration \nconsistent with individual patient treatment goals (see ', 'WARNINGS', 'Flurbiprofen tablets are indicated:', '\n                     ', 'For relief of the signs and symptoms of rheumatoid arthritis. \n', 'For relief of the signs and symptoms of osteoarthritis.']",FLURBIPROFEN,RHEUMATOID ARTHRITIS
+4856491884,indication_treatment,"ELAPRASE is indicated for patients with Hunter syndrome (Mucopolysaccharidosis II, MPS II). ELAPRASE has been shown to improve walking capacity in patients 5 years and older.
+In patients 16 months to 5 years of age, no data are available to demonstrate improvement in disease-related symptoms or long term clinical outcome; however, treatment with ELAPRASE has reduced spleen volume similarly to that of adults and children 5 years of age and older.
+The safety and efficacy of ELAPRASE have not been established in pediatric patients less than 16 months of age 
+[see 
+Use in Specific Populations (8.4)
+ELAPRASE is a hydrolytic lysosomal glycosaminoglycan (GAG)-specific enzyme indicated for patients with Hunter syndrome (Mucopolysaccharidosis II, MPS II). ELAPRASE has been shown to improve walking capacity in patients 5 years and older. In patients 16 months to 5 years of age, no data are available to demonstrate improvement in disease-related symptoms or long term clinical outcome; however, treatment with ELAPRASE has reduced spleen volume similarly to that of adults and children 5 years of age and older. The safety and efficacy of ELAPRASE have not been established in pediatric patients less than 16 months of age (
+1",idursulfase,HUNTER SYNDROME
+4856501391,contraindication,"Levothyroxine sodium is used for the following indications:
+Hypothyroidism ‰ÛÒ As replacement or supplemental therapy in congenital or acquired hypothyroidism of any etiology, except transient hypothyroidism during the recovery phase of subacute thyroiditis. Specific indications include: primary (thyroidal), secondary (pituitary), and tertiary (hypothalamic) hypothyroidism and subclinical hypothyroidism. Primary hypothyroidism may result from functional deficiency, primary atrophy, partial or total congenital absence of the thyroid gland, or from the effects of surgery, radiation, or drugs, with or without the presence of goiter.
+Pituitary TSH Suppression ‰ÛÒ In the treatment or prevention of various types of euthyroid goiters (see WARNINGS and PRECAUTIONS), including thyroid nodules (see WARNINGS and PRECAUTIONS), subacute or chronic lymphocytic thyroiditis (Hashimoto‰Ûªs thyroiditis), multinodular goiter (see WARNINGS and PRECAUTIONS) and, as an adjunct to surgery and radioiodine therapy in the management of thyrotropin-dependent well-differentiated thyroid cancer.
+CONTRAINDICATIONS
+Levothyroxine is contraindicated in patients with untreated subclinical (suppressed serum TSH level with normal T3 and T4 levels) or overt thyrotoxicosis of any etiology and in patients with acute myocardial infarction. Levothyroxine is contraindicated in patients with uncorrected adrenal insufficiency since thyroid hormones may precipitate an acute adrenal crisis by increasing the metabolic clearance of glucocorticoids (see PRECAUTIONS). Levothyroxine sodium tablets, USP is contraindicated in patients with hypersensitivity to any of the inactive ingredients in Levothyroxine sodium tablets, USP, (see DESCRIPTION, Inactive Ingredients.)",LEVOTHYROXINE,HYPERSENSITIVITY
+4856507204,indication_treatment,"Clomipramine hydrochloride capsules USP is indicated for the treatment of obsessions and compulsions in patients with Obsessive-Compulsive Disorder (OCD). The obsessions or compulsions must cause marked distress, be time-consuming, or significantly interfere with social or occupational functioning, in order to meet the DSM-III-R (circa 1989) diagnosis of OCD.
+Obsessions are recurrent, persistent ideas, thoughts, images, or impulses that are ego- dystonic. Compulsions are repetitive, purposeful, and intentional behaviors performed in response to an obsession or in a stereotyped fashion, and are recognized by the person as excessive or unreasonable.
+The effectiveness of clomipramine hydrochloride capsules USP for the treatment of OCD was demonstrated in multicenter, placebo-controlled, parallel-group studies, including two 10-week studies in adults and one 8-week study in children and adolescents 10 to 17 years of age. Patients in all studies had moderate-to-severe OCD (DSM-III), with mean baseline ratings on the Yale-Brown Obsessive Compulsive Scale (YBOCS) ranging from 26 to 28 and a mean baseline rating of 10 on the NIMH Clinical Global Obsessive Compulsive Scale (NIMH-OC). Patients taking CMI experienced a mean reduction of approximately 10 on the YBOCS, representing an average improvement on this scale of 35% to 42% among adults and 37% among children and adolescents. CMI-treated patients experienced a 3.5 unit decrement on the NIMH-OC. Patients on placebo showed no important clinical response on either scale. The maximum dose was 250 mg/day for most adults and 3 mg/kg/day (up to 200 mg) for all children and adolescents.
+The effectiveness of clomipramine hydrochloride capsules USP for long-term use (i.e., for more than 10 weeks) has not been systematically evaluated in placebo-controlled trials. The physician who elects to use clomipramine hydrochloride capsules USP for extended periods should periodically reevaluate the long-term usefulness of the drug for the individual patient (
+see 
+
+                        
+DOSAGE AND ADMINISTRATION",CLOMIPRAMINE,OBSESSIVE-COMPULSIVE DISORDER
+4856552378,indication_treatment,"['Doxorubicin hydrochloride (HCl) for injection is an anthracycline topoisomerase II inhibitor indicated: ', '\n                           ', 'as a component of multiagent adjuvant chemotherapy for treatment of women with axillary lymph node involvement following resection of primary breast cancer (', '1.1', 'for the treatment of: acute lymphoblastic leukemia, acute myeloblastic leukemia, Hodgkin lymphoma, Non-Hodgkin lymphoma, metastatic breast cancer, metastatic Wilms‰Ûª tumor, metastatic neuroblastoma, metastatic soft tissue sarcoma, metastatic bone sarcomas, metastatic ovarian carcinoma, metastatic transitional cell bladder carcinoma, metastatic thyroid carcinoma, metastatic gastric carcinoma, metastatic bronchogenic carcinoma (', '1.2', None, None, 'Doxorubicin HCl for injection is indicated as a component of multi-agent adjuvant chemotherapy for treatment of women with axillary lymph node involvement following resection of primary breast cancer ', '[see ', 'Clinical Studies (14)', '\n                           ', None, None, None, 'Doxorubicin HCl for injection is indicated for the treatment of ', '\n                           ', 'acute lymphoblastic leukemia ', 'acute myeloblastic leukemia ', 'Hodgkin lymphoma ', 'non-Hodgkin lymphoma (NHL) ', 'metastatic breast cancer ', 'metastatic Wilms‰Ûª tumor ', 'metastatic neuroblastoma ', 'metastatic soft tissue sarcoma ', 'metastatic bone sarcoma ', 'metastatic ovarian carcinoma ', 'metastatic transitional cell bladder carcinoma ', 'metastatic thyroid carcinoma ', 'metastatic gastric carcinoma ', 'metastatic bronchogenic carcinoma ', None, None]",DOXORUBICIN,ACUTE LYMPHOBLASTIC LEUKEMIA
+4856554715,indication_symptomatic_relief,"Azelastine hydrochloride nasal spray is indicated for the treatment of the symptoms of seasonal allergic rhinitis in adults and pediatric patients 5 years and older, and for the treatment of the symptoms of vasomotor rhinitis in adults and adolescent patients 12 years and older.
+Azelastine hydrochloride nasal spray is an H1-receptor antagonist indicated for the treatment of the symptoms of seasonal allergic rhinitis in adults and pediatric patients 5 years and older and for the treatment of the symptoms of vasomotor rhinitis in adults and adolescent patients 12 years and older. (
+1",AZELASTINE,VASOMOTOR RHINITIS
+4852958771,indication_symptomatic_relief,Flunisolide nasal solution is indicated for the treatment of the nasal symptoms of seasonal or perennial rhinitis. Flunisolide nasal solution should not be used in the presence of untreated localized infection involving the nasal mucosa.,FLUNISOLIDE ANHYDROUS,RHINITIS
+4852971603,indication_symptomatic_relief,"['Famotidine is indicated in:', '\n                     ', 'Most adult patients heal within 4 weeks; there is rarely reason to use famotidine at full dosage for longer than 6 to 8 weeks. Studies have not assessed the safety of famotidine in uncomplicated active duodenal ulcer for periods of more than eight weeks.\n                                ', 'Short term treatment of active duodenal ulcer.', 'Controlled studies in adults have not extended beyond one year.\n                                ', 'Maintenance therapy for duodenal ulcer patients at reduced dosage after healing of an active ulcer.', 'Most adult patients heal within 6 weeks. Studies have not assessed the safety or efficacy of famotidine in uncomplicated active benign gastric ulcer for periods of more than 8 weeks.\n                                ', 'Short term treatment of active benign gastric ulcer.', 'Famotidine is indicated for short term treatment of patients with symptoms of GERD (see , ). Famotidine is also indicated for the short term treatment of esophagitis due to GERD including erosive or ulcerative disease diagnosed by endoscopy (see , ).\n                                ', 'Short term treatment of gastroesophageal reflux disease (GERD).', 'CLINICAL PHARMACOLOGY IN ADULTS', '\n                           ', 'Clinical Studies', None, 'CLINICAL PHARMACOLOGY IN ADULTS', '\n                           ', 'Clinical Studies', 'Treatment of pathological hypersecretory conditions (e.g., Zollinger-Ellison Syndrome, multiple endocrine adenomas) (see , ).\n                                ', 'CLINICAL PHARMACOLOGY IN ADULTS', '\n                           ', 'Clinical Studies']",Famotidine,GERD

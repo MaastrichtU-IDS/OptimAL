@@ -1,81 +1,55 @@
 import pandas as pd
 import string
 import re
+import os
+import pprint as pp
+import argparse
+from cleantext import clean
 
 
 def cleanText(text): 
-    return text.replace('|','\n')
-
-def removeCharacters(s):
-    b = "®ÃÂ¢â€ž¢®â‰¥"
-    for char in b:
-        a = s.replace(char,"")
-    return a
-def removeParagraphs(s):
-    s = s.replace('\\n',' ')
+    s= clean(text, fix_unicode=True, to_ascii=True,  lower=False, no_line_breaks=True, lang="en" ) 
+    s= re.sub(r'\|+', '|', s)
+    s= s.replace('|', '\r\n')
     return s
-def removeSlashes(s):
-    s = s.replace("\'",'')
-    return s
-def removeDuplicatedWhitespace(s):
-    " ".join(s.split())
-    return s
-def removePatterns(s):
-    return re.sub(r'\\t',  '',  s)
-def removePatterns2(s):
-    return re.sub(r'\\xa0',  '',  s)
-def removePatterns3(s):
-    return re.sub(r'\\x',  '',  s)
-def removePatterns4(s):
-    return re.sub(r'â‰¥',  '',  s)
-def removeCommaSpace(s):
-    return re.sub('                     ,',  '',  s)
-def removeNones(s):
-    return re.sub('None,', '', s)
-def removeNones2(s):
-    return re.sub('None],', ']', s)
-def trailingwhitespace(s):
-    return s.strip()
 
 
 
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument('-in', required=True, dest='input',help="enter input file path")
+    parser.add_argument('-out', required=True, dest='output', help="enter ouput file path")
+    args = parser.parse_args()
+    input_file_path = args.input
+    output_file_path = args.output
 
-df = pd.read_csv("../data/output/unlabeled_withDBID.csv")
-print("The number of rows which " +str(len(df)))
+    df = pd.read_csv(input_file_path)
+    print("The number of rows which " +str(len(df)))
 
-df.rename(columns={"Context":"Text"}, inplace=True)
-
-#Need to drop NAN values to avoid errors
-df.dropna(subset = ["Text"], inplace=True)
+    #df.rename(columns={"full_text":"Text"}, inplace=True)
 
 
-df.Text = df.Text.apply(removeCommaSpace)
-df.Text = df.Text.apply(removeNones)
-df.Text = df.Text.apply(removeNones2)
-df.Text = df.Text.apply(removePatterns)
-df.Text = df.Text.apply(removePatterns2)
-df.Text = df.Text.apply(removePatterns3)
-df.Text = df.Text.apply(removePatterns4)
-df.Text = df.Text.apply(removeCharacters)
-df.Text = df.Text.apply(removeParagraphs)
-df.Text = df.Text.apply(removeSlashes)
-df.Text = df.Text.apply(removeDuplicatedWhitespace)
-df.Text = df.Text.apply(trailingwhitespace)
+    df.Text = df.Text.apply(cleanText)
 
-counter = []
-for index, row in df.iterrows():
-    test = row['Text']
-    #Counts the number of entries at row x and adds it to the counter list
-    counter.append(len(test.split()))
 
-#The word count list is now appended to the context file
-df['WordCount'] = counter
+    #Need to drop NAN values to avoid errors
+    #df.dropna(subset = ["Text"], inplace=True)
 
-#Sorts instances by string length
-df = df.sort_values(by = "WordCount", ascending = False)
+    counter = []
+    for index, row in df.iterrows():
+        test = row['Text']
+        #Counts the number of entries at row x and adds it to the counter list
+        counter.append(len(test.split()))
 
-df = df[df.WordCount>4]
-print(len(df))
-df.head()
+    #df.Text.str.split('\n', expand=True).stack()
+    #The word count list is now appended to the context file
+    df['WordCount'] = counter
 
-df.to_csv("../data/output/unlabeled_withDBID.csv", index=False)
+    #Sorts instances by string length
+    df = df.sort_values(by = "WordCount", ascending = False)
+
+    df = df[df.WordCount>4]
+    print(len(df))
+    df.head()
+
+    df.to_csv(output_file_path, index=False, encoding='utf-8')
