@@ -19,6 +19,9 @@ pip install -r requirements.txt
 ## Change this line in optimal-config.yaml 
 abs_path: "/notebooks/code/OptimAL/"
 
+## Enter your API Key in BPAnnotator.py
+API_KEY ="Replace this with your given BioPortal API Key. If you do not have one you can get one at (https://bioportal.bioontology.org/)"
+
 ## Run workflow
 cwl-runner --outdir indi workflow/optimal-pipeline.cwl workflow/optimal-config.yaml 
 
