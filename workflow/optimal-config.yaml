@@ -1,15 +1,4 @@
 xml_path : "dailymed/test_xml/"
-xml_product: 
-    class: File
-    path: "/Users/remzicelebi/Desktop/Current/OptimAL/code/OptimAL/data/output/XMLProduct.csv"
-    
-xml_product_cleaned : 
-    class: File
-    path: "/Users/remzicelebi/Desktop/Current/OptimAL/code/OptimAL/data/output/XMLProduct_cleaned.csv"
-    
-xml_product_dbid:
-    class: File
-    path: "/Users/remzicelebi/Desktop/Current/OptimAL/code/OptimAL/data/output/XMLProduct_DBID.csv"
 drugbank_mapping: "data/input/drugbank vocabulary.csv"
 coding : "34067-9" 
-abs_path: "/Users/remzicelebi/Desktop/Current/OptimAL/code/OptimAL/"
+abs_path: "/jupyter/"
