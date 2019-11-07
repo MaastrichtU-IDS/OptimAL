@@ -5,7 +5,7 @@ https://docs.docker.com/install/
 git clone https://github.com/MaastrichtU-IDS/OptimAL.git
 
 ## Go to the main folder in the optimal and Build Docker 
-cd OptimAL
+cd OptimAL \
 docker build -t optimal .
 
 ## Run docker image
