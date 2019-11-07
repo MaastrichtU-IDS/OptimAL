@@ -1,27 +1,24 @@
 ## Install Docker 
 https://docs.docker.com/install/
 
-## Pull a docker image from DockeHub for python (eg. amalic/jupyterlab)
-docker pull amalic/jupyterlab:latest
-
-## Run docker image
-docker run --rm -it -p 8888:8888 amalic/jupyterlab
-
-## Open jupyter and type this on terminal
-apt-get update && apt-get install -y     wget     ca-certificates     build-essential     curl  cwltool
-
 ## Clone the Optimal github project
 git clone https://github.com/MaastrichtU-IDS/OptimAL.git
 
-## Go to the main folder in the optimal 
-pip install -r requirements.txt
+## Go to the main folder in the optimal and Build Docker 
+cd OptimAL
+docker build -t optimal .
 
-## Change this line in optimal-config.yaml 
-abs_path: "/notebooks/code/OptimAL/"
+## Run docker image
+docker run --rm -it -p 8891:8899 optimal
+## Open Jupyter notebook and paste your token
+http://127.0.0.1:8899/ 
 
-## Enter your API Key in BPAnnotator.py
+## Change the config this line in optimal-config.yaml 
+xml_path: "Your folder containing XML files (drug labels) "
+
+## Enter your API Key in src/BPAnnotator.py
 API_KEY ="Replace this with your given BioPortal API Key. If you do not have one you can get one at (https://bioportal.bioontology.org/)"
 
-## Run workflow
+## Open Termianl in Jupyter and Run workflow
 cwl-runner --outdir indi workflow/optimal-pipeline.cwl workflow/optimal-config.yaml 
 
