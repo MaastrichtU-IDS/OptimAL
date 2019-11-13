@@ -9,11 +9,11 @@ cd OptimAL \
 docker build -t optimal .
 
 ## Run docker image
-docker run --rm -it -p 8891:8899 optimal -v "PWD":/jupyter
+docker run --rm -it -p 8891:8888  -v "your current dir: PWD":/jupyter optimal
 ## Open Jupyter notebook and paste your token
 http://127.0.0.1:8899/ 
 
-## Change the config this line in optimal-config.yaml 
+## Change the config this line in workflow/optimal-config.yaml 
 xml_path: "Your folder containing XML files (drug labels) "
 
 ## Enter your API Key in src/BPAnnotator.py
