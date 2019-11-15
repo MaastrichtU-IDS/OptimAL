@@ -172,7 +172,7 @@ class DrugLabel(object):
        
         activeCompound = self.actives()
         uniiCode = self.unii()
-        uuid = self.label_data.split("/")[-1].split(".")[0]
+        uuid = self.label_data.split("/")[-1]
         #print (uuid)
         full_Label = self.get_fullText(code)
         label = self.get_text(code)
@@ -229,7 +229,7 @@ if __name__ =="__main__":
     code = "34067-9"
     parser =argparse.ArgumentParser()
     parser.add_argument('-i', required=False,  default='../dailymed/temp_xml/', dest='input', help='input path where xml files resides')
-    parser.add_argument('-c', required=False, default='34067-9', dest='code', help='enter the code from which type of label you want ("34084-4" for adverse reactions and "34067-9" for indication "4070-3" for Contraindications) ' )
+    parser.add_argument('-c', required=False, default='34067-9', dest='code', help='enter the code from which type of label you want ("34084-4" for adverse reactions and "34067-9" for indication "34070-3" for Contraindications) ' )
     parser.add_argument('-o', required=False,  default='../data/XMLProduct.csv', dest='output', help='output path in order to define where the xmlproduct should be written')
     
     args= parser.parse_args()

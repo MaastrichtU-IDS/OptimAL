@@ -1,4 +1,4 @@
-xml_path : "dailymed/test_xml/"
+xml_path : "dailymed/temp_xml/"
 drugbank_mapping: "data/input/drugbank vocabulary.csv"
-coding : "34067-9" 
+coding : "34070-3" 
 abs_path: "/jupyter/"
