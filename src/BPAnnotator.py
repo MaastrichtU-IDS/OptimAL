@@ -7,7 +7,7 @@ import sys
 from pprint import pprint
 
 REST_URL = "http://data.bioontology.org"
-API_KEY ="Your API key"
+API_KEY ="ddabafd6-fb59-4be3-9d57-f374954ee83b"
 
 def get_json(url):
     opener = urllib.request.build_opener()
@@ -79,7 +79,8 @@ if __name__ =="__main__":
     drugname = []
 
     #Adds additional parameters here for the bioportal search engine
-    additional_parameters = "&ontologies=DOID&require_exact_match=true"
+    additional_parameters = "&ontologies=DOID&longest_only=true"
+                          #&require_exact_match=true"
 
     data = []
     for index, row in df.iterrows():

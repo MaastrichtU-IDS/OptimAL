@@ -29,6 +29,10 @@ class DrugLabel(object):
 
     def parse_xml(self):
         self.xml = etree.parse(self.label_data)
+        
+    def setid(self):
+        #print (self.xml.xpath("//v3:setId/@root",namespaces=namespaces))
+        return self.xml.xpath("//v3:setId/@root",namespaces=namespaces)[0]
 
     def actives(self): #UNII code
         """returns a list of active compounds"""
@@ -168,14 +172,23 @@ class DrugLabel(object):
         return "http://www.accessdata.fda.gov/spl/data/%s/%s.xml" %(uuid,uuid)
 
     def extract(self, code, xml):
+        
         self.parse_xml()
+        
+        if code == "34070-3":
+            section = "Contraindications"
+        elif code == "34067-9":
+            section = "Indications"
+        else:
+            section = code
        
         activeCompound = self.actives()
         uniiCode = self.unii()
-        uuid = self.label_data.split("/")[-1].split(".")[0]
+        zipid = self.label_data.split("/")[-1]
+        setid = self.setid()
         #print (uuid)
         full_Label = self.get_fullText(code)
-        label = self.get_text(code)
+        #label = self.get_text(code)
         drugN = self.name()
 
         if isinstance(activeCompound, list): 
@@ -183,11 +196,11 @@ class DrugLabel(object):
         if isinstance(uniiCode, list):
             uniiCode = '|'.join(uniiCode)
         
-        if isinstance(label, list):
-            label = '|'.join(label)
+        #if isinstance(label, list):
+        #    label = '|'.join(label)
         if isinstance(full_Label, list):
             full_Label = '|'.join(full_Label)
-        data = [uuid, drugN, activeCompound, uniiCode, label, full_Label]  
+        data = [zipid, setid, drugN, activeCompound, uniiCode, section, full_Label]  
         return data
 
 def getLabels(code, path):
@@ -218,7 +231,7 @@ def getLabels(code, path):
                 print("Oops!",sys.exc_info()[0],"occured.")
                 print ('Error',dl, filename)
          
-    ind = pd.DataFrame(all_indications, columns=['Label_ID','Drug_Brand_Name', 'Active_ingredient', 'UNII_ID', 'Formatted_Text','Text'])           
+    ind = pd.DataFrame(all_indications, columns=['ZIP_ID','Label_ID','Drug_Brand_Name', 'Active_ingredient', 'UNII_ID', 'Section','Text'])           
     return ind
              
 
@@ -229,7 +242,7 @@ if __name__ =="__main__":
     code = "34067-9"
     parser =argparse.ArgumentParser()
     parser.add_argument('-i', required=False,  default='../dailymed/temp_xml/', dest='input', help='input path where xml files resides')
-    parser.add_argument('-c', required=False, default='34067-9', dest='code', help='enter the code from which type of label you want ("34084-4" for adverse reactions and "34067-9" for indication "4070-3" for Contraindications) ' )
+    parser.add_argument('-c', required=False, default='34067-9', dest='code', help='enter the code from which type of label you want ("34084-4" for adverse reactions and "34067-9" for indication "34070-3" for Contraindications) ' )
     parser.add_argument('-o', required=False,  default='../data/XMLProduct.csv', dest='output', help='output path in order to define where the xmlproduct should be written')
     
     args= parser.parse_args()

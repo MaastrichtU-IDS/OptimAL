@@ -6,15 +6,16 @@ import argparse
 def DBIDMerge(input_file, output_file, mapping_file):    
     #Input File
     DB = pd.read_csv(mapping_file)
+  
     
     DB = DB[['DrugBank ID', 'UNII', 'Common name']]
     DB.rename(columns={'DrugBank ID':'DB_ID', 'UNII':'UNII_ID', 'Common name': 'Drug_name'},inplace=True)
     
     #The total length of the Drugbank drug count and the number of Drugs based off of the active ingredient/Unii ID
-    print("The total number of DBID gathered from the Drugbank website is:        ",len(DB))
-    print("The total number of UNIQUE DBID gathered from the Drugbank website is: ",len(DB.drop_duplicates(['UNII_ID'])))
-    
     DB.dropna(subset=["UNII_ID"], inplace=True)
+    print("The total number of UNIQUE DBID gathered from the Drugbank website is: ",len(DB))
+    
+    
     
     #File to add DBID to:
     DM = pd.read_csv(input_file)
@@ -24,16 +25,14 @@ def DBIDMerge(input_file, output_file, mapping_file):
     print("The total number of labels gathered from the DailyMed website is:       ",len(DM))
     print("The total number of UNIQUE labels gathered from the DailyMed website is:", len(DM.drop_duplicates(['UNII_ID'])))
     
-
-    DM = DM[DM["WordCount"] < 200]
-    DM = DM.sort_values(by = "WordCount", ascending = False)
-
-    
     #Drop the instances from DailyMed if they share the same UNII ID
-    DM.drop_duplicates(['UNII_ID'], inplace=True, keep='first')
+    #DM.drop_duplicates(['UNII_ID'], inplace=True, keep='first')
 
     #These two datasets should have the same name
     newDM = DM.merge(DB, on=["UNII_ID"], how = 'inner')
+    
+    #DM = DM[DM["WordCount"] < 200]
+    DM = DM.sort_values(by = "WordCount", ascending = False)
     
     print ("The number of drug labels are reduced from ",len(DM)," to", len(newDM))
     
