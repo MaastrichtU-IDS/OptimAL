@@ -1,4 +1,7 @@
-xml_path : "dailymed/temp_xml/"
+#xml_path : "dailymed/druglabels/"
+dir_zip_files : "/data/temp/prescription/"
 drugbank_mapping: "data/input/drugbank vocabulary.csv"
-coding : "34070-3" 
+coding : ["34070-3", "34067-9" ]
+# coding "34070-3" for contraindication section, coding : "34067-9" or indication section
 abs_path: "/jupyter/"
+api_key : "ddabafd6-fb59-4be3-9d57-f374954ee83b"

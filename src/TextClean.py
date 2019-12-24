@@ -24,7 +24,7 @@ if __name__ == "__main__":
     output_file_path = args.output
 
     df = pd.read_csv(input_file_path)
-    print("The number of rows which " +str(len(df)))
+    print("The number of rows initially: " +str(len(df)))
 
     #df.rename(columns={"full_text":"Text"}, inplace=True)
 
@@ -34,7 +34,7 @@ if __name__ == "__main__":
 
     #Need to drop NAN values to avoid errors
     #df.dropna(subset = ["Text"], inplace=True)
-
+    print("The number of rows after dropping empty text: " +str(len(df)))
     counter = []
     for index, row in df.iterrows():
         test = row['Text']
@@ -47,9 +47,5 @@ if __name__ == "__main__":
 
     #Sorts instances by string length
     df = df.sort_values(by = "WordCount", ascending = False)
-
-    df = df[df.WordCount>4]
-    print(len(df))
-    df.head()
 
     df.to_csv(output_file_path, index=False, encoding='utf-8')

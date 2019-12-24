@@ -10,8 +10,9 @@ inputs:
     type: File
   - id: abs_path
     type: string
-
-outputs: 
+  - id: api_key
+    type: string
+outputs:
   - id: output
     type: File
     outputBinding:
@@ -23,3 +24,7 @@ arguments:
   - $(inputs.xml_product_dbid)
   - '-o'
   - $(runtime.outdir)/XMLProduct_annotations.csv
+  - '-k'
+  - $(inputs.api_key)
+requirements:
+  - class: InlineJavascriptRequirement

@@ -7,7 +7,6 @@ import sys
 from pprint import pprint
 
 REST_URL = "http://data.bioontology.org"
-API_KEY ="ddabafd6-fb59-4be3-9d57-f374954ee83b"
 
 def get_json(url):
     opener = urllib.request.build_opener()
@@ -59,13 +58,16 @@ if __name__ =="__main__":
     
     parser =argparse.ArgumentParser()
     parser.add_argument('-i', required=False, default= "../data/output/unlabeled_withDBID.csv", dest='input', help='enter the code from which type of label you want')
+    parser.add_argument('-k', required=True, dest='api_key', help='enter your BioPortal API Key')
     parser.add_argument('-o', required=False, default="'../data/output/unlabeled_withBPAnnotations.csv'", dest='output', help='output path in order to define where the xmlproduct should be written')
     args = parser.parse_args()
 
+    API_KEY = args.api_key
     #Input the data you want to work with in here
     df = pandas.read_csv(args.input)
     print(len(df))
-
+    #return
+    
                               
     #Now to make this run for each context available!!!!
     id = []
