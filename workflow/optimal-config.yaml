@@ -1,5 +1,7 @@
-#xml_path : "dailymed/druglabels/"
-dir_zip_files : "/data/temp/prescription/"
+xml_path :
+  class: Directory
+  location: /data/xml/
+#dir_zip_files : "/data/temp/prescription/"
 drugbank_mapping: "data/input/drugbank vocabulary.csv"
 coding : ["34070-3", "34067-9" ]
 # coding "34070-3" for contraindication section, coding : "34067-9" or indication section

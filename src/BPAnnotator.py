@@ -97,7 +97,9 @@ if __name__ =="__main__":
         drug_name = row['Active_ingredient']
         drug_brand_name = row["Drug_Brand_Name"]
         label_id = row["Label_ID"]
-
+        set_id = row["Set_ID"]
+        section = row["Section"]
+        unii  = row["UNII_ID"]
         try:
             # Annotate using the provided text
             annotations = get_json(REST_URL + "/annotator?text=" + urllib.parse.quote(text_to_annotate) + additional_parameters)
@@ -112,8 +114,8 @@ if __name__ =="__main__":
                     annotation2.append(annotation["text"])   
                     context.append(text_to_annotate)
                     ontology.append("\tontology: " + class_details["links"]["ontology"])
-                    data.append([label_id, annotation["from"], annotation["to"], annotation["matchType"], annotation["text"], 
-                                 text_to_annotate, class_details["@id"], db_id, drug_name, drug_brand_name ])
+                    data.append([label_id, set_id, annotation["from"], annotation["to"], annotation["matchType"], annotation["text"], 
+                                 text_to_annotate, class_details["@id"], db_id, drug_name, drug_brand_name, section, unii ])
                     #print (data[-1])
         except:
             print ("Oops!",sys.exc_info()[0],"occured.")
@@ -121,7 +123,7 @@ if __name__ =="__main__":
 
 
     #Constructs the new dataframe (newdf) from the collected lists_
-    columns =['Label_ID','From','To','Type', 'Annotation', 'Context','DO_ID','DB_ID','DrugName', 'Drug_Brand_Name' ]
+    columns =['Label_ID','Set_ID', 'From','To','Type', 'Annotation', 'Context','DO_ID','DB_ID','DrugName', 'Drug_Brand_Name','Section','UNII_ID' ]
 
     newdf = pandas.DataFrame(data, columns= columns)
 
