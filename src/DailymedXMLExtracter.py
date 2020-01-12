@@ -8,6 +8,7 @@ from datetime import date
 import pandas as pd
 import argparse
 import sys
+import csv
 
 #Methods for extracting data from SPL labels
 
@@ -91,7 +92,10 @@ class DrugLabel(object):
 
     def name(self):
         """returns the drug's name"""
-        return self.xml.xpath("//v3:manufacturedProduct/v3:manufacturedProduct/v3:name",namespaces=namespaces)[0].text.replace("\t","").replace("\n","")
+        if len(self.xml.xpath("//v3:manufacturedProduct/v3:manufacturedProduct/v3:name",namespaces=namespaces)) != 0:
+            return self.xml.xpath("//v3:manufacturedProduct/v3:manufacturedProduct/v3:name",namespaces=namespaces)[0].text.replace("\t","").replace("\n","")
+        else:
+            return ''
     name.label = "name"
 
     def distributor(self):
@@ -230,29 +234,44 @@ def getLabels(code, path):
             except:
                 print("Oops!",sys.exc_info()[0],"occured.")
                 print ('Error',dl, filename)
-         
-    ind = pd.DataFrame(all_indications, columns=['ZIP_ID','Label_ID','Drug_Brand_Name', 'Active_ingredient', 'UNII_ID', 'Section','Text'])           
-    return ind
+                pass
+    print (len(all_indications))
+    print ('number of the samples',len(all_indications))  
+    return all_indications
              
 
 
 if __name__ =="__main__":
     
-    output = "../data/output/XMLProduct.csv"
     code = "34067-9"
     parser =argparse.ArgumentParser()
-    parser.add_argument('-i', required=False,  default='../dailymed/temp_xml/', dest='input', help='input path where xml files resides')
-    parser.add_argument('-c', required=False, default='34067-9', dest='code', help='enter the code from which type of label you want ("34084-4" for adverse reactions and "34067-9" for indication "34070-3" for Contraindications) ' )
-    parser.add_argument('-o', required=False,  default='../data/XMLProduct.csv', dest='output', help='output path in order to define where the xmlproduct should be written')
+    parser.add_argument('-i', required=False, dest='input', help='input path where xml files resides')
+    parser.add_argument('-c', required=False, nargs='+',  dest='code', help='enter the code from which type of label you want ("34084-4" for adverse reactions and "34067-9" for indication "34070-3" for Contraindications) ' )
+    parser.add_argument('-o', required=False, dest='output', help='output path in order to define where the xmlproduct should be written')
     
     args= parser.parse_args()
     path = args.input
-    code = args.code
+    codes = args.code
     output = args.output
-    
-    #path= "../dailymed/temp_xml/079aebc4-1ba7-1bde-1c14-4c502938d410.xml"
-    #DL = DrugLabel(path)
-    #indications = DL.extract(code, path)
-    #print (indications)
-    ind = getLabels(code, path)
-    ind.to_csv(output, index=False)
+    count = 0
+    with open(output, 'w') as fp:
+        wr = csv.writer(fp)
+        wr.writerow(['Label_ID','Set_ID','Drug_Brand_Name', 'Active_ingredient', 'UNII_ID', 'Section','Text'])
+        for code in codes:
+            #sections = getLabels(c, path)
+            #for s in sections:
+            #    wr.writerow(s)
+            for filename in os.listdir(path):
+                if filename.endswith('.xml'):
+                    count = count +1
+                    if count % 1000 == 0:
+                        print(count)
+                    try:
+                        dl = DrugLabel( os.path.join(path, filename) )
+                        section = dl.extract(code, os.path.join(path, filename))
+                        wr.writerow(section)
+                    except:
+                        print("Oops!",sys.exc_info()[0],"occured.")
+                        print ('Error',dl, filename)
+                        pass
+    print ('number of the samples',count) 
