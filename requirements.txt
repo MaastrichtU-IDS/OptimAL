@@ -1,5 +1,5 @@
-scispacy
-https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.2.4/en_core_sci_md-0.2.4.tar.gz
+#scispacy
+#https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.2.4/en_core_sci_md-0.2.4.tar.gz
 lxml==4.3.0
 numpy==1.16.2
 pandas==0.24.2
