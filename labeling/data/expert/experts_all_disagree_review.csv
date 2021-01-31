@@ -1,0 +1,250 @@
+#,context,disease_name,drug_name,workers_answers,medical_expert1,medical_expert2,medical_expert3,do_id,drug_brand_name,drug_id,label_id,sheet,expert_consensus,inter_agree_experts,Suggested Reason for No Consensus (Reason1),Suggested Reason for No Consensus (Reason2),"Relation, based on drug label context","Final 
+(closest option)","Previous comments (from previous annotation, if applicable)",New comments (added during this step),Source of disagrrement-Category
+10,"Betaxolol Hydrochloride Ophthalmic Solution has been shown to be effective in lowering intraocular pressure and is indicated in the treatment of ocular hypertension and chronic open-angle glaucoma. It may be used alone or in combination with other anti-glaucoma drugs.
+In clinical studies, Betaxolol Hydrochloride Ophthalmic Solution was safely used to lower intraocular pressure in 47 patients with both glaucoma and reactive airway disease who were followed for a mean period of 15 months. However, caution should be used in treating patients with severe reactive airway disease or a history of asthma.",HYPERTENSION,BETAXOLOL,"i_dont_know
+indication_treatment
+indication_treatment",Indication: Treatment,Inconsistent,IDK,DOID_10763,,DB00195,aa8fb0a7-d31a-46aa-a207-f0d05afc1672.xml,Indication_treatment,No consensus,0,incomplete disease_name,incomplete drug_name,betaxolol ophthalmic solution is indicated for ocular hypertension,Indication_treatment,,,
+45,"Loteprednol etabonate is indicated for the treatment of steroid responsive inflammatory conditions of the palpebral and bulbar conjunctiva, cornea and anterior segment of the globe such as allergic conjunctivitis, acne rosacea, superficial punctate keratitis, herpes zoster keratitis, iritis, cyclitis, selected infective conjunctivitides, when the inherent hazard of steroid use is accepted to obtain an advisable diminution in edema and inflammation. 
+Loteprednol etabonate is less effective than prednisolone acetate 1% in two 28-day controlled clinical studies in acute anterior uveitis, where 72% of patients treated with loteprednol etabonate experienced resolution of anterior chamber cells, compared to 87% of patients treated with prednisolone acetate 1%. The incidence of patients with clinically significant increases in IOP (‰ä´10 mmHg) was 1% with loteprednol etabonate and 6% with prednisolone acetate 1%. Loteprednol etabonate should not be used in patients who require a more potent corticosteroid for this indication.
+Loteprednol etabonate is also indicated for the treatment of post-operative inflammation following ocular surgery.",KERATITIS,LOTEPREDNOL,"i_dont_know
+indication_treatment
+indication_treatment",Indication: Symptomatic Relief,Indication: Treatment,IDK,DOID_4677,,DB00873,8ac9f50d-ead0-4ba4-9446-bbb51bfd001f.xml,Indication_treatment,No consensus,0,incomplete disease_name,,loteprednol is indicated for the treatment of a subtype of keratitis,Indication_treatment,,"Note that I use ""undetermined"" to mean that I cannot figure out why there was a lack of consensus among medical experts for a particular relation",Missing disease subtype
+46,"['Hydrocortisone Tablets\xa0are indicated in the following conditions.', 'Primary or secondary adrenocortical insufficiency (hydrocortisone or cortisone is the first choice; synthetic analogs may be used in conjunction with mineralocorticoids where applicable; in infancy mineralocorticoid supplementation is of particular importance) Congenital adrenal hyperplasia Non suppurative thyroiditis Hypercalcemia associated with cancer\n                                    ', None, None, None, 'As adjunctive therapy for short-term administration (to tide the patient over an acute episode or exacerbation) in:', 'Psoriatic arthritis Rheumatoid arthritis, including juvenile rheumatoid arthritis (selected cases may require low-dose maintenance therapy) Ankylosing spondylitis Acute and subacute bursitis Acute nonspecific tenosynovitis Acute gouty arthritis Post-traumatic osteoarthritis Synovitis of osteoarthritis Epicondylitis\n                                    ', None, None, None, None, None, None, None, None, 'During an exacerbation or as maintenance therapy in selected cases of:', 'Systemic lupus erythematosus Systemic dermatomyositis (polymyositis) Acute rheumatic carditis\n                                    ', None, None, 'Pemphigus Bullous dermatitis herpetiformis Severe erythema multiforme (Stevens-Johnson syndrome) Exfoliative dermatitis Mycosis fungoides Severe psoriasis Severe seborrheic dermatitis\n                                    ', None, None, None, None, None, None, 'Control of severe or incapacitating allergic conditions intractable to adequate trials of conventional treatment:', 'Seasonal or perennial allergic rhinitis Serum sickness Bronchial asthma Contact dermatitis Atopic dermatitis Drug hypersensitivity reactions\n                                    ', None, None, None, None, None, 'Severe acute and chronic allergic and inflammatory processes involving the eye and its adnexa such as:', 'Allergic conjunctivitis Keratitis Allergic corneal marginal ulcers Herpes zoster ophthalmicus Iritis and iridocyclitis Chorioretinitis Anterior segment inflammation Diffuse posterior uveitis and choroiditis Optic neuritis Sympathetic ophthalmia\n                                    ', None, None, None, None, None, None, None, None, None, ""Symptomatic sarcoidosis Loeffler's syndrome not manageable by other means Berylliosis Fulminating or disseminated pulmonary tuberculosis when used concurrently with appropriate antituberculous chemotherapy Aspiration pneumonitis\n                                    "", None, None, None, None, 'Idiopathic thrombocytopenic purpura in adults Secondary thrombocytopenia in adults Acquired (autoimmune) hemolytic anemia Erythroblastopenia (RBC anemia) Congenital (erythroid) hypoplastic anemia\n                                    ', None, None, None, None, 'For palliative management of:', 'Leukemias and lymphomas in adults Acute leukemia of childhood\n                                    ', None, 'To induce a diuresis or remission of proteinuria in the nephrotic syndrome, without uremia, of the idiopathic type or that due to lupus erythematosus.', 'To tide the patient over a critical period of the disease in:', 'Ulcerative colitis Regional enteritis\n                                    ', None, 'Acute exacerbations of multiple sclerosis', 'Tuberculous meningitis with subarachnoid block or impending block when used concurrently with appropriate antituberculous chemotherapy', 'Trichinosis with neurologic or myocardial involvement']",KERATITIS,HYDROCORTISONE,"indication_treatment
+indication_treatment
+indication_treatment",Indication: Symptomatic Relief,Indication: Treatment,IDK,DOID_4677,,DB00741,b0f9b7ea-bac2-427d-92fa-4ccf1b149332.xml,Indication_treatment,No consensus,0,incomplete disease_name?,difficult-to-read text provided,hydrocortisone is indicated for the treatment of a subtype of keratitis,Indication_treatment,,,Missing disease subtype
+6,"Tolcapone tablets, USP is indicated as an adjunct to levodopa and carbidopa for the treatment of the signs and symptoms of idiopathic Parkinson's disease. Because of the risk of potentially fatal, acute fulminant liver failure, tolcapone tablets, USP should ordinarily be used in patients with Parkinson's disease on l-dopa/carbidopa who are experiencing symptom fluctuations and are not responding satisfactorily to or are not appropriate candidates for other adjunctive therapies. Because of the risk of liver injury and because tolcapone tablets, USP, when it is effective, provides an observable symptomatic benefit, the patient who fails to show substantial clinical benefit within 3 weeks of initiation of treatment, should be withdrawn from tolcapone tablets, USP.
+The effectiveness of tolcapone tablets, USP was demonstrated in randomized controlled trials in patients receiving concomitant levodopa therapy with carbidopa or another aromatic amino acid decarboxylase inhibitor who experienced end of dose wearing-off phenomena as well as in patients who did not experience such phenomena (see 
+CLINICAL PHARMACOLOGY
+Clinical Studies",PARKINSON'S DISEASE,TOLCAPONE,"indication_symptomatic_relief
+indication_symptomatic_relief
+indication_treatment",Indication: Symptomatic Relief,Indication: Treatment,Inconsistent,DOID_14330,,DB00323,658c55ce-6b19-4c53-8563-d03ea83f7ccd.xml,indication_symptomatic_relief,No consensus,0,unavailable relation category,,"tolcapone treats symptoms of parkinson's disease, without curative intent",Indication: Symptomatic Relief,,,Missing contextual information
+41,"Bumetanide tablets USP are indicated for the treatment of edema associated with congestive heart failure, hepatic and renal disease, including the nephrotic syndrome.
+Almost equal diuretic response occurs after oral and parenteral administration of bumetanide. Therefore, if impaired gastrointestinal absorption is suspected or oral administration is not practical, bumetanide should be given by the intramuscular or intravenous route. 
+Successful treatment with bumetanide tablets USP following instances of allergic reactions to furosemide suggests a lack of cross-sensitivity.
+Bumetanide is contraindicated in anuria. Although bumetanide tablets can be used to induce diuresis in renal insufficiency, any marked increase in blood urea nitrogen or creatinine, or the development of oliguria during therapy of patients with progressive renal disease, is an indication for discontinuation of treatment with bumetanide tablets. Bumetanide is also contraindicated in patients in hepatic coma or in states of severe electrolyte depletion until the condition is improved or corrected. Bumetanide is contraindicated in patients hypersensitive to this drug.",NEPHROTIC SYNDROME,BUMETANIDE,"indication_treatment
+indication_symptomatic_relief
+indication_symptomatic_relief",Indication: Symptomatic Relief,Inconsistent,Indication: Treatment,DOID_1184,,DB00887,a94471b1-a588-44e7-b17b-b99f5c3ba31d.xml,indication_symptomatic_relief,No consensus,0,unavailable relation category,,"bumetanide treats symptoms of nephrotic syndrome, without curative intent",Indication: Symptomatic Relief,,,Missing contextual information
+43,"The use of metoclopramide tablets, USP is recommended for adults only. Therapy should not exceed 12 weeks in duration.
+Symptomatic Gastroesophageal Reflux:  Metoclopramide tablets, USP are indicated as short-term (4 to 12 weeks) therapy for adults with symptomatic, documented gastroesophageal reflux who fail to respond to conventional therapy.
+The principal effect of metoclopramide is on symptoms of postprandial and daytime heartburn with less observed effect on nocturnal symptoms. If symptoms are confined to particular situations, such as following the evening meal, use of metoclopramide as single doses prior to the provocative situation should be considered, rather than using the drug throughout the day. Healing of esophageal ulcers and erosions has been endoscopically demonstrated at the end of a 12-week trial using doses of 15 mg q.i.d. As there is no documented correlation between symptoms and healing of esophageal lesions, patients with documented lesions should be monitored endoscopically.
+Diabetic Gastroparesis (Diabetic Gastric Stasis):  Metoclopramide tablets, USP are indicated for the relief of symptoms associated with acute and recurrent diabetic gastric stasis. The usual manifestations of delayed gastric emptying (e.g., nausea, vomiting, heartburn, persistent fullness after meals, and anorexia) appear to respond to metoclopramide within different time intervals. Significant relief of nausea occurs early and continues to improve over a three-week period. Relief of vomiting and anorexia may precede the relief of abdominal fullness by one week or more.",GASTROPARESIS,METOCLOPRAMIDE,"indication_symptomatic_relief
+indication_treatment
+indication_symptomatic_relief",Indication: Symptomatic Relief,Indication: Treatment,Inconsistent,DOID_11914,,DB01233,42a00e68-d00d-219a-e054-00144ff88e88.xml,indication_symptomatic_relief,No consensus,0,unavailable relation category,,"metoclopramide treats symptoms of gastroparesis, without curative intent",Indication: Symptomatic Relief,,,Missing contextual information
+48,"Mometasone Furoate Monohydrate Nasal Spray is a corticosteroid indicated for:
+1. Treatment of Nasal Symptoms of Allergic Rhinitis in patients ‰ä´2 years of age (
+1.1
+2. Treatment of Nasal Congestion Associated with Seasonal Allergic Rhinitis in patients ‰ä´2 years of age (
+1.2
+3. Prophylaxis of Seasonal Allergic Rhinitis in patients ‰ä´12 years of age (
+1.3
+4. Treatment of Nasal Polyps in patients ‰ä´18 years of age (
+1.4
+Mometasone Furoate Monohydrate Nasal Spray 50 mcg is indicated for the treatment of the nasal symptoms of seasonal allergic and perennial allergic rhinitis, in adults and pediatric patients 2 years of age and older.
+Mometasone Furoate Monohydrate Nasal Spray 50 mcg is indicated for the relief of nasal congestion associated with seasonal allergic rhinitis, in adults and pediatric patients 2 years of age and older.
+Mometasone Furoate Monohydrate Nasal Spray 50 mcg is indicated for the prophylaxis of the nasal symptoms of seasonal allergic rhinitis in adult and adolescent patients 12 years and older.
+Mometasone Furoate Monohydrate Nasal Spray 50 mcg is indicated for the treatment of nasal polyps in patients 18 years of age and older.",RHINITIS,Mometasone,"indication_treatment
+indication_symptomatic_relief
+indication_symptomatic_relief",Indication: Symptomatic Relief,Inconsistent,Inconsistent,DOID_4483,,DB00764,0be7313b-8485-4264-bed8-40c57dc904f3.xml,indication_symptomatic_relief,No consensus,0,unavailable relation category,,"mometasone treats symptoms of thinitis, with curative intent",Indication_treatment,,,Missing contextual information
+63,"[""KORLYM (mifepristone) is a cortisol receptor blocker indicated to control hyperglycemia secondary to hypercortisolism in adult patients with endogenous Cushing's syndrome who have type 2 diabetes mellitus or glucose intolerance and have failed surgery or are not candidates for surgery.\n"", 'LIMITATIONS OF USE:\n', '\n                     ', ""KORLYM should not be used in the treatment of patients with type 2 diabetes unless it is secondary to Cushing's syndrome.\n"", ""KORLYM (mifepristone) is a cortisol receptor blocker indicated to control hyperglycemia secondary to hypercortisolism in adult patients with endogenous Cushing's syndrome who have type 2 diabetes mellitus or glucose intolerance and have failed surgery or are not candidates for surgery. ("", '1', None, None, '\n                           ', '\n                              ', 'Important Limitations of Use:']",CUSHING'S SYNDROME,MIFEPRISTONE,"indication_treatment
+indication_symptomatic_relief
+indication_symptomatic_relief",Indication: Symptomatic Relief,Inconsistent,Indication: Treatment,DOID_446,,DB00834,3599ebc6-5883-4986-8f76-61accb5ec415.xml,indication_symptomatic_relief,No consensus,0,unavailable relation category,,"mifespristone treats clinical manifestations of Cushing's disease, without curative intent",Indication: Symptomatic Relief,,,Missing contextual information
+65,"Panretin gel is indicated for topical treatment of cutaneous lesions in patients with AIDS-related Kaposi‰Ûªs sarcoma.  Panretin gel is not indicated when systemic anti-KS therapy is required (e.g., more than 10 new KS lesions in the prior month, symptomatic lymphedema, symptomatic pulmonary KS, or symptomatic visceral involvement).  There is no experience to date using Panretin gel with systemic anti-KS treatment.",AIDS,ALITRETINOIN,"indication_treatment
+indication_symptomatic_relief
+indication_symptomatic_relief",Indication: Symptomatic Relief,Inconsistent,IDK,DOID_635,,DB00523,50ab2ed7-651c-4952-91d6-5011709ae429.xml,indication_symptomatic_relief,No consensus,0,unavailable relation category,,"altretinoin treats clinical manifestations of AIDS, without curative intent",Indication: Symptomatic Relief,,,Missing contextual information
+79,"Anuria.
+ 
+ Hypersensitivity to any component of this product or to other sulfonamide-derived drugs.",ANURIA,Chlorothiazide Sodium,"indication_symptomatic_relief
+indication_symptomatic_relief
+indication_symptomatic_relief",Indication: Symptomatic Relief,Contraindication,IDK,DOID_2983,,DB00880,../DailyMedExtracter/prescription/temp_xml/1dab3243-f1dc-467d-b341-72aea14a0cce.xml,indication_symptomatic_relief,No consensus,0,undetermined,,,Contraindication,,,None
+86,"Cleviprex is contraindicated in patients with:
+ 
+  
+ Allergy to soy or eggs 
+ (4.1)
+ Defective lipid metabolism 
+ (4.2)
+ Severe aortic stenosis 
+ (4.3)
+ Cleviprex is contraindicated in patients with allergies to soybeans, soy products, eggs, or egg products. 
+ Cleviprex is contraindicated in patients with defective lipid metabolism such as pathologic hyperlipemia, lipoid nephrosis, or acute pancreatitis if it is accompanied by hyperlipidemia.
+ Cleviprex is contraindicated in patients with severe aortic stenosis because afterload reduction can be expected to reduce myocardial oxygen delivery.",ACUTE PANCREATITIS,Cleviprex,"indication_symptomatic_relief
+indication_symptomatic_relief
+indication_symptomatic_relief",Indication: Symptomatic Relief,Contraindication,IDK,DOID_2913,,DB04920,../DailyMedExtracter/prescription/temp_xml/84cd997c-d395-4231-af87-92745009da0b.xml,indication_symptomatic_relief,No consensus,0,unavailable relation category,,cleviprex is contraindicated in a specific clinical setting in combination with acute pancreatitis,Contraindication,,"""cleviprex is contraindicated in patients with...acute pancreatitis if it is accompanied by hyperlipidemia""",Missing contextual information
+87,"Antepartum use of Pitocin is contraindicated in any of the following circumstances: 
+ 
+  
+ Where there is significant cephalopelvic disproportion;
+ In unfavorable fetal positions or presentations, such as transverse lies, which are undeliverable without conversion prior to delivery;
+ In obstetrical emergencies where the benefit-to-risk ratio for either the fetus or the mother favors surgical intervention;
+ In fetal distress where delivery is not imminent;
+ Where adequate uterine activity fails to achieve satisfactory progress;
+ Where the uterus is already hyperactive or hypertonic;
+ In cases where vaginal delivery is contraindicated, such as invasive cervical carcinoma, active herpes genitalis, total placenta previa, vasa previa, and cord presentation or prolapse of the cord;
+ In patients with hypersensitivity to the drug.",CARCINOMA,Pitocin,"indication_symptomatic_relief
+indication_symptomatic_relief
+indication_symptomatic_relief",IDK,Inconsistent,IDK,DOID_305,,DB00107,../DailyMedExtracter/prescription/temp_xml/31b91b2c-ec6b-4b84-b017-0ee25bc576d8.xml,indication_symptomatic_relief,No consensus,0,incomplete disease_name,unavailable relation category,pitocin is contraindicated in the setting of a clinical manifestation of cervical carcinoma,Contraindication,,,Missing contextual information
+96,"Glaucoma; obstructive uropathy (for example, bladder neck obstruction due to prostatic hypertrophy); obstructive disease of the gastrointestinal tract (as in achalasia, pyloroduodenal stenosis); paralytic ileus, intestinal atony of elderly or debilitated patients; unstable cardiovascular status in acute hemorrhage; severe ulcerative colitis; toxic megacolon complicating ulcerative colitis; myasthenia gravis and myocardial ischemia.",COLITIS,Levsin,"indication_symptomatic_relief
+indication_symptomatic_relief
+indication_symptomatic_relief",Indication: Symptomatic Relief,Contraindication,IDK,DOID_0060180,,DB00424,../DailyMedExtracter/prescription/temp_xml/7d5bdc22-6926-4c95-9029-ed6f59d9f14f.xml,indication_symptomatic_relief,No consensus,0,undetermined,,,Contraindication,"Contriandicated in "" severe ulcerative colitis, toxic megacolon complicating ulcerative colitis""",,Missing disease subtype
+97,"Do not initiate in patients with constipation (
+  
+  
+  
+  
+  
+  
+ 4.1
+ History of chronic or severe constipation or sequelae from constipation; intestinal obstruction, stricture, toxic megacolon, gastrointestinal perforation, and/or adhesions; ischemic colitis; impaired intestinal circulation, thrombophlebitis, or hypercoagulable state; Crohn's disease or ulcerative colitis; diverticulitis; severe hepatic impairment (
+  
+  
+  
+  
+  
+  
+ 4.2
+ Concomitant use of fluvoxamine (
+  
+  
+  
+  
+  
+  
+ 4.3
+  Alosetron hydrochloride 
+  
+  
+  
+  
+  
+  
+ should not be initiated
+ [see Warnings and Precautions (
+  
+  
+  
+  
+  
+  
+ 5.1
+  Alosetron hydrochloride is contraindicated in patients with a history of the following:
+ 
+ 
+  
+ chronic or severe constipation or sequelae from constipation
+ 
+ intestinal obstruction, stricture, toxic megacolon, gastrointestinal perforation, and/or adhesions
+ 
+ ischemic colitis, impaired intestinal circulation, thrombophlebitis, or hypercoagulable state
+ 
+ Crohn's disease or ulcerative colitis
+ 
+ diverticulitis
+ 
+ severe hepatic impairment
+ 
+  Concomitant administration of alosetron hydrochloride with fluvoxamine is contraindicated. Fluvoxamine, a known strong inhibitor of CYP1A2, has been shown to increase mean alosetron plasma concentrations (AUC) approximately 6-fold and prolong the half-life by approximately 3-fold 
+  
+  
+  
+  
+  
+  
+ [see Drug Interactions (
+  
+  
+  
+  
+  
+  
+ 7.1",COLITIS,Alosetron Hydrochloride,"indication_symptomatic_relief
+indication_symptomatic_relief
+indication_symptomatic_relief",Indication: Symptomatic Relief,Contraindication,IDK,DOID_0060180,,DB00969,../DailyMedExtracter/prescription/temp_xml/7d8ab83e-2a7c-3eb1-e053-2a91aa0a723a.xml,indication_symptomatic_relief,No consensus,0,incomplete disease_name,unavailable relation category,alostetron is contraindicated in a specific subtype of colitis,Contraindication,,,
+20,"Do not administer in the presence of diseases characterized by bleeding diathesis. Individuals with autoimmune disease may be at risk of exacerbating symptoms of the underlying disease, possibly due to routine immunization. Patients who have experienced a recent myocardial infarction may not be tolerant of immunotherapy. Children with nephrotic syndrome probably should not receive injections due to immunization causing exacerbation of nephrotic disease.",AUTOIMMUNE DISEASE,PERIPLANETA AMERICANA,Effect,Contraindication,IDK,Effect,DOID_417,American Cockroach,DB10417,../DailyMedExtracter/prescription/temp_xml/0c2a583c-28b8-4184-9f4d-9feba1e683c9.xml,contraindication,No consensus,0,unavailable relation category,incomplete drug_name,periplaneta may be contraindicated in patient with autoimmune disease due to possible exacerbation of the autoimmune disease,Contraindication,,,Missing contextual information
+51,"[None, '\n ', 'Known hypersensitivity to the product (', '4.1', 'Marked anxiety, tension, or agitation (', '4.2', 'Glaucoma (', '4.3', 'Tics or a family history or diagnosis of TouretteÃ¢â‚¬Â°Ãƒâ€ºÃ‚Âªs syndrome (', '4.4', 'Do not use methylphenidate hydrochloride extended-release tablets in patients currently using or within 2 weeks of using an MAO inhibitor (', '4.5', 'Hypersensitivity reactions, such as angioedema and anaphylactic reactions, have been observed in patients treated with methylphenidate hydrochloride extended-release tablets. Therefore, methylphenidate hydrochloride extended-release tablets are contraindicated in patients known to be hypersensitive to methylphenidate or other components of the product ', '[see Adverse Reactions (', '6.6', 'Methylphenidate hydrochloride extended-release tablets are contraindicated in patients with marked anxiety, tension, and agitation, since the drug may aggravate these symptoms. ', 'Methylphenidate hydrochloride extended-release tablets are contraindicated in patients with glaucoma. ', ""Methylphenidate hydrochloride extended-release tablets are contraindicated in patients with motor tics or with a family history or diagnosis of Tourette's syndrome "", '[see Adverse Reactions (', '6.4', 'Methylphenidate hydrochloride extended-release tablets are contraindicated during treatment with monoamine oxidase (MAO) inhibitors, and also within a minimum of 14 days following discontinuation of a MAO inhibitor (hypertensive crises may result) ', '[see Drug Interactions (', '7.1']",ANXIETY,METHYLPHENIDATE,Indication: Symptomatic relief,Effect,Contraindication,Indication: Symptomatic Relief,DOID_2030,Methylphenidate Hydrochloride,DB00422,../DailyMedExtracter/prescription/temp_xml/691884ee-1ba9-4470-b2cb-b84c4aaf94c0.xml,contraindication,No consensus,0,undetermined,,,Contraindication,,"Given the drug label, contraindication is the most appropriate meaning. However, independent of the information provided on the drug label, it is possible that excessive usage of methylphenidate can also CAUSE anxiety (temporarily) -- but this is not stated in the label.",
+61,"Hypersensitivity (
+ 4.1
+ Pregnancy unless used for treatment of advanced breast cancer (
+ 4.2
+ Anaphylactic reactions to ZOLADEX have been reported in the medical literature. ZOLADEX is contraindicated in those patients who have a known hypersensitivity to GnRH, GnRH agonist analogues or any of the components in ZOLADEX 
+ [see Warnings and Precautions (
+ 5.6
+ ZOLADEX is contraindicated during pregnancy unless ZOLADEX is being used for palliative treatment of advanced breast cancer. ZOLADEX can cause fetal harm when administered to a pregnant woman. If this drug is used during pregnancy, the patient should be apprised of the potential hazard to the fetus. There is an increased risk for pregnancy loss due to expected hormone changes that occur with ZOLADEX treatment 
+ [see Use in Specific Populations (
+ 8.1",BREAST CANCER,GOSERELIN,Indication: Symptomatic relief,Contraindication,Inconsistent,Indication: Treatment,DOID_1612,ZOLADEX,DB00014,../DailyMedExtracter/prescription/temp_xml/e4b76400-1cf4-406b-be6f-b40d0a0bd6f1.xml,contraindication,No consensus,0,undetermined,,,Indication: Symptomatic relief,"""palliative treatment of advanced breast cancer. """,,
+62,"Pregnancy (
+ 4.1
+ 8.1
+ Use of simvastatin or lovastatin and CYP3A substrates with narrow therapeutic range (
+ 4.2
+ Concurrent long-term corticosteroid use (
+ 4.3
+ Women with history of unexplained vaginal bleeding (
+ 4.4
+ Women with endometrial hyperplasia with atypia or endometrial carcinoma (
+ 4.4
+ KORLYM is contraindicated in women who are pregnant. Pregnancy must be excluded before the initiation of treatment with KORLYM or if treatment is interrupted for more than 14 days in females of reproductive potential. Non-hormonal contraceptives should be used during and one month after stopping treatment in all women of reproductive potential. 
+ [See Use in Specific Populations 
+ 8.8
+ KORLYM is contraindicated in patients taking simvastatin, lovastatin, and CYP3A substrates with narrow therapeutic ranges, such as cyclosporine, dihydroergotamine, ergotamine, fentanyl, pimozide, quinidine, sirolimus, and tacrolimus, due to an increased risk of adverse events. 
+ [See Drug Interactions (
+ 7.1
+ 12.3
+ KORLYM is contraindicated in patients who require concomitant treatment with systemic corticosteroids for serious medical conditions or illnesses (e.g., immunosuppression after organ transplantation) because KORLYM antagonizes the effect of glucocorticoids.
+ 
+ KORLYM is contraindicated in the following:
+ 
+ 
+  
+ Women with a history of unexplained vaginal bleeding
+ 
+ Women with endometrial hyperplasia with atypia or endometrial carcinoma
+ 
+ KORLYM is contraindicated in patients with prior hypersensitivity reactions to mifepristone or to any of the product components.",ENDOMETRIAL CARCINOMA,MIFEPRISTONE,Indication: Symptomatic relief,Effect,Contraindication,IDK,DOID_2871,Korlym,DB00834,../DailyMedExtracter/prescription/temp_xml/3599ebc6-5883-4986-8f76-61accb5ec415.xml,contraindication,No consensus,0,undetermined,,,Contraindication,,,
+65,"Lorazepam Injection is contraindicated in patients with a known sensitivity to benzodiazepines or its vehicle (polyethylene glycol, propylene glycol, and benzyl alcohol), in patients with acute narrow-angle glaucoma, or in patients with sleep apnea syndrome. It is also contraindicated in patients with severe respiratory insufficiency, except in those patients requiring relief of anxiety and/or diminished recall of events while being mechanically ventilated. The use of Lorazepam Injection intra-arterially is contraindicated because, as with other injectable benzodiazepines, inadvertent intra-arterial injection may produce arteriospasm resulting in gangrene which may require amputation (see 
+ 
+  
+ WARNINGS
+ Lorazepam Injection is contraindicated for use in premature infants because the formulation contains benzyl alcohol. (SeeÃƒÂ¥Ãƒ_
+ 
+  
+ 
+  
+ WARNINGS
+ 
+  
+ 
+  
+ PRECAUTIONS - Pediatric Use",ANXIETY,LORAZEPAM,Effect,Effect,Inconsistent,Inconsistent,DOID_2030,Lorazepam,DB00186,../DailyMedExtracter/prescription/temp_xml/c17cb7b1-b0c4-4c0c-91bc-69f962303735.xml,contraindication,No consensus,0,undetermined,,,Treatment: Symptomatic relief,,"Inconsistency may come from clinical knowledge alone: outside of the drug label, lorazepam is not considered a first-line treatment for anxiety. Anxiety is definitely NOT an effect of lorazepam (an anxiolytic, which by definition is a drug that is used to relieve or reduce anxiety)",
+68,"Ursodiol capsules will not dissolve calcified cholesterol stones, radiopaque stones, or radiolucent bile pigment stones. Hence, patients with such stones are not candidates for ursodiol capsules therapy.
+ Patients with compelling reasons for cholecystectomy including unremitting acute cholecystitis, cholangitis, biliary obstruction, gallstone pancreatitis, or biliary-gastrointestinal fistula are not candidates for ursodiol capsules therapy.
+ Allergy to bile acids.",CHOLANGITIS,URSADIOL,Effect,Indication: Treatment,Contraindication,Effect,DOID_9446,Ursodiol,DB14555,../DailyMedExtracter/prescription/temp_xml/7d7921dc-f117-dd8d-e053-2a91aa0a5d02.xml,effect,No consensus,0,unavailable relation category,,"surgery is indicated for cholangitis, not medication like ursadiol",Contraindication,,"""Patients with compelling reasons for cholecystectomy including unremitting acute cholecystitis, cholangitis, biliary obstruction, gallstone pancreatitis, or biliary-gastrointestinal fistula are not candidates for ursodiol capsules therapy.""",
+85,"Do not administer in the presence of diseases characterized by bleeding diathesis. Individuals with autoimmune disease may be at risk of exacerbating symptoms of the underlying disease, possibly due to routine immunization. Patients who have experienced a recent myocardial infarction may not be tolerant of immunotherapy. Children with nephrotic syndrome probably should not receive injections due to immunization causing exacerbation of nephrotic disease.",AUTOIMMUNE DISEASE,HOUSE DUST,Effect,Effect,Inconsistent,IDK,DOID_417,A. Dust,DB10345,../DailyMedExtracter/prescription/temp_xml/89b69938-05fc-4bd8-9c55-4fb46e9018c7.xml,effect,No consensus,0,unavailable relation category,incomplete drug_name,house dust may be contraindicated in patient with autoimmune disease due to possible exacerbation of the autoimmune disease,Contraindication,,,
+95,"Ribavirin capsules may cause birth defects and/or death of the exposed fetus. Ribavirin therapy is contraindicated for use in women who are pregnant or in men whose female partners are pregnant. (See 
+ 
+  
+ WARNINGS
+ PRECAUTIONS
+ Information for Patients
+ 
+  
+ Pregnancy Category X
+ Ribavirin capsules are contraindicated in patients with a history of hypersensitivity to ribavirin or any component of the capsule.
+ Patients with autoimmune hepatitis must not be treated with combination ribavirin/INTRON A therapy because using these medicines can make the hepatitis worse.
+ Patients with hemoglobinopathies (e.g., thalassemia major, sickle-cell anemia) should not be treated with ribavirin capsules.
+ Combination ribavirin capsules/INTRON A therapy must not be used by females who are pregnant or by males whose female partners are pregnant. Extreme care must be taken to avoid pregnancy in female patients and in female partners of male patients taking combination ribavirin capsules/INTRON A therapy. Combination ribavirin capsules/INTRON A therapy should not be initiated until a report of a negative pregnancy test has been obtained immediately prior to initiation of therapy. Females of childbearing potential and males must use two forms of effective contraception during treatment and during the 6 months after treatment has been concluded. Significant teratogenic and/or embryocidal effects have been demonstrated for ribavirin in all animal species in which adequate studies have been conducted. These effects occurred at doses as low as one twentieth of the recommended human dose of ribavirin capsules. If pregnancy occurs in a patient or partner of a patient during treatment or during the 6 months after treatment stops, physicians are encouraged to report such cases by calling the Ribavirin Pregnancy Registry at 1-800-593-2214. 
+ See boxed CONTRAINDICATIONS AND WARNINGS. See 
+ WARNINGS
+ Ribavirin capsules in combination with INTRON A Injection is contraindicated in patients with a history of hypersensitivity to ribavirin and/or alpha interferon or any component of the capsule and/or injection.
+ Patients with autoimmune hepatitis must not be treated with combination ribavirin capsules/INTRON A therapy.",AUTOIMMUNE HEPATITIS,RIBAVIRIN,Effect,Effect,Inconsistent,Contraindication,DOID_2048,Ribavirin,DB00811,../DailyMedExtracter/prescription/temp_xml/cbb7cff7-62dd-4bb5-aee5-4202eb730940.xml,effect,No consensus,0,incomplete disease_name,,ribavirin is contraindicated in patient with autoimmune hepatitis due to possible exacerbation of the autoimmune hepatitis,Contraindication,,,
+97,"Active uveal inflammation.
+ Most cases of angle-closure glaucoma without iridectomy, due to the possibility of increasing angle block.
+ Hypersensitivity to the active or inactive ingredients.",GLAUCOMA,ECHOTHIOPHATE,Effect,Effect,IDK,Indication: Treatment,DOID_1686,Phospholine Iodide,DB01057,../DailyMedExtracter/prescription/temp_xml/7d5f18ab-49f0-4945-a0bf-2a88c353db79.xml,effect,No consensus,0,incomplete drug_name,incomplete context,echothiophate iodide ophthalmic solution is contraindicated in specific subtypes of glaucoma,Contraindication,,"I could see how the relationship could be interpreted as one of ""effect"" but it's not really correct; someone with a normal intraocular pressure would not develop glaucoma as a result of echothiophate usage, which makes an ""effect relation incorrect. But for patients with existing glaucoma or elevated intraocular pressure, use of echothiphate can precipitate (cause) acute angle-closure, which is a clinical emergency.",
+101,"Hypersensitivity to doxepin hydrochloride, inactive ingredients, or other dibenzoxepines. (
+ 4.1
+  Co-administration with Monoamine Oxidase Inhibitors (MAOIs): Do not administer if patient is taking MAOIs or has used MAOIs within the past two weeks. (
+ 4.2
+  Untreated narrow angle glaucoma or severe urinary retention. (
+ 4.3
+ Silenor is contraindicated in individuals who have shown hypersensitivity to doxepin HCl, any of its inactive ingredients, or other dibenzoxepines.
+ Serious side effects and even death have been reported following the concomitant use of certain drugs with MAO inhibitors. Do not administer Silenor if patient is currently on MAOIs or has used MAOIs within the past two weeks. The exact length of time may vary depending on the particular MAOI dosage and duration of treatment.
+ Silenor is contraindicated in individuals with untreated narrow angle glaucoma or severe urinary retention.",GLAUCOMA,doxepin,Effect,Effect,Contraindication,IDK,DOID_1686,Silenor,DB01142,../DailyMedExtracter/prescription/temp_xml/5205d855-ccf4-4d3f-be11-bda7476a62a3.xml,effect,No consensus,0,undetermined,,"doxepin is contraindicated in a specific clinical setting in combination with glaucoma, i.e. untreated narrow angle glaucoma",Contraindication,,,
