@@ -1,6 +1,32 @@
-# OptimAL
+# OptimAL 
+## Relation Extraction from DailyMed Structured Product Labels by Optimally Combining Crowd, Experts and Machines
+The effectiveness of machine learning models to provide accurate and consistent
+results in drug discovery and clinical decision support is strongly dependent
+on the quality of the data used. However, substantive amounts of open data
+that drive drug discovery suffer from a number of issues including inconsistent
+representation, inaccurate reporting, and incomplete context. For example,
+databases of FDA-approved drug indications used in computational drug
+repositioning studies do not distinguish between treatments that simply o er
+symptomatic relief from those that target the underlying pathology. Moreover,
+drug indication sources often lack proper provenance and have little overlap.
+Consequently, new predictions can be of poor quality as they o er little in the
+way of new insights. Hence, work remains to be done to establish higher quality
+databases of drug indications that are suitable for use in drug discovery and
+repositioning studies. Here, we report on the combination of weak supervision
+(programmatic labeling, crowdsourcing) and deep learning methods for relation
+extraction from DailyMed text to create a higher quality drug-disease relation
+dataset. The generated drug-disease relation data shows a high overlap with
+DrugCentral, a manually curated dataset. Using this dataset, we constructed
+a machine learning model to classify relations between drugs and diseases from
+text into four categories; treatment, symptomatic relief, contradiction, and effect,
+exhibiting an improvement of 15.5 % with Bi-LSTM (F1 score of 71.8% )
+over the best performing discrete method. Access to high quality data is crucial
+for building accurate and reliable drug repurposing prediction models. Our
+work suggests how the combination of crowds, experts, and machine learning
+methods can go hand-in-hand to improve datasets and predictive models.
 
-Download and install all libraries within the requirements.txt file before continuing.
+## Download and install 
+use the requirements.txt file to install requirements
 
 
 ```
@@ -63,21 +89,3 @@ Gather the UMLS ID using the DOID Mappings. Without these UMLS ID we cannot run 
 ```
 python DOID2UMLSMapping.py
 ```
-
-Step 7: Use the REMZI Pipeline in order to obtain predictions on the most informative instances
-
-```
-python drugindication_ml/src/train_and_test.py -g drugindication_ml/data/input/unified-gold-standard-umls.txt -t data/output/final_unlabeled.csv -dr drugindication_ml/data/features/drugs-fingerprint.txt drugindication_ml/data/features/drugs-targets.txt -di drugindication_ml/data/features/diseases-ndfrt-meddra.txt -m rf -p 2 -s 100 -o data/output/predictions_for_unlabeled.csv
-```
-#NOTE: Why did we remove one of the feature matrixes again? Also we are not using the selected features matrix. 
-
-
-Step 8: Make up the dataset using positive and negative examples
-
-Go to the match relations file in order to ignore instances which are already within the goldstandard dataset
-
-```
-python Match_RelationsFromLabel+GoldStd.py
-python GatherNegativeExamples.py
-```
-
